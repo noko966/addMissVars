@@ -1,9 +1,0 @@
-:root {
-  --bodyBg: #101010;
-  --accentBg: #ff8600;
-}
-
-:host {
-  --bodyBg: #fff;
-  --accentBg: #1364c2;
-}

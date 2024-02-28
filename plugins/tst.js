@@ -2,6 +2,7 @@ const verbalData = require("./verbalData");
 const vd = require("./verbalData");
 const tinycolor = require("tinycolor2");
 module.exports = (opts) => {
+  console.log(opts);
   return {
     postcssPlugin: "plugin-tst",
     Once(root) {
@@ -10,8 +11,7 @@ module.exports = (opts) => {
       // Step 1: Identify and store :root and :host rules
       root.walkRules((rule) => {
         if (
-          rule.selector.includes(":root") ||
-          rule.selector.includes(":host")
+          rule.selector.includes(opts.rootSelector)
         ) {
           rootAndHostRules.push(rule);
         }
@@ -179,11 +179,12 @@ module.exports = (opts) => {
           for (const key in allVariables) {
             if (decl.prop === key && decl.variable) {
               allVariables[key] = decl.value;
+              decl.remove();
             }
           }
         });
 
-        rule.removeAll();
+        // rule.removeAll();
 
         rule.append({ text: "SKINNER ADDED VARIABLES BEGINS HERE" });
         essences.forEach((e) => {
@@ -433,7 +434,6 @@ module.exports = (opts) => {
           });
         });
 
-        console.log(rule);
       });
     },
   };

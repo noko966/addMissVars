@@ -13,7 +13,8 @@
     "glob": "^10.3.10",
     "postcss": "^8.4.35",
     "postcss-cli": "^11.0.0",
-    "prettier": "^3.2.5"
+    "prettier": "^3.2.5",
+    "stylelint": "^16.2.1"
   },
   "dependencies": {
     "tinycolor2": "^1.6.0"
