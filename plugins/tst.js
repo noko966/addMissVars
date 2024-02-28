@@ -9,7 +9,10 @@ module.exports = (opts) => {
 
       // Step 1: Identify and store :root and :host rules
       root.walkRules((rule) => {
-        if (rule.selector === ":root" || rule.selector === ":host") {
+        if (
+          rule.selector.includes(":root") ||
+          rule.selector.includes(":host")
+        ) {
           rootAndHostRules.push(rule);
         }
       });
@@ -140,9 +143,11 @@ module.exports = (opts) => {
             essenceVerbalData.nameBgHov,
             essenceVerbalData.nameBg2Hov,
             essenceVerbalData.nameBg3Hov,
+            essenceVerbalData.nameRGBA0,
             essenceVerbalData.nameRGBA,
             essenceVerbalData.nameRGBA2,
             essenceVerbalData.nameRGBA3,
+            essenceVerbalData.nameG,
             essenceVerbalData.nameTxt,
             essenceVerbalData.nameTxt2,
             essenceVerbalData.nameTxt3,
@@ -178,8 +183,11 @@ module.exports = (opts) => {
           }
         });
 
+        rule.removeAll();
+
         rule.append({ text: "SKINNER ADDED VARIABLES BEGINS HERE" });
         essences.forEach((e) => {
+          rule.append({ text: `${e.name} essence` });
           const customProps = essKeyGenerator(e);
           customProps.forEach((p) => {
             const prop = `--${p}`;
@@ -205,12 +213,29 @@ module.exports = (opts) => {
                     `--${fb}Bg2Hover`,
                   ];
                   val = allVariables[`--${fb}Bg`];
+
+                  isDark = tinycolor(val).getLuminance();
+                  isDark = isDark < 0.5 ? true : false;
+                  val = isDark
+                    ? tinycolor(val).lighten(3).toHexString()
+                    : tinycolor(val).darken(3).toHexString();
+                  allVariables[prop] = val;
+                }
+                break;
+
+              case `--${vd.nameBgHov}`:
+                if (allVariables[prop]) {
+                  val = allVariables[prop];
+                } else {
+                  val = allVariables[`--${vd.nameBg}`];
                   isDark = tinycolor(val).getLuminance();
                   isDark = isDark < 0.5 ? true : false;
                   val = isDark
                     ? tinycolor(val).lighten(3).toHexString()
                     : tinycolor(val).darken(3).toHexString();
                 }
+                allVariables[prop] = val;
+
                 break;
 
               case `--${vd.nameBg2}`:
@@ -218,10 +243,29 @@ module.exports = (opts) => {
                   val = allVariables[prop];
                 } else {
                   val = allVariables[`--${vd.nameBg}`];
+                  isDark = tinycolor(val).getLuminance();
+                  isDark = isDark < 0.5 ? true : false;
                   val = isDark
                     ? tinycolor(val).lighten(10).toHexString()
                     : tinycolor(val).darken(10).toHexString();
                 }
+                allVariables[prop] = val;
+
+                break;
+
+              case `--${vd.nameBg2Hov}`:
+                if (allVariables[prop]) {
+                  val = allVariables[prop];
+                } else {
+                  val = allVariables[`--${vd.nameBg2}`];
+                  isDark = tinycolor(val).getLuminance();
+                  isDark = isDark < 0.5 ? true : false;
+                  val = isDark
+                    ? tinycolor(val).lighten(3).toHexString()
+                    : tinycolor(val).darken(3).toHexString();
+                }
+                allVariables[prop] = val;
+
                 break;
 
               case `--${vd.nameBg3}`:
@@ -229,17 +273,167 @@ module.exports = (opts) => {
                   val = allVariables[prop];
                 } else {
                   val = allVariables[`--${vd.nameBg2}`];
+                  isDark = tinycolor(val).getLuminance();
+                  isDark = isDark < 0.5 ? true : false;
                   val = isDark
                     ? tinycolor(val).lighten(10).toHexString()
                     : tinycolor(val).darken(10).toHexString();
                 }
+                allVariables[prop] = val;
+                break;
+
+              case `--${vd.nameBg3Hov}`:
+                if (allVariables[prop]) {
+                  val = allVariables[prop];
+                } else {
+                  val = allVariables[`--${vd.nameBg3}`];
+                  isDark = tinycolor(val).getLuminance();
+                  isDark = isDark < 0.5 ? true : false;
+                  val = isDark
+                    ? tinycolor(val).lighten(3).toHexString()
+                    : tinycolor(val).darken(3).toHexString();
+                }
+                allVariables[prop] = val;
+
+                break;
+
+              case `--${vd.nameG}`:
+                if (allVariables[prop]) {
+                  val = allVariables[prop];
+                } else {
+                  val = allVariables[`--${vd.nameBg}`];
+                }
+                allVariables[prop] = val;
+
+                break;
+
+              case `--${vd.nameRGBA0}`:
+                if (allVariables[prop]) {
+                  val = allVariables[prop];
+                } else {
+                  val = allVariables[`--${vd.nameBg}`];
+                  val = tinycolor(val).setAlpha(0).toRgbString();
+                }
+                allVariables[prop] = val;
+
+                break;
+
+              case `--${vd.nameRGBA}`:
+                if (allVariables[prop]) {
+                  val = allVariables[prop];
+                } else {
+                  val = allVariables[`--${vd.nameBg}`];
+                  val = tinycolor(val).setAlpha(0.7).toRgbString();
+                }
+                allVariables[prop] = val;
+
+                break;
+
+              case `--${vd.nameRGBA2}`:
+                if (allVariables[prop]) {
+                  val = allVariables[prop];
+                } else {
+                  val = allVariables[`--${vd.nameBg}`];
+                  val = tinycolor(val).setAlpha(0.5).toRgbString();
+                }
+                allVariables[prop] = val;
+
+                break;
+
+              case `--${vd.nameRGBA3}`:
+                if (allVariables[prop]) {
+                  val = allVariables[prop];
+                } else {
+                  val = allVariables[`--${vd.nameBg}`];
+                  val = tinycolor(val).setAlpha(0.3).toRgbString();
+                }
+                allVariables[prop] = val;
+
+                break;
+
+              case `--${vd.nameTxt}`:
+                if (allVariables[prop]) {
+                  val = allVariables[prop];
+                } else {
+                  val = allVariables[`--${vd.nameBg}`];
+                  val = tinycolor
+                    .mostReadable(val, ["#ffffff", "#000000"])
+                    .toHexString();
+                }
+                allVariables[prop] = val;
+
+                break;
+
+              case `--${vd.nameTxt2}`:
+                if (allVariables[prop]) {
+                  val = allVariables[prop];
+                } else {
+                  const bg = allVariables[`--${vd.nameBg}`];
+                  const txt = allVariables[`--${vd.nameTxt}`];
+                  val = tinycolor.mix(txt, bg, 20).toHexString();
+                }
+                allVariables[prop] = val;
+
+                break;
+
+              case `--${vd.nameTxt3}`:
+                if (allVariables[prop]) {
+                  val = allVariables[prop];
+                } else {
+                  const bg = allVariables[`--${vd.nameBg}`];
+                  const txt = allVariables[`--${vd.nameTxt}`];
+                  val = tinycolor.mix(txt, bg, 30).toHexString();
+                }
+                allVariables[prop] = val;
+
+                break;
+
+              case `--${vd.nameAccent}`:
+                if (allVariables[prop]) {
+                  val = allVariables[prop];
+                } else {
+                  val = allVariables[`--accentBg`];
+                }
+                allVariables[prop] = val;
+
+                break;
+
+              case `--${vd.nameAccentTxt}`:
+                if (allVariables[prop]) {
+                  val = allVariables[prop];
+                } else {
+                  val = allVariables[`--${vd.nameAccent}`];
+                  val = tinycolor
+                    .mostReadable(val, ["#ffffff", "#000000"])
+                    .toHexString();
+                }
+                allVariables[prop] = val;
+
+                break;
+
+              case `--${vd.nameBorder}`:
+                if (allVariables[prop]) {
+                  val = allVariables[prop];
+                } else {
+                  val = allVariables[`--${vd.nameBgHov}`];
+                }
+                allVariables[prop] = val;
+                break;
+
+              case `--${vd.nameRadius}`:
+                if (allVariables[prop]) {
+                  val = allVariables[prop];
+                } else {
+                  val = allVariables[`--bodyRadius`] || "2px";
+                }
+                allVariables[prop] = val;
                 break;
             }
-            rule.append({ prop: prop, value: val || "#fff" });
+            rule.append({ prop: prop, value: val });
           });
         });
 
-        // console.log(allVariables);
+        console.log(rule);
       });
     },
   };

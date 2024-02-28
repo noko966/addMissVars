@@ -5,6 +5,7 @@ module.exports = verbalData = (name, prefix) => {
   data.nameBg = data.name + "Bg";
   data.nameBg_g = data.nameBg + "_g";
   data.nameG = data.name + "G";
+  data.nameRGBA0 = data.name + "RGBA0";
   data.nameRGBA = data.name + "RGBA";
   data.nameRGBA2 = data.name + "RGBA2";
   data.nameRGBA3 = data.name + "RGBA3";
