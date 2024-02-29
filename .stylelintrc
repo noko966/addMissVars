@@ -1,0 +1,8 @@
+{
+  "extends": "stylelint-config-standard",
+  "rules": {
+    "no-empty-source": true,
+    "block-no-empty": true,
+    "max-empty-lines": 0
+  }
+}

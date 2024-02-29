@@ -430,7 +430,8 @@ module.exports = (opts) => {
                 allVariables[prop] = val;
                 break;
             }
-            rule.append({ prop: prop, value: val });
+            rule.append({ prop: prop, value: val});
+
           });
         });
 

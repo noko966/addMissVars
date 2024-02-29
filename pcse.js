@@ -18,7 +18,7 @@ async function lintAndFixCss(css, cssFilePath) {
     files: cssFilePath
   });
 
-  return fixedCss.output; // Return the fixed CSS
+  return fixedCss.code; // Return the fixed CSS
 }
 
 
@@ -38,7 +38,7 @@ async function processDirectory(directory) {
           }
           const css = await fs.readFile(fullPath, "utf8");
           const result = await postcss([pluginTst(options)]).process(css, { from: fullPath, to: path.join(distDir, path.relative(srcDir, fullPath)) });
-          const fixedCss = await lintAndFixCss(result.css, fullPath);
+          // const fixedCss = await lintAndFixCss(result.css);
           await fs.outputFile(path.join(distDir, path.relative(srcDir, fullPath)), result.css);
           console.log(`Processed ${fullPath}`);
       }
