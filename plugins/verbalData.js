@@ -2,9 +2,9 @@ module.exports = verbalData = (name, prefix) => {
   let data = {};
   data.name = name;
 
+  data.nameG = data.name + "G";
   data.nameBg = data.name + "Bg";
   data.nameBg_g = data.nameBg + "_g";
-  data.nameG = data.name + "G";
   data.nameRGBA0 = data.name + "RGBA0";
   data.nameRGBA = data.name + "RGBA";
   data.nameRGBA2 = data.name + "RGBA2";

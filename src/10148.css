@@ -1,0 +1,315 @@
+/* Casino Mobile page */
+:root {
+    --cwBodyBg:  #19150B;
+    --cwBodyBg2:  #3c331b;
+    --cwBodyBg3: #4e4222;  
+    --cwBodyBgHover:  #241e10;
+    --cwBodyBg2Hover:  #473c20;
+    --cwBodyBg3Hover: #594b27;
+    --cwBodyRGBA:  rgba(25, 21, 11, 0.7);
+    --cwBodyRGBA2:  rgba(25, 21, 11, 0.5);
+    --cwBodyRGBA3:  rgba(25, 21, 11, 0.3);
+    --cwBodyTxt: rgba(255, 255, 255, 0.9);
+    --cwBodyTxt2: rgba(255, 255, 255, 0.6);
+    --cwBodyTxt3: rgba(255, 255, 255, 0.4);
+    --cwBodyAccent: #C7961A;
+    --cwBodyAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwBodyBorder:  #19150B;
+    --cwBodyRadius:  0px;
+
+    --cwDominantG: #3D341A;
+    --cwDominantRGBA: rgba(61, 52, 26, 0.7);
+    --cwDominantRGBA2: rgba(61, 52, 26, 0.5);
+    --cwDominantRGBA3: rgba(61, 52, 26, 0.3);
+    --cwDominantBg: #3D341A;
+    --cwDominantBg2: #615229;
+    --cwDominantBg3: #736231;
+    --cwDominantBgHover: #483d1f;
+    --cwDominantBg2Hover: #6c5b2e;
+    --cwDominantBg3Hover: #7e6b36;
+    --cwDominantTxt: rgba(255, 255, 255, 0.9);
+    --cwDominantTxt2: rgba(255, 255, 255, 0.6);
+    --cwDominantTxt3: rgba(255, 255, 255, 0.4);
+    --cwDominantAccent: #C7961A;
+    --cwDominantAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwDominantTxtInverse: #262626; 
+    --cwDominantRadius: 0px;
+    
+    --cwAccentBg: #C7961A;
+    --cwAccentBg2:  #e4b130;
+    --cwAccentBg3: #e7b947;
+    --cwAccentBgHover:  #d4a01c;
+    --cwAccentBg2Hover:  #e6b63e;
+    --cwAccentBg3Hover:  #e9be55;
+    --cwAccentG: #C7961A;
+    --cwAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwAccentTxt2: rgba(0, 0, 0, 0.6);
+    --cwAccentTxt3: rgba(0, 0, 0, 0.4);        
+      
+    --cwButtonG: #D39A28;
+    --cwButtonBg:  #D39A28;
+    --cwButtonBg2:  #deaf50;
+    --cwButtonBg3:  #e2b866;
+    --cwButtonBgHover:  #d8a132;
+    --cwButtonBg2Hover:  #e0b55d;
+    --cwButtonBg3Hover:  #e4be73;
+    --cwButtonTxt: rgba(0, 0, 0, 0.9);
+    --cwButtonTxt2: rgba(0, 0, 0, 0.6);
+    --cwButtonTxt3: rgba(0, 0, 0, 0.4);
+    --cwButtonAccent: #C7961A;
+    --cwButtonAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwButtonBorder: #19150B;
+    --cwButtonRadius: 2px;
+
+    --cwButtonSecondaryG: #070603;
+    --cwButtonSecondaryBg:  #070603;
+    --cwButtonSecondaryBg2:  #2b2512;
+    --cwButtonSecondaryBg3:  #3d341a;
+    --cwButtonSecondaryBgHover:  #120f08;
+    --cwButtonSecondaryBg2Hover:  #362e17;
+    --cwButtonSecondaryBg3Hover:  #483d1f;
+    --cwButtonSecondaryTxt: rgba(255, 255, 255, 0.9);
+    --cwButtonSecondaryTxt2: rgba(255, 255, 255, 0.6);
+    --cwButtonSecondaryTxt3: rgba(255, 255, 255, 0.4);
+    --cwButtonSecondaryAccent: #C7961A; 
+    --cwButtonSecondaryAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwButtonSecondaryBorder: #D39A28;
+    --cwButtonSecondaryRadius: 2px;
+
+    --cwInputG: #615229;
+    --cwInputBg: #615229;
+    --cwInputBg2: #857038;
+    --cwInputBg3: #977f40; 
+    --cwInputBgHover: #6c5b2e;
+    --cwInputBg2Hover: #90793d;
+    --cwInputBg3Hover: #a28845;
+    --cwInputTxt:  rgba(255, 255, 255, 0.9);
+    --cwInputTxt2: rgba(255, 255, 255, 0.6);
+    --cwInputTxt3: rgba(255, 255, 255, 0.4);
+    --cwInputAccent: #C7961A;
+    --cwInputAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwInputRadius: 0px;        
+    --cwInputBorder: #19150B;  
+
+    --cwInputSecondaryG: #6c5b2e;
+    --cwInputSecondaryBg: #6c5b2e;
+    --cwInputSecondaryBg2: #90793d;
+    --cwInputSecondaryBg3: #a28845; 
+    --cwInputSecondaryBgHover: #776433;
+    --cwInputSecondaryBg2Hover: #9b8242;
+    --cwInputSecondaryBg3Hover: #ad914a;
+    --cwInputSecondaryTxt:  rgba(255, 255, 255, 0.9);
+    --cwInputSecondaryTxt2: rgba(255, 255, 255, 0.6);
+    --cwInputSecondaryTxt3: rgba(255, 255, 255, 0.4);
+    --cwInputSecondaryAccent: #C7961A;
+    --cwInputSecondaryAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwInputSecondaryRadius: 0px;        
+    --cwInputSecondaryBorder: #19150B;   
+
+    --cwHeaderG: #070603;
+    --cwHeaderBg: #070603;
+    --cwHeaderBg2: #2b2512;
+    --cwHeaderBg3: #3d341a;
+    --cwHeaderBgHover: #120f08;
+    --cwHeaderBg2Hover: #362e17;
+    --cwHeaderBg3Hover: #483d1f;
+    --cwHeaderTxt: rgba(255, 255, 255, 0.9);
+    --cwHeaderTxt2: rgba(255, 255, 255, 0.6);
+    --cwHeaderTxt3: rgba(255, 255, 255, 0.4);
+    --cwHeaderAccent: #C7961A;
+    --cwHeaderAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwHeaderBorder: #19150B;
+    --cwHeaderRadius: 0px;
+
+    --cwSubHeaderG: #362e17;
+    --cwSubHeaderBg: #362e17;
+    --cwSubHeaderBg2: #5a4c26;
+    --cwSubHeaderBg3: #6c5c2e;
+    --cwSubHeaderBgHover: #41371c;
+    --cwSubHeaderBg2Hover: #65552b;
+    --cwSubHeaderBg3Hover: #776533;
+    --cwSubHeaderTxt: rgba(255, 255, 255, 0.9);
+    --cwSubHeaderTxt2: rgba(255, 255, 255, 0.6);
+    --cwSubHeaderTxt3: rgba(255, 255, 255, 0.4);
+    --cwSubHeaderAccent: #C7961A;
+    --cwSubHeaderAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwSubHeaderBorder: #19150B;
+    --cwSubHeaderRadius: 0px;
+
+    --cwModalG: #19150B;
+    --cwModalBg: #19150B;
+    --cwModalBg2: #3c331b;
+    --cwModalBg3: #4e4222;
+    --cwModalBgHover: #241e10;
+    --cwModalBg2Hover: #473c20;
+    --cwModalBg3Hover: #594b27;
+    --cwModalTxt: rgba(255, 255, 255, 0.9);
+    --cwModalTxt2: rgba(255, 255, 255, 0.6);
+    --cwModalTxt3: rgba(255, 255, 255, 0.4);
+    --cwModalAccent: #C7961A;
+    --cwModalAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwModalRadius: 0px;
+    --cwModalBorder: #19150B;
+
+    --cwTabG: #615229;
+    --cwTabBg: #615229;
+    --cwTabBg2: #857038;
+    --cwTabBg3: #977f40;
+    --cwTabBgHover: #6c5b2e;
+    --cwTabBg2Hover: #90793d;
+    --cwTabBg3Hover: #a28845;
+    --cwTabTxt: rgba(255, 255, 255, 0.9);
+    --cwTabTxt2: rgba(255, 255, 255, 0.6);
+    --cwTabTxt3: rgba(255, 255, 255, 0.4);
+    --cwTabAccent: #C7961A;
+    --cwTabAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwTabRadius: 0px;
+    --cwTabBorder: #19150B;
+
+    --cwTabActiveG: #6c5b2e;
+    --cwTabActiveBg: #6c5b2e;
+    --cwTabActiveBg2: #90793d;
+    --cwTabActiveBg3: #a28845;
+    --cwTabActiveBgHover: #776433;
+    --cwTabActiveBg2Hover: #9b8242;
+    --cwTabActiveBg3Hover: #ad914a;
+    --cwTabActiveTxt: rgba(255, 255, 255, 0.9);
+    --cwTabActiveTxt2: rgba(255, 255, 255, 0.6);
+    --cwTabActiveTxt3: rgba(255, 255, 255, 0.4);
+    --cwTabActiveAccent: #C7961A;
+    --cwTabActiveAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwTabActiveRadius: 0px;
+    --cwTabActiveBorder: #19150B; 
+
+    --cwTooltipG: #615229;
+    --cwTooltipBg: #615229;
+    --cwTooltipBg2: #857038;
+    --cwTooltipBg3: #977f40;
+    --cwTooltipBgHover: #6c5b2e;
+    --cwTooltipBg2Hover: #90793d;
+    --cwTooltipBg3Hover: #a28845;
+    --cwTooltipTxt: rgba(255, 255, 255, 0.9);
+    --cwTooltipTxt2: rgba(255, 255, 255, 0.6);
+    --cwTooltipTxt3: rgba(255, 255, 255, 0.4);
+    --cwTooltipAccent: #C7961A;
+    --cwTooltipAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwTooltipRadius: 0px;
+    --cwTooltipBorder: #19150B; 
+
+}
+
+
+
+/*footer*/
+/*footer*/
+.footer_cont {
+    max-width: 100%;
+}
+
+.footer_social-list{
+    margin-top: 22px;
+}
+
+.footer_links a:not(.footer_links__title) {
+    color: var(--cwHeaderTxt2);
+    font-size: 16px;
+}
+
+.footer_links__title{
+    text-transform: uppercase;
+    text-transform: uppercase;
+    color: var(--cwHeaderAccent);
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.footer_links > div {
+    margin-bottom: 15px;
+}
+
+.footer_links > div:last-child {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.footer_links a,
+.footer_links a,
+.footer_links > div:nth-child(odd) a{
+    text-align: center;
+}
+
+.footer_copy {
+    color: var(--cwHeaderTxt2);
+    text-align: center;
+}
+
+.support_link img{
+    max-width: 100%;
+    height: auto;
+}
+
+.support_link{
+    margin: 47px 0 60px; 
+}
+
+
+/*registration*/
+.register_date_select {
+    width: 100%;
+}
+
+.phone_number_inp_reg {
+    width: 100%;
+}
+
+.phone_number_reg {
+    min-width: 80px;
+}
+
+.reg_third_text1 {
+    font-size: 18px;
+    line-height: 26px;
+    margin: 10vh 0 24px;
+}
+.reg_third_text2  {
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.reg_third_btn{
+    margin-top: 19vh;
+}
+
+.checkbox_info{
+    color: var(--cwModalTxt2);
+}
+
+.checkbox_info a{
+    color: #fff;
+}
+
+.register_step_number span {
+    display: inline-block;
+    min-width: 40px;
+    white-space: nowrap;
+    color: var(--cwModalTxt2);
+}
+
+.input-validation-error ~ .checkbox_info a {
+    color: #ff0000;
+}
+
+.text-footer {
+    color: var(--cwHeaderTxt2);
+    text-align: center;
+    font-size: 14px;
+}
+
+.text-footer a {
+    text-decoration: underline;
+    color: #C7961A;
+}
+
+.licenz_img img{
+    width: 90px;
+}

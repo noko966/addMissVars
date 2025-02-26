@@ -1,0 +1,2570 @@
+body {
+	--bg-level-1: #17222b;
+	--bg-level-2: #2f4456;
+	--bg-level-3: #44637e;
+	--bg-level-4: #527898;
+	--text-level-high: #FFFFFF;
+	--text-level-medium: #CCCCCC;
+	--text-level-low: #999999;
+	--icon-level-high: #FFFFFF;
+	--icon-level-medium: #CCCCCC;
+	--icon-level-low: #999999;
+	--btn-primary: #00E777;
+	--btn-primary-text: #000000;
+	--btn-secondary: #141D25;
+	--btn-secondary-text: #ffffff;
+	--badge-notification: #00E777;
+	--badge-bonus: #00E777;
+	--cwPrimary: #00E777;
+	--text-on-primary: #000000;
+}
+
+:root {
+	/*--body */
+	--cwBodyG: #17222b;
+	--cwBodyBg: #17222b;
+	--cwBodyBgHover: #1c2a35;
+	--cwBodyBg2: #293c4c;
+	--cwBodyBg2Hover: #2e4456;
+	--cwBodyBg3: #32495d;
+	--cwBodyBg3Hover: #375167;
+	--cwBodyTxt: rgba(255, 255, 255, 0.9);
+	--cwBodyTxt2: rgba(255, 255, 255, 0.6);
+	--cwBodyTxt3: rgba(255, 255, 255, 0.4);
+	--cwBodyAccent: #00E777;
+	--cwBodyAccentTxt: rgba(0, 0, 0, 0.9);
+	--cwBodyBorder: #17222b;
+	/*--dominant */
+	--cwDominantG: #1c2a35;
+	--cwDominantBg: #1c2a35;
+	--cwDominantBgHover: #21323f;
+	--cwDominantBg2: #2e4456;
+	--cwDominantBg2Hover: #334c60;
+	--cwDominantBg3: #365267;
+	--cwDominantBg3Hover: #3b5a71;
+	--cwDominantTxt: rgba(255, 255, 255, 0.9);
+	--cwDominantTxt2: rgba(255, 255, 255, 0.6);
+	--cwDominantTxt3: rgba(255, 255, 255, 0.4);
+	--cwDominantAccent: #00E777;
+	--cwDominantAccentTxt: rgba(0, 0, 0, 0.9);
+	--cwDominantBorder: #17222b;
+	/*--accent */
+	--cwAccentG: #00E777;
+	--cwAccentBg: #00E777;
+	--cwAccentBgHover: #00f67f;
+	--cwAccentBg2: #1bff90;
+	--cwAccentBg2Hover: #2aff97;
+	--cwAccentBg3: #34ff9d;
+	--cwAccentBg3Hover: #43ffa4;
+	--cwAccentTxt: rgba(0, 0, 0, 0.9);
+	--cwAccentTxt2: rgba(0, 0, 0, 0.6);
+	--cwAccentTxt3: rgba(0, 0, 0, 0.4);
+	--cwAccentAccent: #00E777;
+	--cwAccentAccentTxt: rgba(0, 0, 0, 0.9);
+	--cwAccentBorder: #17222b;
+	/*--button */
+	--cwButtonG: #00f67f;
+	--cwButtonBg: #00f67f;
+	--cwButtonBgHover: #06ff87;
+	--cwButtonBg2: #2aff98;
+	--cwButtonBg2Hover: #39ff9f;
+	--cwButtonBg3: #43ffa4;
+	--cwButtonBg3Hover: #52ffab;
+	--cwButtonTxt: rgba(0, 0, 0, 0.9);
+	--cwButtonTxt2: rgba(0, 0, 0, 0.6);
+	--cwButtonTxt3: rgba(0, 0, 0, 0.4);
+	--cwButtonAccent: #00E777;
+	--cwButtonAccentTxt: rgba(0, 0, 0, 0.9);
+	--cwButtonBorder: #17222b;
+	/*--input */
+	--cwInputG: #293c4c;
+	--cwInputBg: #293c4c;
+	--cwInputBgHover: #2e4456;
+	--cwInputBg2: #3b566d;
+	--cwInputBg2Hover: #405e77;
+	--cwInputBg3: #44637e;
+	--cwInputBg3Hover: #496b88;
+	--cwInputTxt: rgba(255, 255, 255, 0.9);
+	--cwInputTxt2: rgba(255, 255, 255, 0.6);
+	--cwInputTxt3: rgba(255, 255, 255, 0.4);
+	--cwInputAccent: #00E777;
+	--cwInputAccentTxt: rgba(0, 0, 0, 0.9);
+	--cwInputBorder: #17222b;
+	/*--header */
+	--cwHeaderG: #375167;
+	--cwHeaderBg: #375167;
+	--cwHeaderBgHover: #3c5971;
+	--cwHeaderBg2: #496b88;
+	--cwHeaderBg2Hover: #4e7392;
+	--cwHeaderBg3: #527899;
+	--cwHeaderBg3Hover: #5780a3;
+	--cwHeaderTxt: rgba(255, 255, 255, 0.9);
+	--cwHeaderTxt2: rgba(255, 255, 255, 0.6);
+	--cwHeaderTxt3: rgba(255, 255, 255, 0.4);
+	--cwHeaderAccent: #00E777;
+	--cwHeaderAccentTxt: rgba(0, 0, 0, 0.9);
+	--cwHeaderBorder: #17222b;
+	/*--navbar */
+	--cwNavbarG: #293c4c;
+	--cwNavbarBg: #293c4c;
+	--cwNavbarBgHover: #2e4456;
+	--cwNavbarBg2: #3b566d;
+	--cwNavbarBg2Hover: #405e77;
+	--cwNavbarBg3: #44637e;
+	--cwNavbarBg3Hover: #496b88;
+	--cwNavbarTxt: rgba(255, 255, 255, 0.9);
+	--cwNavbarTxt2: rgba(255, 255, 255, 0.6);
+	--cwNavbarTxt3: rgba(255, 255, 255, 0.4);
+	--cwNavbarAccent: #00E777;
+	--cwNavbarAccentTxt: rgba(0, 0, 0, 0.9);
+	--cwNavbarBorder: #17222b;
+	/*--subHeader */
+	--cwSubHeaderG: #2e4456;
+	--cwSubHeaderBg: #2e4456;
+	--cwSubHeaderBgHover: #334c60;
+	--cwSubHeaderBg2: #405e77;
+	--cwSubHeaderBg2Hover: #456681;
+	--cwSubHeaderBg3: #496b88;
+	--cwSubHeaderBg3Hover: #4e7392;
+	--cwSubHeaderTxt: rgba(255, 255, 255, 0.9);
+	--cwSubHeaderTxt2: rgba(255, 255, 255, 0.6);
+	--cwSubHeaderTxt3: rgba(255, 255, 255, 0.4);
+	--cwSubHeaderAccent: #00E777;
+	--cwSubHeaderAccentTxt: rgba(0, 0, 0, 0.9);
+	--cwSubHeaderBorder: #17222b;
+	/*--modal */
+	--cwModalG: #293c4c;
+	--cwModalBg: #293c4c;
+	--cwModalBgHover: #2e4456;
+	--cwModalBg2: #3b566d;
+	--cwModalBg2Hover: #405e77;
+	--cwModalBg3: #44637e;
+	--cwModalBg3Hover: #496b88;
+	--cwModalTxt: rgba(255, 255, 255, 0.9);
+	--cwModalTxt2: rgba(255, 255, 255, 0.6);
+	--cwModalTxt3: rgba(255, 255, 255, 0.4);
+	--cwModalAccent: #00E777;
+	--cwModalAccentTxt: rgba(0, 0, 0, 0.9);
+	--cwModalBorder: #17222b;
+	/*--tab */
+	--cwTabG: #293c4c;
+	--cwTabBg: #293c4c;
+	--cwTabBgHover: #2e4456;
+	--cwTabBg2: #3b566d;
+	--cwTabBg2Hover: #405e77;
+	--cwTabBg3: #44637e;
+	--cwTabBg3Hover: #496b88;
+	--cwTabTxt: rgba(255, 255, 255, 0.9);
+	--cwTabTxt2: rgba(255, 255, 255, 0.6);
+	--cwTabTxt3: rgba(255, 255, 255, 0.4);
+	--cwTabAccent: #00E777;
+	--cwTabAccentTxt: rgba(0, 0, 0, 0.9);
+	--cwTabBorder: #17222b;
+	/*--tabActive */
+	--cwTabActiveG: #2e4456;
+	--cwTabActiveBg: #2e4456;
+	--cwTabActiveBgHover: #334c60;
+	--cwTabActiveBg2: #405e77;
+	--cwTabActiveBg2Hover: #456681;
+	--cwTabActiveBg3: #496b88;
+	--cwTabActiveBg3Hover: #4e7392;
+	--cwTabActiveTxt: rgba(255, 255, 255, 0.9);
+	--cwTabActiveTxt2: rgba(255, 255, 255, 0.6);
+	--cwTabActiveTxt3: rgba(255, 255, 255, 0.4);
+	--cwTabActiveAccent: #00E777;
+	--cwTabActiveAccentTxt: rgba(0, 0, 0, 0.9);
+	--cwTabActiveBorder: #17222b;
+	/*--tooltip */
+	--cwTooltipG: #293c4c;
+	--cwTooltipBg: #293c4c;
+	--cwTooltipBgHover: #2e4456;
+	--cwTooltipBg2: #3b566d;
+	--cwTooltipBg2Hover: #405e77;
+	--cwTooltipBg3: #44637e;
+	--cwTooltipBg3Hover: #496b88;
+	--cwTooltipTxt: rgba(255, 255, 255, 0.9);
+	--cwTooltipTxt2: rgba(255, 255, 255, 0.6);
+	--cwTooltipTxt3: rgba(255, 255, 255, 0.4);
+	--cwTooltipAccent: #00E777;
+	--cwTooltipAccentTxt: rgba(0, 0, 0, 0.9);
+	--cwTooltipBorder: #17222b;
+}
+
+.tl_casino_page {
+	--btn-primary: #ffb700;
+	--badge-notification: #ffb700;
+	--badge-bonus: #ffb700;
+	--cwPrimary: #ffb700;
+	/*--body */
+	--cwBodyG: #17222b;
+	--cwBodyBg: #17222b;
+	--cwBodyBgHover: #1c2a35;
+	--cwBodyBg2: #293c4c;
+	--cwBodyBg2Hover: #2e4456;
+	--cwBodyBg3: #32495d;
+	--cwBodyBg3Hover: #375167;
+	--cwBodyTxt: rgba(255, 255, 255, 0.9);
+	--cwBodyTxt2: rgba(255, 255, 255, 0.6);
+	--cwBodyTxt3: rgba(255, 255, 255, 0.4);
+	--cwBodyAccent: #ffb700;
+	--cwBodyAccentTxt: rgba(0, 0, 0, 0.9);
+	--cwBodyBorder: #17222b;
+	/*--dominant */
+	--cwDominantG: #1c2a35;
+	--cwDominantBg: #1c2a35;
+	--cwDominantBgHover: #21323f;
+	--cwDominantBg2: #2e4456;
+	--cwDominantBg2Hover: #334c60;
+	--cwDominantBg3: #365267;
+	--cwDominantBg3Hover: #3b5a71;
+	--cwDominantTxt: rgba(255, 255, 255, 0.9);
+	--cwDominantTxt2: rgba(255, 255, 255, 0.6);
+	--cwDominantTxt3: rgba(255, 255, 255, 0.4);
+	--cwDominantAccent: #ffb700;
+	--cwDominantAccentTxt: rgba(0, 0, 0, 0.9);
+	--cwDominantBorder: #17222b;
+	/*--accent */
+	--cwAccentG: #ffb700;
+	--cwAccentBg: #ffb700;
+	--cwAccentBgHover: #ffb700;
+	--cwAccentBg2: #ffb700;
+	--cwAccentBg2Hover: #ffb700;
+	--cwAccentBg3: #ffb700;
+	--cwAccentBg3Hover: #ffb700;
+	--cwAccentTxt: rgba(0, 0, 0, 0.9);
+	--cwAccentTxt2: rgba(0, 0, 0, 0.6);
+	--cwAccentTxt3: rgba(0, 0, 0, 0.4);
+	--cwAccentAccent: #ffb700;
+	--cwAccentAccentTxt: rgba(0, 0, 0, 0.9);
+	--cwAccentBorder: #17222b;
+	/*--button */
+	--cwButtonG: #ffb700;
+	--cwButtonBg: #ffb700;
+	--cwButtonBgHover: #ffb700;
+	--cwButtonBg2: #ffb700;
+	--cwButtonBg2Hover: #ffb700;
+	--cwButtonBg3: #ffb700;
+	--cwButtonBg3Hover: #ffb700;
+	--cwButtonTxt: rgba(0, 0, 0, 0.9);
+	--cwButtonTxt2: rgba(0, 0, 0, 0.6);
+	--cwButtonTxt3: rgba(0, 0, 0, 0.4);
+	--cwButtonAccent: #ffb700;
+	--cwButtonAccentTxt: rgba(0, 0, 0, 0.9);
+	--cwButtonBorder: #17222b;
+	/*--input */
+	--cwInputG: #293c4c;
+	--cwInputBg: #293c4c;
+	--cwInputBgHover: #2e4456;
+	--cwInputBg2: #3b566d;
+	--cwInputBg2Hover: #405e77;
+	--cwInputBg3: #44637e;
+	--cwInputBg3Hover: #496b88;
+	--cwInputTxt: rgba(255, 255, 255, 0.9);
+	--cwInputTxt2: rgba(255, 255, 255, 0.6);
+	--cwInputTxt3: rgba(255, 255, 255, 0.4);
+	--cwInputAccent: #ffb700;
+	--cwInputAccentTxt: rgba(0, 0, 0, 0.9);
+	--cwInputBorder: #17222b;
+	/*--header */
+	--cwHeaderG: #375167;
+	--cwHeaderBg: #375167;
+	--cwHeaderBgHover: #3c5971;
+	--cwHeaderBg2: #496b88;
+	--cwHeaderBg2Hover: #4e7392;
+	--cwHeaderBg3: #527899;
+	--cwHeaderBg3Hover: #5780a3;
+	--cwHeaderTxt: rgba(255, 255, 255, 0.9);
+	--cwHeaderTxt2: rgba(255, 255, 255, 0.6);
+	--cwHeaderTxt3: rgba(255, 255, 255, 0.4);
+	--cwHeaderAccent: #ffb700;
+	--cwHeaderAccentTxt: rgba(0, 0, 0, 0.9);
+	--cwHeaderBorder: #17222b;
+	/*--navbar */
+	--cwNavbarG: #293c4c;
+	--cwNavbarBg: #293c4c;
+	--cwNavbarBgHover: #2e4456;
+	--cwNavbarBg2: #3b566d;
+	--cwNavbarBg2Hover: #405e77;
+	--cwNavbarBg3: #44637e;
+	--cwNavbarBg3Hover: #496b88;
+	--cwNavbarTxt: rgba(255, 255, 255, 0.9);
+	--cwNavbarTxt2: rgba(255, 255, 255, 0.6);
+	--cwNavbarTxt3: rgba(255, 255, 255, 0.4);
+	--cwNavbarAccent: #ffb700;
+	--cwNavbarAccentTxt: rgba(0, 0, 0, 0.9);
+	--cwNavbarBorder: #17222b;
+	/*--subHeader */
+	--cwSubHeaderG: #2e4456;
+	--cwSubHeaderBg: #2e4456;
+	--cwSubHeaderBgHover: #334c60;
+	--cwSubHeaderBg2: #405e77;
+	--cwSubHeaderBg2Hover: #456681;
+	--cwSubHeaderBg3: #496b88;
+	--cwSubHeaderBg3Hover: #4e7392;
+	--cwSubHeaderTxt: rgba(255, 255, 255, 0.9);
+	--cwSubHeaderTxt2: rgba(255, 255, 255, 0.6);
+	--cwSubHeaderTxt3: rgba(255, 255, 255, 0.4);
+	--cwSubHeaderAccent: #ffb700;
+	--cwSubHeaderAccentTxt: rgba(0, 0, 0, 0.9);
+	--cwSubHeaderBorder: #17222b;
+	/*--modal */
+	--cwModalG: #293c4c;
+	--cwModalBg: #293c4c;
+	--cwModalBgHover: #2e4456;
+	--cwModalBg2: #3b566d;
+	--cwModalBg2Hover: #405e77;
+	--cwModalBg3: #44637e;
+	--cwModalBg3Hover: #496b88;
+	--cwModalTxt: rgba(255, 255, 255, 0.9);
+	--cwModalTxt2: rgba(255, 255, 255, 0.6);
+	--cwModalTxt3: rgba(255, 255, 255, 0.4);
+	--cwModalAccent: #ffb700;
+	--cwModalAccentTxt: rgba(0, 0, 0, 0.9);
+	--cwModalBorder: #17222b;
+	/*--tab */
+	--cwTabG: #293c4c;
+	--cwTabBg: #293c4c;
+	--cwTabBgHover: #2e4456;
+	--cwTabBg2: #3b566d;
+	--cwTabBg2Hover: #405e77;
+	--cwTabBg3: #44637e;
+	--cwTabBg3Hover: #496b88;
+	--cwTabTxt: rgba(255, 255, 255, 0.9);
+	--cwTabTxt2: rgba(255, 255, 255, 0.6);
+	--cwTabTxt3: rgba(255, 255, 255, 0.4);
+	--cwTabAccent: #ffb700;
+	--cwTabAccentTxt: rgba(0, 0, 0, 0.9);
+	--cwTabBorder: #17222b;
+	/*--tabActive */
+	--cwTabActiveG: #2e4456;
+	--cwTabActiveBg: #2e4456;
+	--cwTabActiveBgHover: #334c60;
+	--cwTabActiveBg2: #405e77;
+	--cwTabActiveBg2Hover: #456681;
+	--cwTabActiveBg3: #496b88;
+	--cwTabActiveBg3Hover: #4e7392;
+	--cwTabActiveTxt: rgba(255, 255, 255, 0.9);
+	--cwTabActiveTxt2: rgba(255, 255, 255, 0.6);
+	--cwTabActiveTxt3: rgba(255, 255, 255, 0.4);
+	--cwTabActiveAccent: #ffb700;
+	--cwTabActiveAccentTxt: rgba(0, 0, 0, 0.9);
+	--cwTabActiveBorder: #17222b;
+	/*--tooltip */
+	--cwTooltipG: #293c4c;
+	--cwTooltipBg: #293c4c;
+	--cwTooltipBgHover: #2e4456;
+	--cwTooltipBg2: #3b566d;
+	--cwTooltipBg2Hover: #405e77;
+	--cwTooltipBg3: #44637e;
+	--cwTooltipBg3Hover: #496b88;
+	--cwTooltipTxt: rgba(255, 255, 255, 0.9);
+	--cwTooltipTxt2: rgba(255, 255, 255, 0.6);
+	--cwTooltipTxt3: rgba(255, 255, 255, 0.4);
+	--cwTooltipAccent: #ffb700;
+	--cwTooltipAccentTxt: rgba(0, 0, 0, 0.9);
+	--cwTooltipBorder: #17222b;
+}
+
+/*banner navigation*/
+.cas_nav_prev,
+.cas_nav_next,
+.lca-voice-icon {
+	background-color: rgba(7,13,19,0.7);
+}
+
+.lca-voice-icon {
+	inset-inline-start: 20px;
+}
+
+.loading {
+	background: url(/Img/partners/111/Loader_CB.gif) no-repeat 50% 50% !important;
+	min-height: 200px;
+}
+
+.bgMain {
+	background-color: #070D13 !important;
+}
+
+.btn_sec,
+.clr_sec {
+	background-color: #c4c4c4 !important;
+	color: #111 !important;
+}
+
+.reg_content .btn_sec,
+.reg_content .clr_sec {
+	background-color: #17222C !important;
+	color: #EAEDEF !important;
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.reg_content .btn_prim,
+.reg_content .promo_clicked {
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.btn_prim,
+.promo_clicked {
+	background-color: #00f67f !important;
+	color: #000 !important;
+}
+
+.forgot_username_block #tryagainbutton {
+	background: #c4c4c4 !important;
+}
+
+.clr_prim {
+	background-color: #00e777;
+	color: #000 !important;
+}
+
+.depositDialog {
+	height: 28px;
+	font-size: 11px;
+	font-weight: 700;
+	text-transform: uppercase;
+	line-height: 30px;
+	color: #000;
+	border-radius: 8px;
+	background-color: #00E777;
+	padding: 0 8px;
+	margin: 0px 3px;
+}
+
+.platformMobLanga {
+	width: 36px;
+	margin: 3px;
+	height: 28px;
+}
+
+.panel .ui-collapsible-content {
+	background-color: #070d13 !important;
+}
+
+.heading {
+	background-color: #141D25 !important;
+	color: #FFFFFF !important;
+}
+
+.sub_heading {
+	color: #00e777;
+}
+
+.menuBtn {
+	background-color: #132435;
+	color: #fff !important;
+	font-size: 13px;
+}
+
+.ui-collapsible-inset .ui-collapsible-heading .ui-btn {
+	font-size: 13px;
+}
+
+.menuBtn a {
+	color: #fff !important;
+}
+
+.menuBtnSm {
+	background-color: #132435;
+	color: #fff !important;
+}
+
+#header .txt {
+	color: #fff;
+	display: block;
+}
+
+.LinkToLeftPanel:before {
+	font-size: 26px;
+	line-height: 36px;
+	color: #999999;
+}
+
+.menuRow {
+	background-color: #132435;
+	color: #fff !important;
+}
+
+.pagIt {
+	background-color: #c4c4c4;
+	color: #111;
+}
+
+.footer_title {
+	text-transform: uppercase;
+}
+
+.footer_title,
+.footer_links a {
+	color: #999;
+	font-size: 15px;
+	display: block
+}
+
+.footer_links li {
+	padding: 0 4%;
+}
+
+.footer_links a {
+	font-size: 13px;
+	margin-bottom: 13px;
+}
+
+.idq_small {
+	margin: 20px auto;
+}
+
+
+.footer_content {
+	padding: 0 15px;
+	max-width: 400px;
+	margin: 0 auto;
+}
+
+.drop_down_lang {
+	padding: 0px 21px 0 38px !important;
+	background-color: #070d13;
+	text-transform: capitalize;
+	color: #999999;
+	height: 34px;
+	margin: 0;
+	line-height: 34px;
+}
+
+.drop_down_lang_arrow:after {
+	border-top: 5px solid #999999;
+	right: 9px;
+	top: 15px;
+}
+
+.mob_select_lang_flag {
+	position: absolute;
+	left: 10px;
+	top: 9px;
+}
+
+.drop_down_lang_arrow {
+	width: 160px;
+	margin: 0 auto 10px;
+	border: 2px solid #999999;
+	border-radius: 2px;
+}
+
+.license_block ul {
+	margin-bottom: 15px;
+}
+
+#copyright {
+	background: none;
+	color: #999;
+	padding: 14px 0 14px 8px;
+}
+
+.nav {
+	background: none;
+}
+
+/*main content*/
+.collapse_dropdown_leftmenu {
+	height: 48px;
+}
+
+.collapse_dropdown_leftmenu_btn:after {
+	border-color: #fff transparent transparent transparent;
+}
+/*	datepicker color changes	*/
+.ui-widget-header {
+	background: #02954e !important;
+	border: none;
+}
+
+	.ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight {
+		border: 1px solid #02954e;
+		background: #02954e;
+	}
+
+	.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus {
+		border: 1px solid #02954e;
+		background: green url(images/ui-bg_glass_100_fdf5ce_1x400.png) 50% 50% repeat-x;
+	}
+
+	.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
+		border: 1px solid #02954e;
+	}
+
+#home-cannon21 {
+	background: url("../../../Img/mobile/partners/111/Cannon21.png");
+	background-size: cover;
+}
+
+#footer {
+	background-color: #070D13;
+}
+
+.LogoMobilePlatform {
+	height: 25px;
+	width: 40px;
+}
+
+@media screen and (min-width: 433px) {
+	.LogoMobilePlatform {
+		height: 27px;
+		width: 162px;
+	}
+}
+
+#betSlip a {
+	background-color: #00e777;
+	border: 0;
+	border-radius: 3px 3px 0 0;
+}
+
+#scroll {
+	background-color: #00e777;
+}
+
+.ui-shadow-inset {
+	-webkit-box-shadow: none !important;
+	-ms-box-shadow: none !important;
+	box-shadow: none !important;
+}
+
+.ui-select .ui-btn > span:not(.ui-li-count) {
+	margin-top: 0px;
+}
+
+.ui-select .ui-btn select {
+	margin-top: 0 !important;
+	opacity: 1;
+	height: 25px;
+	border: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	-ms-appearance: none;
+}
+
+.games li label {
+	background-color: #ffb700 !Important;
+}
+
+.cannon, .cashtransfer {
+	width: 68px;
+	height: 25px;
+	background-image: url(/img/Casino-images-allinone.png);
+	background-position: -1465px -122px;
+}
+
+.perfectmoney, .perfectmoneywithdrawal, .perfectmoneydeposit {
+	width: 70px;
+	height: 25px;
+	background-image: url(/img/Casino-images-allinone.png);
+	background-position: -1896px -123px;
+}
+
+/*#genderMob .col50 .ui-radio label {
+    background-color: #e6e7e8;
+    padding-right:40px;
+}*/
+
+#CurrencyCode-button {
+	min-height: 36px;
+}
+
+#footer-links .payments {
+	opacity: 0.6;
+}
+
+.webmoney, .perfectmoney, .skrill, .visa, .master {
+	background-image: url(/Img/mobile/partners/111/footer_sprite_mobile.png);
+}
+
+.cw_mob_footer_18_wrapper {
+	color: #999;
+}
+
+.web {
+	background-position: -301px -158px;
+}
+
+.perfectmoney {
+	background-position: -153px -157px;
+}
+
+.question:before {
+	color: #00e777;
+}
+
+.exchanger, .exchangerdeposit {
+	width: 70px;
+	height: 25px;
+	background-image: url(/img/Casino-images-allinone.png);
+	background-position: -470px -97px;
+}
+
+.ghostdeposit {
+	width: 70px;
+	height: 25px;
+	background-image: url(/img/Casino-images-allinone.png);
+	background-position: -470px -97px;
+}
+/*.paysafevoucher {
+    width: 70px;
+    height: 25px;
+    background-image: url(/img/Casino-images-allinone.png);
+    background-position: -5846px 243px
+}*/
+.paysafevoucher {
+	width: 55px;
+	height: 25px;
+	background-image: url(/img/Casino-images-allinone.png);
+	background-position: -6305px 243px;
+}
+
+.gopaypro {
+	width: 58px;
+	height: 28px;
+	background-image: url(/img/Casino-images-allinone.png);
+	background-position: -7074px -28px;
+}
+
+.instapayspapara {
+	width: 69px;
+	height: 25px;
+	background-image: url(/img/Casino-images-allinone.png);
+	background-position: -4484px -153px;
+}
+
+.fastpayoffline {
+	width: 69px;
+	height: 25px;
+	background-image: url(/img/Casino-images-allinone.png);
+	background-position: -7910px -122px;
+}
+
+.zainpayoffline {
+	width: 63px;
+	height: 25px;
+	background-image: url(/img/Casino-images-allinone.png);
+	background-position: -799px -27px;
+}
+
+/*collapsable deposit withdrowal*/
+.collapse_btn h3 > a {
+	background-color: #292929;
+	color: #00e777;
+	border-color: #484848;
+}
+
+.paym_txt {
+	color: #fff;
+}
+
+.paym_txt1, #generalTermsLink, .paym_cond {
+	color: #999;
+}
+
+	.paym_cond > span {
+		color: #fff;
+	}
+
+.collapse_btn .ui-collapsible-content {
+	background-color: #070D13 !important;
+}
+
+.collapse_btn .btn_prim {
+	background-color: #00e777 !important;
+	color: #111 !important;
+}
+
+.collapse_btn .btn_sec {
+	background-color: #333 !important;
+	color: #999 !important;
+} 
+.ui-mobile label, .ui-controlgroup-label {
+	text-indent: 2px;
+}
+
+.switch input.sw:checked + label:before {
+	background-color: #00912C;
+}
+
+.switch input.sw + label:before {
+	background-color: #19e77a;
+}
+
+.footer-check {
+	justify-content: center;
+}
+
+.bonus-block div {
+	color: #fff;
+}
+
+.cannon_footer_txt {
+	text-align: left;
+	color: #999;
+	font-size: 11px;
+}
+
+	.cannon_footer_txt > span {
+		display: block;
+		padding: 5px 0;
+		line-height: 14px;
+	}
+
+	.cannon_footer_txt :first-child {
+		margin-top: 24px;
+	}
+
+	.cannon_footer_txt :last-child {
+		margin-bottom: 24px;
+	}
+
+.yt {
+	width: 30px;
+	height: 29px;
+	background-position: -136px 0;
+	margin-left: 5px;
+}
+
+#ChangeClientcurrency {
+	position: absolute;
+	top: 0;
+	inset-inline-start: 0;
+	z-index: 9;
+	background: black;
+	width: 100%;
+	min-height: 100%;
+}
+
+	#ChangeClientcurrency .tl_popup_container.login {
+		position: absolute;
+		width: 100%;
+		height: 45%;
+		z-index: 101;
+		border-radius: 5px;
+		background: #333333;
+		top: 93px;
+	}
+
+	#ChangeClientcurrency .tl_popup_content_login {
+		padding: 40px;
+		color: white;
+		text-align: justify;
+	}
+
+.Currencychange_header {
+	height: 35px;
+	padding: 0 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.Currencychange_header .tl_head_close:before {
+    font-family: 'iconsDinamicMenu';
+    content: "\E368";
+    font-size: 30px;
+    line-height: 15px;
+    padding: 10px;
+	display: inline-block;
+}
+
+.reg_width_calc {
+	width: 100%;
+}
+
+#countryphonecode {
+	padding: 3px 4px;
+	font-size: 15px;
+}
+
+#countryphonecode_wraper {
+	margin-inline-end: 5px;
+	/*//display: none;*/
+}
+
+
+#apg-b0070d00-5c52-461a-9240-5d1103fb7029 {
+	width: 50px;
+	margin: 25px auto 10px;
+}
+
+.casino-tabs a {
+	color: #070D13;
+}
+
+/*reg from login*/
+.dateOfBirth_errors .field-validation-error {
+	background-color: #f2f2f2 !important;
+}
+
+.reg_from_login_cont {
+	min-height: 115px;
+	background-color: #141D26;
+	margin: 0 -32px -16px;
+}
+
+.reg_from_login_cont {
+	min-height: calc(100vh - 229px);
+	background-color: #141D26;
+	margin: 38px -32px -16px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.reg_from_login_btn {
+	min-width: 74px;
+	height: 35px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #080D13;
+	color: #fff !important;
+	border: 1px solid #01E775;
+	border-radius: 3px;
+	margin: 10px 0;
+	font-size: 14px;
+	padding: 0 11px;
+	font-weight: 300 !important;
+}
+
+.reg_from_login_label {
+	display: inline-flex;
+	min-height: 39px;
+	background-color: #141d26;
+	align-items: center;
+	margin-top: -21px;
+	padding: 0 15px;
+	position: relative;
+	border-radius: 15px 15px 0 0;
+	font-size: 12px;
+}
+
+	.reg_from_login_label:before,
+	.reg_from_login_label:after {
+		content: "";
+		display: block;
+		position: absolute;
+		top: 2px;
+		width: 0;
+		height: 0;
+		border-style: solid;
+	}
+
+	.reg_from_login_label:after {
+		left: 94%;
+		border-width: 20px 0 0 36px;
+		border-color: transparent transparent transparent #141d26;
+	}
+
+	.reg_from_login_label:before {
+		right: 94%;
+		border-width: 0 0 20px 30px;
+		border-color: transparent transparent #141d26 transparent;
+	}
+/*inputs optimisation*/
+input {
+	background-color: #fff;
+	color: #111;
+}
+
+.forgot_pass__row input,
+.reg_input,
+.tl_mail_send_area,
+.custon_select__front_el,
+.drop-down,
+.drop-down-small,
+#content_paym .ui-select span,
+#content_paym .ui-select select,
+.favorite_amounts > div {
+	background-color: #fff;
+	color: #111;
+	height: 40px;
+	line-height: 40px;
+	font-size: 15px;
+}
+
+.captchaImage { 
+	height: 39px; 
+}
+
+.tl_refresh_container { 
+	top: 2px; 
+}
+
+.reg__gender_row label, .profile_container .reg__gender_row label {
+	color: #E8E8E9;
+}
+
+.reg__row_title {
+	color: #EBECED;
+	font-size: 12px;
+}
+
+#continue_btn {
+	font-size: 16px
+}
+
+.profile_container label, .transfer2friend_cont label, #content_paym label, .forgot_pass__row label, .r_login__row label, .changepass__element_row label, .search_popup_row label {
+	color: #a3a3a3
+}
+
+.D_reg_footer div {
+	width: 100%;
+}
+
+.reg_prof__element_row {
+	margin-bottom: 20px;
+}
+
+.reg_prof__element_row .ui-btn-icon-right:after {
+	content: "";
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 5px solid #666666;
+	border-radius: 0;
+	width: auto;
+	height: 10px;
+	background: none;
+	right: 15px;
+	bottom: 8px;
+	top: auto;
+}
+
+/*poker popup*/
+.pokerInfo_cont {
+	width: 100%;
+	height: 100%;
+	padding: 50px 10px;
+	background-image: url(/Img/partners/111/poker.png);
+	background-size: cover;
+	background-position: center;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+
+
+.pokerInfo_block {
+	border-radius: 16px;
+	background: rgba(0,0,0,0.7);
+	width: 100%;
+	text-align: center;
+	padding: 30px 15px;
+}
+
+.btn_log_poker {
+	width: 130px;
+	height: 36px;
+	margin: 16px auto 0;
+	text-align: center;
+	font-size: 14px;
+	border: 1px solid #707070;
+	border-radius: 2px;
+	background-color: rgba(0,0,0,0.6) !important;
+	text-transform: uppercase;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: bold;
+	color: #fff !important;
+}
+
+.btn_prim.btn_log_poker {
+	border: none;
+	background-color: #FFB700 !important;
+	color: #000 !important;
+}
+
+.btn_poker_block {
+	-webkit-box-pack: space-between;
+	-ms-flex-pack: space-between;
+	justify-content: space-between;
+}
+
+.poker strong:before {
+	content: ",";
+}
+
+li a.promoted span:after {
+	top: -10px;
+}
+/*tournament*/
+.tour__leaderboard_table_me {
+	border-bottom: 2px solid #00e777;
+}
+
+.tr_col_me {
+	color: #00e777;
+}
+
+
+/*new registration*/
+.regHeading, .change_pass_heading {
+	background: #FFFFFF;
+	color: #000;
+	justify-content: space-between;
+	display: flex;
+	padding: 15px 15px 0;
+	height: auto;
+	text-transform: uppercase;
+	font-family: "Roboto", sans-serif !important;
+	font-size: 16px;
+}
+
+	.regHeading .reg_close {
+		position: relative;
+		top: 0px;
+		right: 0px;
+	}
+
+.errSucCont .reg_close {
+	margin-left: auto;
+	top: 0px;
+	height: 20px;
+	width: 20px;
+	position: relative;
+	margin-right: 12px;
+}
+
+.change_pass_heading .reg_close {
+	position: relative;
+	top: 5px;
+	right: 15px;
+}
+
+	.change_pass_heading .reg_close:after {
+		background: #fff;
+	}
+
+
+	.change_pass_heading .reg_close:before {
+		background: #fff;
+	}
+
+.login_from_reg-block {
+	color: #828181;
+	padding-bottom: 18px;
+	font-size: 14px;
+}
+
+.login_from_reg {
+	display: flex;
+	background-color: #f2f2f2;
+	color: #000;
+	border-radius: 8px;
+	border: 1px solid #00E777;
+	height: 30px;
+	min-width: 60px;
+	text-transform: uppercase;
+	margin: 0 24px;
+	padding: 0 9px;
+}
+/*content*/
+.reg_steps_info {
+	width: 100%;
+}
+
+.reg_progress_dots {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	padding: 42px 0 16px;
+}
+
+	.reg_progress_dots span {
+		width: 24px;
+		height: 24px;
+		border: 2px solid #1C334B;
+		-webkit-border-radius: 50%;
+		border-radius: 50%;
+		position: relative;
+		background-color: #141D25;
+	}
+
+		.reg_progress_dots span.active:after {
+			-webkit-border-radius: 50%;
+			border-radius: 50%;
+			content: "";
+			position: absolute;
+			height: 12px;
+			width: 12px;
+			background: #00e777;
+			top: 4px;
+			left: 4px;
+		}
+
+		.reg_progress_dots span.done {
+			background: #00e777;
+			display: -webkit-box;
+			display: -webkit-flex;
+			display: -ms-flexbox;
+			display: flex;
+			-webkit-box-align: center;
+			-webkit-align-items: center;
+			-ms-flex-align: center;
+			align-items: center;
+			-webkit-box-pack: center;
+			-webkit-justify-content: center;
+			-ms-flex-pack: center;
+			justify-content: center;
+			border: none;
+			height: 24px;
+			width: 24px;
+			top: 0;
+		}
+
+			.reg_progress_dots span.done:before {
+				background: #1C334B;
+				top: 11px;
+				left: 24px;
+			}
+
+		.reg_progress_dots span:before {
+			background: #1C334B;
+			content: "";
+			position: absolute;
+			width: 105px;
+			height: 2px;
+			top: 9px;
+			left: 22px;
+		}
+
+		.reg_progress_dots span:last-child:before {
+			display: none;
+		}
+
+/*banners*/
+.register_left_banner {
+	height: auto;
+	width: 100%;
+}
+
+	.register_left_banner img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+
+/*content*/
+.reg_content {
+	width: 100%;
+	padding: 0 20px;
+	background: #141D25;
+	font-family: "Roboto", sans-serif !important;
+}
+
+.col_3, .col_2, .col_1, .col_07, .col_03 {
+	padding: 0 !important;
+}
+
+.reg_prof__element_row > .D_lbl {
+	padding: 24px 0 4px;
+	display: block;
+	font-family: "Roboto", sans-serif !important;
+	height: auto;
+	line-height: normal;
+}
+
+	.reg_prof__element_row > .D_lbl.flex {
+		display: flex !important;
+	}
+
+.tl_sel_custom_popup_reg_selected {
+	position: relative;
+}
+
+	.tl_sel_custom_popup_reg_selected:after {
+		font-family: ProductIconsFont;
+		content: "2";
+		position: absolute;
+		font-size: 11px;
+		right: 9px;
+		top: 0;
+		display: block;
+		color: #070D13;
+		line-height: 36px;
+	}
+
+.reg_prof__element_row > .D_lbl.flex .tl_input_popup_required {
+	color: #999;
+	margin-left: 2px;
+}
+
+.reg_item label {
+	display: inline;
+	color: #808080;
+	font-size: 12px;
+	font-family: "Roboto", sans-serif !important;
+}
+
+.tl_input_popup_required {
+	line-height: normal;
+}
+
+/*.ui-input-text input.tl_input_popup_reg, .ui-select .ui-btn > span:not(.ui-li-count), .ui-input-text .D_input, #D_reg_mob .D_input {
+    color: #666 !important;
+    width: 100%;
+    border: none;
+    background: #FFFFFF !important;
+    height: 44px;
+    line-height: 44px;
+    padding: 0 16px;
+    border-bottom: 1px solid #CCCCCC;
+    -webkit-border-radius: 2px 2px 0 0;
+    border-radius: 2px 2px 0 0;
+    font-size: 14px;
+    text-indent: 0;
+    font-family: "Roboto", sans-serif !important;
+}*/
+.D_reg_step .phone_number_reg .D_input.dropdSelect {
+	width: 110px !important;
+}
+
+.phone_number_reg {
+	margin-right: 10px;
+}
+
+.phone_number_inp_reg {
+	width: 100%;
+}
+
+.register_step_number {
+	font-size: 16px;
+	color: #070D13;
+	font-family: "Roboto", sans-serif !important;
+}
+
+.register_step_descr {
+	display: block;
+	font-size: 16px;
+	text-transform: uppercase;
+	margin-top: 4px;
+	font-family: "Roboto", sans-serif !important;
+	margin-bottom: 20px
+}
+
+.tl_reg_item .g-recaptcha {
+	background: transparent;
+	margin-top: 10px
+}
+
+@media only screen and (max-width: 370px){
+    .g-recaptcha {
+		padding-inline-start: 0!important;
+	}
+}
+
+@media only screen and (max-width: 340px){
+    .g-recaptcha iframe{
+        transform-origin: 0 0;
+    }
+}
+
+#countryphonecode_wraper {
+	width: 80px
+}
+/*back and next*/
+.register_next_step {
+	padding: 30px 0 16px;
+	justify-content: center;
+	display: flex;
+	gap: 10px;
+}
+
+#nextBtn, #forgotButton, #gotoLogin, .D_btn {
+	background: #FFB700 !important;
+	color: #000 !important;
+	height: 36px;
+	border: none;
+	text-transform: uppercase;
+	font-size: 14px;
+	border-radius: 2px;
+	font-family: "Roboto", sans-serif !important;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+
+.marg-bot100 {
+	margin-bottom: 100px;
+}
+
+#back_btn, #register_in_login {
+	background: #CCCCCC !important;
+	color: #000 !important;
+	height: 36px;
+	border: none;
+	text-transform: uppercase;
+	margin-right: 24px;
+	font-size: 14px;
+	border-radius: 2px;
+	width: calc(100% - 5px);
+	font-family: "Roboto", sans-serif !important;
+}
+
+#register_in_login {
+	width: 100%;
+	margin: 10px auto;
+}
+
+.back_register_button {
+	width: calc(100% + 5px);
+}
+
+.ui-checkbox span {
+	display: inline;
+	font-size: 12px;
+	color: #999999;
+}
+
+.ui-checkbox a, #generalTermsLink {
+	color: #999;
+	font-weight: bold;
+}
+
+.checkbox_item_cont input {
+	position: absolute;
+	z-index: -1;
+}
+
+.tl_reg_content .popup_lbl_2 {
+	white-space: inherit;
+	color: #999;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+#generalTermsLink, #privacyPolicyLink {
+	display: inline;
+}
+
+.D_check .imitator {
+	top: 3px;
+	left: 0px;
+}
+
+.D_check.ui-checkbox-on .imitator:before {
+	content: "4";
+}
+
+.reg_footer {
+	padding: 15px 0 35px;
+}
+
+.field-validation-valid {
+	color: #FF0000
+}
+
+.reg_item {
+	width: 100%;
+}
+
+	.reg_item input {
+		width: 100%;
+	}
+
+.showStep {
+	display: block !important;
+}
+
+.register_content {
+	display: none;
+	flex-wrap: wrap;
+}
+
+.D_info_box > span {
+	top: 90px;
+}
+
+.reg_prof__element_row.fail .D_info_box.f > span > span, .reg_prof__element_row.warn .D_info_box > span > span {
+	color: red !important;
+	position: static;
+	padding: 0;
+	background: transparent;
+	margin-top: 10px;
+	display: block;
+}
+
+#dateOfBirth_errors {
+	position: relative;
+	top: -20px;
+}
+
+	#dateOfBirth_errors > .field-validation-error:first-child {
+		z-index: 30;
+		top: 15px;
+	}
+
+	#dateOfBirth_errors > .field-validation-error, #dateOfBirth_errors .field-validation-valid {
+		position: absolute;
+		top: 0;
+		line-height: 15px;
+		padding-top: 17px;
+		margin-top: 0px;
+	}
+
+.reg_prof__element_row.warn .D_info_box > span > span {
+	color: #999 !important;
+}
+
+.reg_prof__element_row.fail .D_info_box > span:after, .reg_prof__element_row.warn .D_info_box > span:after, .reg_prof__element_row.loginex .D_info_box > span::after {
+	display: none;
+}
+
+.D_info_box, .reg_prof__element_row.fail .D_info_box > span, .reg_prof__element_row.warn .D_info_box > span {
+	position: static;
+}
+
+	.D_info_box.le > span > span {
+		background: transparent;
+	}
+
+
+.register_date_select .ui-btn {
+	margin: 0 4px;
+}
+
+.input-validation-error {
+	border: 0px !important;
+	border-bottom: 1px solid #f00 !important;
+}
+
+.g-recaptcha.input-validation-error {
+	border-bottom: none !important;
+}
+/*errors*/
+.valid_icon_error_rc .input-validation-error,
+.valid_icon_error_rc .valid {
+	background-image: none;
+}
+
+.dateOfBirth_errors {
+	position: relative !important;
+	top: -9px !important;
+}
+
+	.dateOfBirth_errors > span {
+		position: absolute !important;
+		top: 0;
+	}
+
+.reg__checkboxes_row {
+	margin: 10px 0;
+	padding: 0 0 0 30px;
+	color: #999;
+}
+
+.register_step_descr.green_text {
+	color: #3DEA96;
+	font-weight: bold;
+	margin-top: 40px;
+	font-size: 26px;
+}
+
+.register_step_descr.congrats_text {
+	color: #070D13;
+	font-size: 14px;
+	text-transform: inherit;
+	line-height: 20px;
+	margin-top: 16px;
+}
+
+#finalize {
+	margin-top: 200px
+}
+
+.required-field {
+	padding: 0 2px;
+	color: #EBECED;
+	float: unset;
+}
+
+.footer_links {
+	justify-content: center;
+}
+/*new redesign styles*/
+body, #wrapper {
+	background: #141D25;
+	color: #fff;
+	font-size: 12px !important;
+}
+
+.name_vidget {
+	color: #fff;
+	background: rgba(26,26,26, 0.5);
+}
+/*/slider*/
+/*main nav*/
+.nav_title {
+	background: transparent;
+	font-size: 14px;
+	color: #00E777;
+}
+
+.block_title {
+	color: #00e777;
+	background: #2B2B2B;
+}
+
+.nav_item > img {
+	padding: 16px 23px 40px;
+	max-height: 30vw;
+	object-fit: contain;
+}
+
+.nav_item {
+	background: rgba(7,13,19, 0.7);
+	border-radius: 8px;
+}
+
+/*games containers*/
+.favorite_see__notlogin_text {
+	color: #F2F2F2;
+}
+
+/*casino navigation*/
+
+.fixed_menu__play_button {
+	background: #000;
+}
+
+.menu_circle:before {
+	box-shadow: 4px 3px 40px 1200px #000;
+}
+
+.fixed_menu__li.active svg .yellow, .fixed_menu__li.active .fixed_menu__play_button, .fixed_menu__li.active {
+	color: #ffb700;
+}
+
+.casino_nav__links_block {
+	background: #070D13;
+}
+
+.links_block_x_scroll_hidden::before {
+	background: #000;
+	-webkit-box-shadow: 0 0 30px 29px rgba(12,12,12,.85);
+	-moz-box-shadow: 0 0 30px 29px rgba(12,12,12,.85);
+	box-shadow: 0 0 30px 29px rgba(12,12,12,.85);
+}
+
+.casino_nav__links_block a {
+	color: #fff;
+}
+
+.text-primary {
+	color: #00e777
+}
+
+.casino_nav__links_block a.active {
+	color: #ffb700;
+}
+
+/*play page promotions*/
+.play__promo_mobile_li {
+	background-color: #262626;
+}
+
+.play__promo_img_shadow::after {
+	-webkit-box-shadow: inset 0px -145px 40px -104px rgba(38,38,38,1);
+	-moz-box-shadow: inset 0px -145px 40px -104px rgba(38,38,38,1);
+	box-shadow: inset 0px -145px 40px -104px rgba(38,38,38,1);
+}
+
+
+.play__promo_title {
+	color: #fff;
+}
+
+.play__promo_descr {
+	color: #CCCCCC;
+}
+
+/*filter and search*/
+#searchContent .popup_flex_box {
+	background: #000;
+	box-shadow: 0px 0px 320px 320px #000;
+}
+
+#casino_filter_popup {
+	background-color: #070D13;
+}
+
+.search_switcher {
+	background-color: #cfcfcf;
+}
+
+	.search_switcher:before {
+		background-color: #fff;
+	}
+
+.checked .search_switcher {
+	background-color: #ffb700;
+}
+
+.search__icon::after {
+	color: #707070;
+}
+
+/*search part*/
+.nc__heading {
+	color: #ffffff;
+}
+
+.games_filter_popup .search_filter_input {
+	background-color: #262626 !important;
+	box-shadow: 0px 3px 6px #2B2B2B4D;
+	color: #FFFFFF;
+}
+
+.games_filter_popup .seasch__game_not_found_mob::before {
+	color: #666666;
+}
+
+.fs__input_wrap .close-search {
+	color: #fff;
+}
+
+	.fs__input_wrap .close-search:after {
+		background: #fff;
+	}
+
+	.fs__input_wrap .close-search:before {
+		background: #fff;
+	}
+
+.game__link_demo {
+	background: #111;
+	color: #fff;
+}
+
+/*icons opened game info*/
+.like_icon:after {
+	color: #fff;
+}
+
+.jackpot__value span {
+	color: #00E777;
+}
+
+.close__game__more_block::after {
+	color: #fff;
+}
+
+.game__link_play {
+	background: #00912C;
+	color: #fff;
+}
+
+.game__link_demo {
+	background: #111;
+	color: #fff;
+}
+
+.game__name {
+	text-shadow: 0px 0px 6px #F14100;
+}
+/*filer*/
+.games_filter_title {
+	color: #ffffff;
+	background-color: #333;
+}
+
+.games_filter_element, .games_filter_list_show {
+	background-color: #333;
+}
+
+	.games_filter_element.active {
+		background: #ffb700;
+		color: #262626;
+	}
+
+.filter__more_games {
+	color: #fff;
+	background: #000;
+}
+
+.filter_result__go_back {
+	color: #999999;
+}
+
+.games_filter_popup__footer {
+	background-color: #262626;
+}
+
+.games_filter_reset {
+	background-color: #161415;
+}
+
+.games_filter_show {
+	background-color: #ffb700;
+	color: #000
+}
+/*training animate*/
+.training__block_circle {
+	border: 2px solid #FFFFFF;
+	box-shadow: 0 0 7px 0 #FF0000, 0 0 0 3000px rgba(0,0,0,0.7);
+}
+
+.training__info {
+	color: #333;
+	background: #fff;
+}
+
+.training__block_circle:before {
+	border: 20px solid transparent;
+	border-top: 20px solid #fff;
+}
+
+.training__next {
+	color: #ffb700;
+}
+
+#searchContent .popup_flex_box {
+	height: calc(100% - 150px);
+}
+
+div.nc__slider_block.w100 {
+	min-height: 160px;
+} 
+
+.fr__sort_by_drpdwn_el {
+	background-color: #111;
+}
+/*casino game tabs*/
+.footer_download_app {
+	background-color: #00e777;
+	color: #fff;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content:center;
+	text-transform: uppercase;
+	font-size: 12px;
+	border-radius: 4px;
+	max-width: 160px;
+	margin: 10px auto;
+	height: 32px;
+	padding-inline-start: 30px;
+	padding-inline-end: 6px;
+}
+
+	.footer_download_app:before {
+		content: "";
+		width: 20px;
+		height: 23px;
+		background-size: contain;
+		position: absolute;
+		top: 4px;
+		inset-inline-start: 20px;
+	}
+
+#content {
+	background: #141D25 !important;
+}
+
+	#content.games li a {
+		background: #070D13;
+	}
+
+#staticLoginForm {
+	background: #111;
+}
+
+/*Live casino skinning*/
+.lca-main-content {
+	background-color: #000309;
+	color: #fff;
+}
+/*Menu*/
+.lca_search_cont, .lca-menu {
+	background-color: #070d13;
+}
+
+.lca-menu-link {
+	color: #fff;
+}
+
+	.lca-menu-link.active {
+		background-color: #F6C600;
+		color: #000;
+	}
+
+		.lca-menu-link.active .lca-menu-badge {
+			background-color: #070d13;
+			color: #F6C600;
+		}
+
+.lca-menu-badge {
+	background-color: #F6C600;
+	color: #000;
+}
+/*Submenu*/
+.lca-submenu {
+	background-color: #0c151a;
+	color: #fff;
+}
+
+.lca-submenu-link {
+	color: #cccccc;
+}
+
+	.lca-submenu-link.active {
+		color: #F6C600;
+	}
+/*Game card*/
+.lca-card-footer {
+	background-color: #070d13;
+	color: #fff;
+}
+
+.lca-card-footer-btn .star_icon.active, .lca-card-price {
+	color: #F6C600;
+}
+
+.lca-card-footer-btn {
+	background-color: #141d25;
+	color: #fff;
+}
+
+	.lca-card-footer-btn .like_icon:after,
+	.lca-card-footer-btn .star_icon {
+		color: #fff;
+	}
+
+.lca-main-content .star_icon.active:after {
+	color: #F6C600;
+	text-shadow: 0px 0px 6px #ffd52a;
+}
+
+.lca-card-badge.type-1 {
+	background-color: #F6C600;
+	color: #000;
+}
+/*Filter and search*/
+.lca-title {
+	color: #fff;
+}
+
+.lca-input {
+	background-color: #141d25;
+	color: #cccccc;
+}
+
+.lca-filter-toggle {
+	color: #fff;
+}
+
+.lca-filter-price {
+	background-color: #141d25;
+	color: #fff;
+}
+
+.lca-filter-price-input {
+	color: #fff;
+}
+
+.lca-filter-range-divider {
+	background-color: #F6C600;
+}
+
+.lca-main-content .noUi-target {
+	background: #141d25;
+}
+
+.lca-main-content .noUi-connect {
+	background: #F6C600;
+}
+
+.lca-main-content .noUi-handle {
+	border-color: #141d25;
+	background: #F6C600;
+}
+
+.lca-filter-category-item {
+	background-color: #141d25;
+	color: #fff;
+}
+
+	.lca-filter-category-item.active {
+		background-color: #F6C600;
+		color: #000;
+	}
+
+.lca-search-result-title {
+	color: #fff;
+}
+
+.lca-search-result-filter-item {
+	color: #cccccc;
+}
+
+.lca-search-result-filter-item-description {
+	color: #fff;
+}
+
+.lca-dropdown-toggle {
+	color: #fff;
+}
+
+.lca-dropdown {
+	background-color: #070d13;
+	color: #fff;
+}
+
+.lca-dropdown-item {
+	color: #fff;
+}
+
+.lca-back-link {
+	color: #cccccc;
+}
+
+.lca-card-more-wrapper {
+    background-color: #1a1d21;
+    color: #fff;
+}
+
+.lca-card-more {
+	color: #fff;
+}
+
+.lca-filter-footer {
+	background-color: #070d13;
+	color: #fff;
+}
+
+.lca-filter-footer-btn-reset {
+	background-color: #0c151a;
+	color: #fff;
+}
+
+.lca-filter-footer-btn-show {
+	background-color: #F6C600;
+	color: #000;
+}
+
+.lca-promo-text-wrapper {
+	background-color: #070d13;
+	color: #fff;
+}
+
+.lca-promo-title {
+	color: #fff;
+}
+
+.lca-main-content .promo_mobile_cont {
+	background-color: #070d13;
+	color: #fff;
+}
+
+.lca-main-content .promo_mobile_title {
+	color: #fff;
+}
+
+.lca-main-content .promo_mobile_text_cont {
+	box-shadow: 0 -14px 29px 19px #070d13;
+}
+
+.lca-card-promo-img::after {
+	box-shadow: inset 0px -71px 39px -35px #070d13;
+}
+
+
+/*documents tab*/
+
+.document_upload_content {
+	background-color: #141D25;
+}
+
+	.document_upload_content .popup_lbl {
+		color: #fff;
+	}
+
+	.document_upload_content .drop-down {
+		background-color: #1a2d40 !important;
+		color: #fff !important;
+		font-size: 14px;
+	}
+
+
+.upload_doc_info {
+	color: #1A1A1A;
+	background-color: rgba(250,250,250,0.8);
+}
+
+.document_upload_content .ui-btn select {
+	color: #fff !important;
+}
+
+.attached_all_files .errorcount {
+	background: white;
+	color: #FF0000;
+}
+
+.attached_file_content {
+	background-color: #DFDFDF;
+}
+
+.btn_upload {
+	background-color: #1a2d40 !important;
+	color: #fff !important;
+}
+
+.btn_document_update {
+	background-color: #00e777;
+	color: #000;
+}
+
+.document_upload_content #attachfile_btn {
+	background-color: #00e777;
+	color: #000;
+}
+
+.upload_file_info {
+	-webkit-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.3);
+	box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.3);
+	color: #fff;
+	background-color: #1a2d40 !important;
+}
+
+.upload_file_info_name {
+	color: #ccc;
+}
+
+.upload_file_info_left .Rejected,
+.upload_file_info_left .Pending {
+	color: #FFB700;
+}
+
+.upload_file_info_left .Approved {
+	color: #009900;
+}
+
+.forgot_pass__row .eye_button_ForgotPass {
+	height: 40px;
+	line-height:40px;
+}
+
+.view_upload_file .eye_button {
+	color: #fff;
+}
+.upload_doc_list li{
+	margin-bottom: 10px;
+}
+/*documents tab*/
+/*27.4.21 optims*/
+body .bg-primary, body .h-bg-primary {
+	background-color: #00E777;
+	color: #000;
+}
+
+	body .h-bg-primary:hover {
+		background-color: #00b45d;
+		color: #000;
+	}
+
+body .text-primary {
+	color: #00E777;
+}
+
+body .bg-secondary, body .h-bg-secondary {
+	background-color: #CCCCCC;
+	color: #2E2E2E;
+}
+
+body .h-bg-secondary:hover {
+	background-color: #aba9a9;
+	color: #2E2E2E;
+}
+
+ 
+body .bg-tert, body .h-bg-tert {
+	background-color: #070D13;
+	color: #fff;
+}
+
+	body .h-bg-tert:hover {
+		background-color: #070D13;
+		color: #fff;
+	}
+
+/*top winners*/
+.tl_casino_page .text-primary {
+	color: #ffb700;
+}
+
+.promocode-container-mobile .ui-input-text input {
+	color: #fff;
+}
+
+.pardakhtp2p {
+	width: 72px;
+	height: 25px;
+	background-image: url(/img/Casino-images-allinone.png);
+	background-position: -7798px -58px;
+}
+
+.exchangeripg {
+	width: 72px;
+	height: 25px;
+	background-image: url(/img/Casino-images-allinone.png);
+	background-position: -2986px -59px;
+}
+
+.maksiparapapara {
+	width: 72px;
+	height: 25px;
+	background-image: url(/img/Casino-images-allinone.png);
+	background-position: -2291px -92px !important;
+}
+
+.fastpay {
+	width: 61px;
+	height: 25px;
+	background-image: url(/img/Casino-images-allinone.png);
+	background-position: -5977px -28px;
+}
+
+/*very new bonus*/ 
+.bonus_card_body {
+	background-color: #282f36;
+}
+
+.cryptocurrencies {
+	width: 61px;
+	height: 27px;
+	background-image: url(/img/Casino-images-allinone.png);
+	background-position: -5178px 212px;
+}
+
+.umob {
+	width: 61px;
+	height: 27px;
+	background-image: url(/img/Casino-images-allinone.png);
+	background-position: -6338px 211px;
+}
+
+/*Registration optimization*/
+.reg__checkboxes_row .regErMes.info-block {
+	display: block;
+}
+.D_reg_step{
+	display: none;
+}
+
+/*Start Registration standart or quick */
+
+.reg_content.chosePopup {
+	padding: 42px 36px 58px 36px;
+}
+
+.reg_content.chosePopup img{
+	width: 243px;
+	margin-bottom: 56px;
+}
+
+.reg_content.chosePopup a{
+	width: 100%;
+	height: 34px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	background-color: #00F67F;
+	border-radius: 2px;
+	font-size: 15px;
+	color: #00190D;
+	text-transform: uppercase;
+}
+
+.reg_content.chosePopup .standardReg{
+	margin-bottom: 15px;
+}
+
+.reg_content.chosePopup p {
+	margin-top: 38px;
+	margin-bottom: 0;
+	font-size: 15px;
+	line-height: 18px;
+	color: #EBECED;
+}
+
+
+.reg_progress_dots .active {
+	border-color: #00E777;
+}
+
+.reg__row_title label {
+	color: #EBECED;
+}
+
+.reg_prof__element_row input,
+.reg_prof__element_row select{
+	background-color: #192630;
+	color: #E8E8E9;
+	height: 34px;
+	border-radius: 2px;
+}
+
+.phone_number_reg{
+	width: 125px;
+}
+
+.reg_err_mess {
+	display: block;
+	color: #f00;
+	margin-top: 8px;
+}
+
+#Captcha {
+	padding: 0 20px 0 20px;
+}
+
+.reg_content[data-step="Fourth"] .register_step_descr.congrats_text {
+	font-size: 14px;
+	line-height: 20px;
+	color: #FFFFFF;
+	margin: 0;
+	text-align: center;
+}
+
+.reg_content[data-step="Fourth"] .reg_steps_info .register_step_number {
+	margin-top: 12px;
+	margin-bottom: 42px;
+	text-transform: uppercase;
+}
+
+
+.qucikReg.reg_content[data-step="Third"] .register_step_descr.congrats_text {
+	font-size: 14px;
+	line-height: 20px;
+	color: #FFFFFF;
+	margin: 0;
+	text-align: center;
+}
+
+.qucikReg.reg_content[data-step="Third"] .reg_steps_info .register_step_number {
+	margin-top: 12px;
+	margin-bottom: 42px;
+	text-transform: uppercase;
+}
+
+.qucikReg.reg_content[data-step="Second"] .register_step_descr {
+	text-align: center;
+	color: #E8E8E9;
+	text-transform: capitalize;
+}
+
+
+.reg_progress_dots span.done svg {
+	fill: #141D25;
+}
+
+input[type="checkbox"], input[type="radio"] {
+	width: 24px;
+	height: 24px;
+	min-height: initial;
+}
+
+.radio_input {
+	display: none;
+}
+
+.ui-radio .ui-btn.ui-radio-on:after, .radio_input:checked+.radio_btn_style {
+    box-shadow: inset 0 58px 0 12px #E8E8E9, 0 0 0 2px #E8E8E9;
+}
+
+.ui-radio .ui-btn.ui-radio-off:after, .ui-radio .ui-btn.ui-radio-on:after, .radio_input+.radio_btn_style {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    height: 14px;
+    width: 14px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    -webkit-box-shadow: 0 0 0 2px #E8E8E9;
+    box-shadow: 0 0 0 2px #E8E8E9;
+    -webkit-margin-end: 10px;
+    margin-inline-end: 10px;
+    margin-top: 1px;
+}
+
+.twoReg_cont .reg__gender_row label, .profile_container .reg__gender_row label {
+	padding: 0 2px;
+}
+
+.reg_content.qucikReg .reg_progress_dots span:before {
+	width: 159px;
+}
+
+.reg_content[data-step="Third"] .register_phone_part p{
+	color: #E8E8E9;
+	font-size: 16px;
+	text-align: center;
+}
+
+.reg_content[data-step="Third"] .register_phone_part .txt_code,
+.qucikReg.reg_content[data-step="Second"] .register_phone_part .txt_code {
+	margin-top: 23px;
+	margin-bottom: 24px;
+	font-size: 11px;
+	line-height: 18px;
+	color: #9E9EA0;
+} 
+/*End Registration standart or quick */
+/*start new checkbox*/
+.checkBox_label {
+	margin-inline-start: 32px;
+	position: relative;
+	font-size: 12px;
+	line-height: 1.5;
+	color: #B9BBBE;
+	display: inline-block;
+	cursor: pointer;
+	font-weight: 400;
+}
+
+.checkBox_text a {
+	color: var(--cwInputTxt);
+	font-weight: 400;
+	text-decoration: underline;
+}
+
+.checkBox_label .checkBox_input[type="checkbox"] {
+	display: none;
+}
+
+.checkBox_input + .checkBox_icon {
+	position: absolute;
+	top: 0;
+	inset-inline-start: -32px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 20px;
+	line-height: 18px;
+	cursor: pointer;
+	width: 18px;
+	height: 18px;
+	background-color: #141D25;
+	border: 2px solid var(--cwModalTxt2);
+	color: var(--cwModalTxt2);
+}
+
+.checkBox_input:checked + .checkBox_icon {
+	background-color: var(--cwModalTxt2);
+	color: var(--cwModalBg);
+	border: none;
+}
+
+.checkBox_input + .checkBox_icon:after {
+	content: "\E085";
+	font-family: "iconsDinamicMenu";
+	display: none;
+}
+
+.checkBox_input:checked + .checkBox_icon:after {
+	display: block;
+}
+
+.input_validation_fail .checkBox_label,
+.input_validation_fail .checkBox_label a {
+	color: #ff0000;
+}
+
+.input_validation_fail .checkBox_input + .checkBox_icon {
+	border-color: #ff0000;
+}
+
+.tl_mobile_item .disabled{
+	display: none;
+}
+
+
+@media only screen and (max-width: 360px) {
+	.reg_progress_dots span:before{
+		width: 78px;
+	}
+}
+
+@media only screen and (max-width: 360px) {
+	.reg_content.qucikReg .reg_progress_dots span:before {
+		width: 147px;
+	}
+}
+
+@media only screen and (max-width: 330px) {
+	.reg_content.qucikReg .reg_progress_dots span:before {
+		width: 125px;
+	}
+}
+/*End new checkbox*/
+
+/*Common Notification Settings*/
+.notificationSettings_item.footer-check {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.footer-check.switch input.sw {
+    display: none;
+}
+
+.footer-check.switch input.sw + label {
+    width: 36px;
+    height: 14px;
+    position: relative;
+}
+
+.footer-check.switch input.sw + label:after {
+    content: "";
+    width: 20px;
+    height: 20px;
+    display: block;
+    position: absolute;
+    top: -3px;
+    left: 0;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.21);
+    background-color: var(--cwButtonBg);
+}
+
+.footer-check.switch input.sw:checked + label:after {
+    left: 16px;
+}
+
+.footer-check.switch input.sw + label:before {
+    content: "";
+    width: 36px;
+    position: absolute;
+    top: 0;
+    height: 14px;
+    display: block;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+.pay_img img {
+	max-width: 308px;
+	width: 100%;
+}
+
+.footer-check.switch label {
+	cursor: pointer;
+}
+/*Common Notification Settings*/

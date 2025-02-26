@@ -1,0 +1,395 @@
+
+/* Casino Mobile page */
+:root {
+    --cwBodyBg: #0D1751;
+    --cwBodyBg2: #14237d;
+    --cwBodyBg3: #182a93;
+    --cwBodyBgHover: #0f1b5e;
+    --cwBodyBg2Hover: #16278a;
+    --cwBodyBg3Hover: #1a2ea0;
+    --cwBodyRGBA: rgba(13, 23, 81, 0.7);
+    --cwBodyRGBA2: rgba(13, 23, 81, 0.5);
+    --cwBodyRGBA3: rgba(13, 23, 81, 0.3);
+    --cwBodyTxt: rgba(255, 255, 255, 0.9);
+    --cwBodyTxt2: rgba(255, 255, 255, 0.6);
+    --cwBodyTxt3: rgba(255, 255, 255, 0.4);
+    --cwBodyAccent: #F9B617;
+    --cwBodyAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwBodyBorder: #0D1751;
+    --cwBodyRadius: 0px;
+    --cwDominantG: #151D46;
+    --cwDominantRGBA: rgba(21, 29, 70, 0.7);
+    --cwDominantRGBA2: rgba(21, 29, 70, 0.5);
+    --cwDominantRGBA3: rgba(21, 29, 70, 0.3);
+    --cwDominantBg: #151D46;
+    --cwDominantBg2: #212d6d;
+    --cwDominantBg3: #273581;
+    --cwDominantBgHover: #192252;
+    --cwDominantBg2Hover: #253279;
+    --cwDominantBg3Hover: #2b3a8d;
+    --cwDominantTxt: rgba(255, 255, 255, 0.9);
+    --cwDominantTxt2: rgba(255, 255, 255, 0.6);
+    --cwDominantTxt3: rgba(255, 255, 255, 0.4);
+    --cwDominantAccent: #F9B617;
+    --cwDominantAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwDominantTxtInverse: #262626;
+    --cwDominantRadius: 0px;
+    --cwAccentBg: #F9B617;
+    --cwAccentBg2: #fac649;
+    --cwAccentBg3: #fbcd62;
+    --cwAccentBgHover: #f9bb26;
+    --cwAccentBg2Hover: #facb58;
+    --cwAccentBg3Hover: #fbd271;
+    --cwAccentG: #F9B617;
+    --cwAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwAccentTxt2: rgba(0, 0, 0, 0.6);
+    --cwAccentTxt3: rgba(0, 0, 0, 0.4);
+    --cwButtonG: #F9B617;
+    --cwButtonBg: #F9B617;
+    --cwButtonBg2: #fac649;
+    --cwButtonBg3: #fbcd62;
+    --cwButtonBgHover: #f9bb26;
+    --cwButtonBg2Hover: #facb58;
+    --cwButtonBg3Hover: #fbd271;
+    --cwButtonTxt: rgba(0, 0, 0, 0.9);
+    --cwButtonTxt2: rgba(0, 0, 0, 0.6);
+    --cwButtonTxt3: rgba(0, 0, 0, 0.4);
+    --cwButtonAccent: #F9B617;
+    --cwButtonAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwButtonBorder: #0D1751;
+    --cwButtonRadius: 0px;
+    --cwButtonSecondaryG: #F0F0F0;
+    --cwButtonSecondaryBg: #F0F0F0;
+    --cwButtonSecondaryBg2: #ffffff;
+    --cwButtonSecondaryBg3: #ffffff;
+    --cwButtonSecondaryBgHover: #f8f8f8;
+    --cwButtonSecondaryBg2Hover: #ffffff;
+    --cwButtonSecondaryBg3Hover: #ffffff;
+    --cwButtonSecondaryTxt: rgba(0, 0, 0, 0.9);
+    --cwButtonSecondaryTxt2: rgba(0, 0, 0, 0.6);
+    --cwButtonSecondaryTxt3: rgba(0, 0, 0, 0.4);
+    --cwButtonSecondaryAccent: #F9B617;
+    --cwButtonSecondaryAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwButtonSecondaryBorder: #F0F0F0;
+    --cwButtonSecondaryRadius: 0px;
+    --cwInputG: #212d6d;
+    --cwInputBg: #212d6d;
+    --cwInputBg2: #2d3d94;
+    --cwInputBg3: #3345a8;
+    --cwInputBgHover: #253279;
+    --cwInputBg2Hover: #3142a0;
+    --cwInputBg3Hover: #374ab4;
+    --cwInputTxt: rgba(255, 255, 255, 0.9);
+    --cwInputTxt2: rgba(255, 255, 255, 0.6);
+    --cwInputTxt3: rgba(255, 255, 255, 0.4);
+    --cwInputAccent: #F9B617;
+    --cwInputAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwInputRadius: 0px;
+    --cwInputBorder: #0D1751;
+    --cwInputSecondaryG: #253279;
+    --cwInputSecondaryBg: #253279;
+    --cwInputSecondaryBg2: #3142a0;
+    --cwInputSecondaryBg3: #374ab4;
+    --cwInputSecondaryBgHover: #293785;
+    --cwInputSecondaryBg2Hover: #3547ac;
+    --cwInputSecondaryBg3Hover: #3b4fc0;
+    --cwInputSecondaryTxt: rgba(255, 255, 255, 0.9);
+    --cwInputSecondaryTxt2: rgba(255, 255, 255, 0.6);
+    --cwInputSecondaryTxt3: rgba(255, 255, 255, 0.4);
+    --cwInputSecondaryAccent: #F9B617;
+    --cwInputSecondaryAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwInputSecondaryRadius: 0px;
+    --cwInputSecondaryBorder: #0D1751;
+    --cwHeaderG: #1D2759;
+    --cwHeaderBg: #1D2759;
+    --cwHeaderBg2: #2a387f;
+    --cwHeaderBg3: #304093;
+    --cwHeaderBgHover: #212c65;
+    --cwHeaderBg2Hover: #2e3d8a;
+    --cwHeaderBg3Hover: #34459f;
+    --cwHeaderTxt: rgba(255, 255, 255, 0.9);
+    --cwHeaderTxt2: rgba(255, 255, 255, 0.6);
+    --cwHeaderTxt3: rgba(255, 255, 255, 0.4);
+    --cwHeaderAccent: #F9B617;
+    --cwHeaderAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwHeaderBorder: #0D1751;
+    --cwHeaderRadius: 0px;
+    --cwSubHeaderG: #2e3d8a;
+    --cwSubHeaderBg: #2e3d8a;
+    --cwSubHeaderBg2: #3b4eb0;
+    --cwSubHeaderBg3: #4458c1;
+    --cwSubHeaderBgHover: #324295;
+    --cwSubHeaderBg2Hover: #3f53bb;
+    --cwSubHeaderBg3Hover: #4f62c5;
+    --cwSubHeaderTxt: rgba(255, 255, 255, 0.9);
+    --cwSubHeaderTxt2: rgba(255, 255, 255, 0.6);
+    --cwSubHeaderTxt3: rgba(255, 255, 255, 0.4);
+    --cwSubHeaderAccent: #F9B617;
+    --cwSubHeaderAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwSubHeaderBorder: #0D1751;
+    --cwSubHeaderRadius: 0px;
+    --cwModalG: #212d6d;
+    --cwModalBg: #212d6d;
+    --cwModalBg2: #2d3d94;
+    --cwModalBg3: #3345a8;
+    --cwModalBgHover: #253279;
+    --cwModalBg2Hover: #3142a0;
+    --cwModalBg3Hover: #374ab4;
+    --cwModalTxt: rgba(255, 255, 255, 0.9);
+    --cwModalTxt2: rgba(255, 255, 255, 0.6);
+    --cwModalTxt3: rgba(255, 255, 255, 0.4);
+    --cwModalAccent: #F9B617;
+    --cwModalAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwModalRadius: 0px;
+    --cwModalBorder: #0D1751;
+    --cwTabG: #212d6d;
+    --cwTabBg: #212d6d;
+    --cwTabBg2: #2d3d94;
+    --cwTabBg3: #3345a8;
+    --cwTabBgHover: #253279;
+    --cwTabBg2Hover: #3142a0;
+    --cwTabBg3Hover: #374ab4;
+    --cwTabTxt: rgba(255, 255, 255, 0.9);
+    --cwTabTxt2: rgba(255, 255, 255, 0.6);
+    --cwTabTxt3: rgba(255, 255, 255, 0.4);
+    --cwTabAccent: #F9B617;
+    --cwTabAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwTabRadius: 0px;
+    --cwTabBorder: #0D1751;
+    --cwTabActiveG: #253279;
+    --cwTabActiveBg: #253279;
+    --cwTabActiveBg2: #3142a0;
+    --cwTabActiveBg3: #374ab4;
+    --cwTabActiveBgHover: #293785;
+    --cwTabActiveBg2Hover: #3547ac;
+    --cwTabActiveBg3Hover: #3b4fc0;
+    --cwTabActiveTxt: rgba(255, 255, 255, 0.9);
+    --cwTabActiveTxt2: rgba(255, 255, 255, 0.6);
+    --cwTabActiveTxt3: rgba(255, 255, 255, 0.4);
+    --cwTabActiveAccent: #F9B617;
+    --cwTabActiveAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwTabActiveRadius: 0px;
+    --cwTabActiveBorder: #0D1751;
+    --cwTooltipG: #212d6d;
+    --cwTooltipBg: #212d6d;
+    --cwTooltipBg2: #2d3d94;
+    --cwTooltipBg3: #3345a8;
+    --cwTooltipBgHover: #253279;
+    --cwTooltipBg2Hover: #3142a0;
+    --cwTooltipBg3Hover: #374ab4;
+    --cwTooltipTxt: rgba(255, 255, 255, 0.9);
+    --cwTooltipTxt2: rgba(255, 255, 255, 0.6);
+    --cwTooltipTxt3: rgba(255, 255, 255, 0.4);
+    --cwTooltipAccent: #F9B617;
+    --cwTooltipAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwTooltipRadius: 0px;
+    --cwTooltipBorder: #0D1751;
+}
+
+.mb-40 {
+    margin-bottom: 40px;
+}
+
+.mt-40 {
+    margin-top: 40px;
+}
+  
+/* header */
+.LogoMobilePlatform {
+    background-image: var(--cdn-logo-mob_png);
+}
+
+/*footer*/
+.tl_container {
+    padding: 40px 10px 130px;
+}
+
+.drop_down_lang {
+    margin-bottom: 40px;
+}
+
+.canaliTv_mob{
+    display: block;
+    margin-top: 22px;
+    margin-bottom: 54px;
+}
+
+.cw_mob_footer_18_wrapper{
+    color: #CC0000;
+}
+
+.support_section{
+    row-gap: 16px;
+}
+
+.footer_links a:not(.footer_links__title) {
+    color: var(--cwHeaderTxt2);
+    font-size: 16px;
+}
+
+.footer_links__title {
+    text-transform: uppercase;
+    text-transform: uppercase;
+    color: var(--cwHeaderAccent);
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.footer_links > div {
+    margin-bottom: 15px;
+}
+.footer_copy, .footer_text {
+    font-size: 14px;
+    color: var(--cwHeaderTxt2);
+    margin-bottom: 4px;
+    text-align: center;
+}
+
+.betsnew_licence_text {
+    color: var(--cwBodyTxt);
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 500;
+}
+
+.betsnew_licence_text a{
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+.footer-button {
+    background-color: #100839;
+    padding: 10px 16px 10px 16px;
+    color: #FBB700;
+}
+
+.textCenter_img p{
+    color: var(--cwHeaderAccent);
+    font-weight: 500;
+    font-size: 16px;
+}
+
+/* Registration */
+.reg_fast_full_block {
+    padding: 15vh 20px;
+}
+
+.registration_logo {
+    margin-bottom: 40px;
+}
+
+.registration__container{
+    padding: 20px;
+}
+
+.register_date_select,
+.phone_number_inp_reg{
+    width: 100%;
+}
+
+.ui-btn-icon-right:after{
+    background-color: transparent;
+}
+
+.phone_number_reg {
+    min-width: 87px;
+}
+
+.reg__gender_row .col3{
+    width: 50%;
+}
+
+.input-validation-error.reg__checkboxes_row {
+    border: 0;
+}
+
+.checkbox_info{
+    font-size: 12px;
+    color: var(--cwInputTxt3);
+}
+
+.checkbox_info a{
+    color: var(--cwInputTxt);
+    font-weight: 400;
+}
+
+.input-validation-error .checkbox_info,
+.input-validation-error .checkbox_info a
+{
+    color: #fc0000;
+}
+
+.reg_err_mess{
+    background: #fff;
+}
+.reg_err_mess span:before{
+    border-bottom-color: #fff;
+}
+
+.input_validation_fail .reg_err_mess {
+    color: #f00;
+}
+
+#termsError{
+    color: #fc0000;
+}
+
+#registerForm #registerButton{
+    margin-top: 40px;
+}
+
+.forgotpass .successmassage{
+    margin: 30px 0;
+}
+
+.platformRightLoginPanel .platformLoginButton {
+    margin: 0;
+}
+
+#loginButton{
+    margin-top: 10px;
+}
+
+.registration__container .reg_required_field:after {
+    content: "*";
+    align-self: flex-start;
+}
+
+.forgot_username_block .tl_sup_link {
+    background-color: var(--cwModalBg3);
+    color: var(--cwModalTxt);
+    min-height: 35px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    line-height: 1;
+    width: 100%;
+    text-transform: uppercase;
+    border-radius: 2px;
+    margin: 10px 0;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+#donebutton.btn_prim,
+#regnewaccbutton.btn_prim{
+    background: var(--cwButtonG);
+    color: var(--cwButtonTxt);
+    border: 1px solid var(--cwButtonBorder);
+    border-radius: var(--cwButtonRadius);
+}
+
+#tryagainbutton.btn_prim {
+    background: var(--cwButtonSecondaryG)!important;
+    color: var(--cwButtonSecondaryTxt);
+    border: 1px solid var(--cwButtonSecondaryBorder);
+    border-radius: var(--cwButtonSecondaryRadius);
+}
+

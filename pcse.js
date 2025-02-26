@@ -33,7 +33,7 @@ async function processDirectory(directory) {
       } else if (path.extname(item.name) === ".css") {
           // If the item is a CSS file, process it
           const options = {
-            rootSelector: "#sport-simple-east",
+            rootSelector: ".dg-tm-app-wrapper",
             partnerId: fullPath
           }
           const css = await fs.readFile(fullPath, "utf8");

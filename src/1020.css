@@ -1,0 +1,706 @@
+/*ADDED FOR REASON REMOVE LATER*/
+body {
+    --bg-level-1: #292929;
+    --bg-level-2: #1a1a1a;
+    --text-level-high: #fff;
+    --cwPrimary: #fad639;
+    --text-on-primary: #000;
+}
+
+
+html, body, #wrapper {
+    background-color: #292929;
+}
+
+.bgMain {
+    background-color: #1a1a1a !important;
+}
+
+
+
+.user .ic {
+	color: #fff;
+}
+
+.btn_prim,
+.clr_prim,
+.promo_clicked {
+    background-color: #fad639 !important;
+    color: #000000 !important;
+}
+
+/*.ui-checkbox label {
+	color: #111 !important;
+}*/
+
+.heading {
+    background-color: #fad639 !important;
+    color: #292929 !important;
+    border-bottom: 2px solid #ffb700;
+}
+
+.ui-collapsible-content {
+ background-color: #191919 !important;
+}
+
+.sub_heading,
+.row label {
+	color: #fff;
+}
+.menuBtn {
+	background-color: #fff;
+	color: #000 !important;
+}
+
+    .menuBtn a {
+        color: #fad639 !important
+    }
+
+.menuBtnSm {
+	background-color: #fff;
+	color: #000 !important;
+}
+
+#header .txt {
+	color: #fff;
+}
+
+.menuRow {
+    background-color: #292929;
+    color: #fad639 !important;
+}
+
+.pagIt {
+	background-color: #111;
+	color: #fff;
+}
+
+#copyright {
+	background: none;
+}
+
+.platformForgPass {
+    color: #ffffff !important;
+}
+
+.LinkToLeftPanel {
+	color: #999999 !important;
+}
+
+.panel ul li.activated {
+	background-color: #30862f !important;
+	border-color: #30862f;
+}
+
+	.panel ul li.activated .PLspText,
+	.panel ul li.activated a:before {
+		color: #111 !important;
+	}
+
+.nav {
+	background: none;
+}
+
+/* header */
+.link_icons {
+    width: 50px;
+    height: 50px;
+    margin: 25% 10px 0;
+}
+
+    .link_icons img {
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+    }
+/*main content*/
+.slidesjs-pagination li a.active, .paging li a.active {
+    border: 1px solid #30862f;
+    color: #555;
+}
+
+#inbox .unread td, #inbox .unread td a {
+	color: #30862f !important;
+}
+
+.PLUlblICt,
+.lblInboxCount1 {
+	background-color: #cc0001;
+}
+
+/*	datepicker color changes	*/
+.ui-widget-header {
+	background: #02954e !important;
+	border: none;
+}
+
+	.ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight {
+		border: 1px solid #02954e;
+		background: #02954e;
+	}
+
+	.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus {
+		border: 1px solid #02954e;
+		background: green url(images/ui-bg_glass_100_fdf5ce_1x400.png) 50% 50% repeat-x;
+	}
+
+	.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
+		border: 1px solid #02954e;
+	}
+
+.ui-state-hover .ui-icon, .ui-state-focus .ui-icon {
+}
+
+#footer {
+    background-color: #1a1a1a !important;
+}
+
+.horizontal-list .footer_social-item{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+#footer-links ul li {
+    margin: 0 8px;
+}
+
+.LogoMobilePlatform {
+    background-image: url(/img/mobile/partners/1020/logo.png);
+    height: 33px;
+    width: 87px;
+}
+
+#betSlip a {
+	background-color: #013a65 !important;
+	color:#fff !important;
+	border: 0;
+	border-radius: 3px 3px 0 0;
+}
+
+
+
+.PLUlblICt, .lblInboxCount1 {
+	background-color: #e0e0e0;
+	color: #000;
+}
+
+        .refresh-captcha,
+        .refresh-captcha:before {
+            color: #b2b2b2;
+        }
+
+#scroll {
+    background-color: #30862f;
+}
+
+/*my acc*/
+.data-tbl2 tbody th {
+	background: none;
+}
+
+#content.mobPlUserCont {
+	background-color: #a7a7a7;
+}
+
+.ui-shadow-inset {
+	-webkit-box-shadow: none !important;
+	-ms-box-shadow: none !important;
+	box-shadow: none !important;
+}
+
+#footer_coupon_count {background-color:#000; color:#013a65;}
+
+/*Unification*/
+.tl_my_inbox_msg_box, .tl_my_inbox_mails_cont{background: #e0e0e0;}
+.tl_mail_row{ background: #d6d6d6;}
+.tl_mail_details_title{ color: #474747}
+.tl_mail_msgId {color: #4ea1cc;}
+.tl_mail_details{ color: #000;}
+
+.unread .tl_mail_details {
+    color: #999!important;
+}
+.tl_popup_clr {
+    background: #f0f0f0
+}
+.tl_my_inbox_msg_box, .tl_my_inbox_mails_cont{background: #e0e0e0}
+
+
+@media screen and (min-width: 433px) {
+    .LogoMobilePlatform {
+        background-image: url(/img/mobile/partners/1020/logo.png);
+        height: 33px;
+        width: 87px;
+    }
+}
+
+
+
+
+
+
+    /*collapsable deposit withdrowal*/
+    .collapse_btn h3 > a {
+        background-color: #013a65;
+        color: #fff;
+        border-color: #013a65;
+    }
+
+    .paym_txt, #generalTermsLink, .paym_txt1, .paym_cond, .paym_cond > span {
+        color: #111;
+    }
+
+    .collapse_btn .ui-collapsible-content {
+        background-color: #e0e0e0 !important;
+    }
+
+
+
+    #wrapper #left-panel.panel.bgMain.ui-panel, .ui-panel-inner .platformRightLoginPanel {
+        background-color: #1a1a1a !important;
+    }
+
+
+.menuBtn, .menuBtnSm {
+    background-color: #292929;
+    color: #fad639 !important;
+}
+
+.MobileIcon {
+    background: #1a1a1a !important;
+    border: 1px solid;
+}
+
+    /*Betslip*/
+
+    #betSlip a, #footer_coupon_div, #footer_bet_history {
+        background-color: #c1d201 !important;
+        border-top-color: #8e9b00 !important;
+        color: #000 !important;
+    }
+
+    #footer_coupon_count {
+        color: #c1d201;
+    }
+
+#genderMob.row label {
+    color: #1a1a1a;
+}
+
+#footer_coupon #footer_coupon_div {
+    color: #111 !important;
+    background: #fad639 !important;
+    border-top: 1px solid #fad639;
+}
+@media only screen and (min-width: 800px) {
+    #home-keno {
+        background-size: cover;
+        background-image: url(/Img/mobile/partners/1020/keno.jpg);
+    }
+    #home-backgammon5 {
+        background-size: cover;
+        background-image: url(/Img/mobile/partners/1020/Backgammon.jpg);
+    }
+    #home-domino5 {
+        background-size: cover;
+        background-image: url(/Img/mobile/partners/1020/domino.jpg);
+    }
+    #fast-games {
+        background-size: cover;
+        background-image: url(/Img/mobile/partners/1020/fast_games.jpg);
+    }
+    #home-skillgames {
+        background-size: cover;
+        background-image: url(/Img/mobile/partners/1020/multinetwork_banner.jpg);
+    }
+    #home-Crash {
+        background-size: cover;
+        background-image: url(/Img/mobile/partners/1020/BetRealX_Crash.png);
+    }
+    #home-hilo {
+        background-size: cover;
+        background-image: url(/Img/mobile/partners/1020/BetRealX_Hilo.jpg);
+    }
+}
+
+.bonus-block div {
+    color: #fff;
+}
+
+.partner_color {
+    color: #fad639;
+}
+
+.depositForms label, .withdrawalForms label {
+    color: #013a65;
+}
+
+.tl_mail_message_cont .tl_mail_details, .tl_mail_message_cont .tl_mail_details_title {
+    color: #fff;
+}
+
+.regMobBody #phone {
+    width: 100%;
+    margin-left: 10px;
+}
+
+.reg_width_block {
+    width: 90px;
+}
+
+#countryNumber-button .ui-btn-icon-right:after {
+    right: 0!important;
+}
+
+#countrycodewidth {
+width:100px
+}
+.footer-check {
+    justify-content: center;
+}
+.cepbank, .cepbankdeposit {
+    width: 70px;
+    height: 25px;
+    background-image: url(/img/Casino-images-allinone.png);
+    background-position: -4714px -153px;
+}
+
+.ui-loading .ui-loader {
+    display: none;
+}
+
+.papara {
+    width: 69px;
+    height: 25px;
+    background-image: url(/img/Casino-images-allinone.png);
+    background-position: -4485px -153px;
+}
+
+.qrkod {
+    width: 76px;
+    height: 25px;
+    background-image: url(/img/Casino-images-allinone.png);
+    background-position: -2148px -181px;
+}
+/*inputs optimisation*/
+input,
+.reg_input,
+.tl_mail_send_area,
+.custon_select__front_el,
+.drop-down,
+.drop-down-small,
+#content_paym .ui-select span,
+#content_paym .ui-select select,
+.favorite_amounts > div,
+.reg__checkboxes_row,
+.reg__gender_row label,
+.profile_container .reg__gender_row label {
+    background-color: #f5f5f5;
+    color: #000;
+}
+.reg__row_title, .profile_container label, .transfer2friend_cont label, #content_paym label, .forgot_pass__row label, .r_login__row label, .changepass__element_row label, .search_popup_row label {
+    color: #a3a3a3;
+}
+
+/*footer sprite*/
+.cw_mob_footer_18_wrapper {
+    color: red;
+}
+.fpay {
+    width: 86px;
+    height: 42px;
+    background-image: url(/Img/partners/1020/footer_payments.png);
+    background-size: 100% auto;
+    background-position-x: 0;
+    margin: 6px
+}
+
+    .fpay.sekerbank {
+        background-position-y: 0;
+    }
+
+    .fpay.denizbank {
+        background-position-y: -44px;
+    }
+
+    .fpay.kuveytbank {
+        background-position-y: -88px;
+    }
+
+    .fpay.ziraat {
+        background-position-y: -132px;
+    }
+
+    .fpay.vakif {
+        background-position-y: -176px;
+    }
+
+    .fpay.pttbank {
+        background-position-y: -220px;
+    }
+
+    .fpay.ing {
+        background-position-y: -264px;
+    }
+
+    .fpay.teb {
+        background-position-y: -308px;
+    }
+
+    .fpay.yapikredi {
+        background-position-y: -352px;
+    }
+
+    .fpay.turkiyebankasi {
+        background-position-y: -396px;
+    }
+
+    .fpay.akbank {
+        background-position-y: -440px;
+    }
+
+    .fpay.envoyqrkod {
+        background-position-y: -484px;
+    }
+
+    .fpay.envoyhizlihavale {
+        background-position-y: -528px;
+    }
+
+    .fpay.maksikripto {
+        background-position-y: -572px;
+    }
+
+    .fpay.maksipayfix {
+        background-position-y: -616px;
+    }
+
+    .fpay.maksikredi {
+        background-position-y: -660px;
+    }
+
+    .fpay.maksibanka {
+        background-position-y: -704px;
+    }
+
+    .fpay.maksipapara {
+        background-position-y: -748px;
+    }
+
+    .fpay.payfix {
+        background-position-y: -792px;
+    }
+
+    .fpay.bankahavalesi {
+        background-position-y: -836px;
+    }
+
+    .fpay.butcoin {
+        background-position-y: -880px;
+    }
+
+    .fpay.papara {
+        background-position-y: -924px;
+    }
+
+.footer_payments {
+    margin: 60px 10px 40px;
+}
+.text-primary {
+    color: #fad639;
+}
+
+/*27.4.21 optims*/
+body .bg-primary, body .h-bg-primary {
+    background-color: #fad639;
+    color: #000;
+}
+
+    body .h-bg-primary:hover {
+        background-color: #ffb700;
+        color: #000;
+    }
+
+body .text-primary {
+    color: #fad639;
+}
+
+body .bg-secondary, body .h-bg-secondary {
+    background-color: #2b2b2b;
+    color: #ffffff;
+}
+
+    body .h-bg-secondary:hover {
+        background-color: #2b2b2b;
+        color: #fff;
+    }
+
+body .bg-tert, body .h-bg-tert {
+    background-color: #000;
+    color: #fff;
+}
+
+    body .h-bg-tert:hover {
+        background-color: #000;
+        color: #fff;
+    }
+
+    :root {/*--body */
+    --cwBodyG: #292929;
+    --cwBodyBg: #292929;
+    --cwBodyBgHover: #313131;
+    --cwBodyBg2: #424242;
+    --cwBodyBg2Hover: #4a4a4a;
+    --cwBodyBg3: #4f4f4f;
+    --cwBodyBg3Hover: #575757;
+    --cwBodyTxt: rgba(255, 255, 255, 0.9);
+    --cwBodyTxt2: rgba(255, 255, 255, 0.6);
+    --cwBodyTxt3: rgba(255, 255, 255, 0.4);
+    --cwBodyAccent: #fad639;
+    --cwBodyAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwBodyBorder: #292929; /*--dominant */
+    --cwDominantG: #313131;
+    --cwDominantBg: #313131;
+    --cwDominantBgHover: #393939;
+    --cwDominantBg2: #4a4a4a;
+    --cwDominantBg2Hover: #525252;
+    --cwDominantBg3: #575757;
+    --cwDominantBg3Hover: #5f5f5f;
+    --cwDominantTxt: rgba(255, 255, 255, 0.9);
+    --cwDominantTxt2: rgba(255, 255, 255, 0.6);
+    --cwDominantTxt3: rgba(255, 255, 255, 0.4);
+    --cwDominantAccent: #fad639;
+    --cwDominantAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwDominantBorder: #292929;/*--accent */
+    --cwAccentG: #fad639;
+    --cwAccentBg: #fad639;
+    --cwAccentBgHover: #fad948;
+    --cwAccentBg2: #fbe06b;
+    --cwAccentBg2Hover: #fbe37a;
+    --cwAccentBg3: #fce584;
+    --cwAccentBg3Hover: #fce893;
+    --cwAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwAccentTxt2: rgba(0, 0, 0, 0.6);
+    --cwAccentTxt3: rgba(0, 0, 0, 0.4);
+    --cwAccentAccent: #fad639;
+    --cwAccentAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwAccentBorder: #292929;/*--button */
+    --cwButtonG: #fad948;
+    --cwButtonBg: #fad948;
+    --cwButtonBgHover: #fadc57;
+    --cwButtonBg2: #fbe37a;
+    --cwButtonBg2Hover: #fbe689;
+    --cwButtonBg3: #fce892;
+    --cwButtonBg3Hover: #fceba1;
+    --cwButtonTxt: rgba(0, 0, 0, 0.9);
+    --cwButtonTxt2: rgba(0, 0, 0, 0.6);
+    --cwButtonTxt3: rgba(0, 0, 0, 0.4);
+    --cwButtonAccent: #fad639;
+    --cwButtonAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwButtonBorder: #292929;/*--input */
+    --cwInputG: #424242;
+    --cwInputBg: #424242;
+    --cwInputBgHover: #4a4a4a;
+    --cwInputBg2: #5b5b5b;
+    --cwInputBg2Hover: #636363;
+    --cwInputBg3: #686868;
+    --cwInputBg3Hover: #707070;
+    --cwInputTxt: rgba(255, 255, 255, 0.9);
+    --cwInputTxt2: rgba(255, 255, 255, 0.6);
+    --cwInputTxt3: rgba(255, 255, 255, 0.4);
+    --cwInputAccent: #fad639;
+    --cwInputAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwInputBorder: #292929;/*--header */
+    --cwHeaderG: #575757;
+    --cwHeaderBg: #575757;
+    --cwHeaderBgHover: #5f5f5f;
+    --cwHeaderBg2: #707070;
+    --cwHeaderBg2Hover: #787878;
+    --cwHeaderBg3: #7d7d7d;
+    --cwHeaderBg3Hover: #858585;
+    --cwHeaderTxt: rgba(255, 255, 255, 0.9);
+    --cwHeaderTxt2: rgba(255, 255, 255, 0.6);
+    --cwHeaderTxt3: rgba(255, 255, 255, 0.4);
+    --cwHeaderAccent: #fad639;
+    --cwHeaderAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwHeaderBorder: #292929;/*--navbar */
+    --cwNavbarG: #424242;
+    --cwNavbarBg: #424242;
+    --cwNavbarBgHover: #4a4a4a;
+    --cwNavbarBg2: #5b5b5b;
+    --cwNavbarBg2Hover: #636363;
+    --cwNavbarBg3: #686868;
+    --cwNavbarBg3Hover: #707070;
+    --cwNavbarTxt: rgba(255, 255, 255, 0.9);
+    --cwNavbarTxt2: rgba(255, 255, 255, 0.6);
+    --cwNavbarTxt3: rgba(255, 255, 255, 0.4);
+    --cwNavbarAccent: #fad639;
+    --cwNavbarAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwNavbarBorder: #292929;/*--subHeader */
+    --cwSubHeaderG: #4a4a4a;
+    --cwSubHeaderBg: #4a4a4a;
+    --cwSubHeaderBgHover: #525252;
+    --cwSubHeaderBg2: #636363;
+    --cwSubHeaderBg2Hover: #6b6b6b;
+    --cwSubHeaderBg3: #707070;
+    --cwSubHeaderBg3Hover: #787878;
+    --cwSubHeaderTxt: rgba(255, 255, 255, 0.9);
+    --cwSubHeaderTxt2: rgba(255, 255, 255, 0.6);
+    --cwSubHeaderTxt3: rgba(255, 255, 255, 0.4);
+    --cwSubHeaderAccent: #fad639;
+    --cwSubHeaderAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwSubHeaderBorder: #292929;/*--modal */
+    --cwModalG: #424242;
+    --cwModalBg: #424242;
+    --cwModalBgHover: #4a4a4a;
+    --cwModalBg2: #5b5b5b;
+    --cwModalBg2Hover: #636363;
+    --cwModalBg3: #686868;
+    --cwModalBg3Hover: #707070;
+    --cwModalTxt: rgba(255, 255, 255, 0.9);
+    --cwModalTxt2: rgba(255, 255, 255, 0.6);
+    --cwModalTxt3: rgba(255, 255, 255, 0.4);
+    --cwModalAccent: #fad639;
+    --cwModalAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwModalBorder: #292929;/*--tab */
+    --cwTabG: #424242;
+    --cwTabBg: #424242;
+    --cwTabBgHover: #4a4a4a;
+    --cwTabBg2: #5b5b5b;
+    --cwTabBg2Hover: #636363;
+    --cwTabBg3: #686868;
+    --cwTabBg3Hover: #707070;
+    --cwTabTxt: rgba(255, 255, 255, 0.9);
+    --cwTabTxt2: rgba(255, 255, 255, 0.6);
+    --cwTabTxt3: rgba(255, 255, 255, 0.4);
+    --cwTabAccent: #fad639;
+    --cwTabAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwTabBorder: #292929;/*--tabActive */
+    --cwTabActiveG: #4a4a4a;
+    --cwTabActiveBg: #4a4a4a;
+    --cwTabActiveBgHover: #525252;
+    --cwTabActiveBg2: #636363;
+    --cwTabActiveBg2Hover: #6b6b6b;
+    --cwTabActiveBg3: #707070;
+    --cwTabActiveBg3Hover: #787878;
+    --cwTabActiveTxt: rgba(255, 255, 255, 0.9);
+    --cwTabActiveTxt2: rgba(255, 255, 255, 0.6);
+    --cwTabActiveTxt3: rgba(255, 255, 255, 0.4);
+    --cwTabActiveAccent: #fad639;
+    --cwTabActiveAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwTabActiveBorder: #292929;/*--tooltip */
+    --cwTooltipG: #424242;
+    --cwTooltipBg: #424242;
+    --cwTooltipBgHover: #4a4a4a;
+    --cwTooltipBg2: #5b5b5b;
+    --cwTooltipBg2Hover: #636363;
+    --cwTooltipBg3: #686868;
+    --cwTooltipBg3Hover: #707070;
+    --cwTooltipTxt: rgba(255, 255, 255, 0.9);
+    --cwTooltipTxt2: rgba(255, 255, 255, 0.6);
+    --cwTooltipTxt3: rgba(255, 255, 255, 0.4);
+    --cwTooltipAccent: #fad639;
+    --cwTooltipAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwTooltipBorder: #292929;
+}

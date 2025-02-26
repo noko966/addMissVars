@@ -1,0 +1,699 @@
+body {
+    --bg-level-1: #364d91;
+    --bg-level-2: #3c55a0;
+    --bg-level-3: #415dae;
+    --bg-level-4: #516cbe;
+    --text-level-high: #FFFFFF;
+    --text-level-medium: #CCCCCC;
+    --text-level-low: #999999;
+    --icon-level-high: #FFFFFF;
+    --icon-level-medium: #CCCCCC;
+    --icon-level-low: #999999;
+    --btn-primary: #FFFC09;
+    --btn-primary-text: #000000;
+    --btn-secondary: #293A6C;
+    --btn-secondary-text: #ffffff;
+    --badge-notification: #FFFC09;
+    --badge-bonus: #FFFC09;
+    --cwPrimary: #FFFC09;
+    --text-on-primary: #000000;
+}
+
+#wrapper, html, body {
+    background-color: #3A539B;
+}
+
+.bgMain {
+    background: #293A6C;
+}
+
+input.valid {
+    background: #293A6C url(/Img/mobile/common/valid.png) no-repeat left 50% !important;
+}
+
+/*buttons*/
+.btn_prim {
+    color: #000 !important;
+    background: #FFFC09;
+}
+
+.clr_prim {
+    background: #FFFC09;
+    color: #000 !important;
+}
+
+/*header*/
+#menu-right .PLUlblICt {
+    line-height: 1.5;
+}
+.casino_h_link_cont .clr_sec {
+    background: #293A6C;
+}
+
+.clr_sec {
+    background: #3A539B;
+}
+
+.casino-tabs, .casino_links_tabs { 
+    display: flex;
+}
+
+    .casino_links_tabs a {
+        font-size: 12px;
+        padding: 0 16px;
+        color: #fff;
+    }
+
+.LogoMobilePlatform {
+    background-image: url(/Img/mobile/partners/1150/logo.png);
+    background-size: contain;
+    width: 93px;
+    height: 30px;
+}
+
+.right_menu_logo {
+    background-image: url(/Img/mobile/partners/1150/logo.png);
+    background-size: contain;
+    width: 87px;
+    height: 32px;
+    margin: auto;
+    background-repeat: no-repeat;
+}
+
+.LinkToLeftPanel {
+    color: #fff;
+}
+/*footer*/
+#footer {
+    background: #293A6C;
+}
+
+.footer_links a {
+    color: #B3B3B3;
+    text-align: right;
+}
+
+.footer_links > div:first-child a {
+    text-align: left;
+}
+
+.toWeb {
+    background: #3A539B !important;
+    color: #fff !important;
+    font-size: 14px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    margin: 10px 0 15px;
+}
+
+.copy {
+    color: #FFFC09;
+    margin-bottom: 15px;
+}
+
+/*left/right menus*/
+.collapse_dropdown_leftmenu_btn:after {
+    border-color: #fff transparent transparent transparent;
+}
+
+.playerId, .account_title {
+    margin: 10px 10px;
+    padding: 0;
+}
+
+.menuBtn, .menuBtnSm, .menuRow, .ui-collapsible-inset .ui-collapsible-heading .ui-btn {
+    background-color: #3A539B;
+    color: #CCCCCC !important;
+    margin-bottom: 3px;
+    font-weight: 100 !important;
+}
+
+.menuBtn {
+    color: #fff !important;
+}
+
+.account_title {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 0 10px;
+}
+
+.ui-btn-icon-left:after, .ui-btn-icon-right:after, .ui-btn-icon-top:after, .ui-btn-icon-bottom:after, .ui-btn-icon-notext:after {
+    background-color: #293A6C;
+}
+
+.ui-collapsible-inset, .ui-collapsible-set {
+    margin: 0;
+}
+
+.menuBtnSm {
+    font-size: 14px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+}
+
+.menuRow {
+    text-transform: uppercase;
+}
+
+.ui-collapsible-themed-content .ui-collapsible-content {
+    background: #293A6C !important;
+    padding: 0;
+}
+
+.ui-collapsible-content.ui-body-inherit > .menuBtn.flex.alCen {
+    background: #293A6C;
+    color: #929397 !important;
+    text-transform: capitalize !important;
+}
+
+.telegram_ico {
+    background-image: url(/Img/mobile/partners/1150/telegram_ico.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    padding: 5px 12px;
+    background-position: 0 3px;
+}
+
+.right_menu_header {
+    display: flex;
+    width: 100%;
+    background: #010781;
+    justify-content: space-between;
+    height: 45px;
+    padding: 10px;
+}
+
+.right_menu_close {
+    font-size: 18px;
+    color: #ccc;
+}
+
+/*inbox*/
+.tl_mail_item {
+    background: #293A6C;
+    border-color: #363636;
+}
+
+    .tl_mail_item.unread {
+        background: #000000;
+    }
+
+.tl_mail_details {
+    color: #FFFFFF;
+}
+
+.tl_mail_details_title {
+    color: #B3B3B3;
+}
+
+.tl_mail_msgId {
+    color: #FFFC09;
+}
+
+.tl_mail_row {
+    background: #293A6C;
+}
+
+    .tl_mail_row .tl_mail_details, .tl_mail_row .tl_mail_details_title {
+        color: #ccc;
+    }
+
+    .tl_mail_row .tl_mail_msgId {
+        color: #fff;
+    }
+
+.tl_mail_message_body {
+    background: #3A539B;
+    border: 1px solid #FFFC09;
+    color: #fff;
+}
+
+/*account pages*/
+.heading {
+    background: #010781;
+    color: #fff;
+    border-bottom: 1px solid #FFFC09;
+    text-transform: uppercase;
+}
+
+.drop-down {
+    background-color: #293A6C;
+    color: #fff !important;
+}
+
+#bonusesNavBar > .ui-link.active {
+    background-color: #293A6C;
+}
+
+#profileContainer .inp {
+    font-size: 14px;
+    padding: 6px !important;
+    border-radius: 5px;
+}
+
+.pokerInfo_cont {
+    width: 100%;
+    height: 100%;
+    padding: 50px 0;
+    background-size: cover;
+    background-position: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+
+.pokerInfo_block {
+    border-radius: 16px;
+    background: rgba(0,0,0,0.7);
+    width: 376px;
+    text-align: center;
+    padding: 32px;
+}
+
+    .pokerInfo_block img {
+        max-width: 200px;
+    }
+
+.pokerInfo {
+    color: #fff;
+    font-size: 17px;
+    margin-top: 30px;
+    line-height: 26px;
+}
+
+
+.btn_log_poker {
+    width: 126px;
+    height: 44px;
+    margin-top: 30px;
+    line-height: 44px !important;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 0;
+}
+
+.btn_poker_block {
+    -webkit-box-pack: space-between;
+    -ms-flex-pack: space-between;
+    justify-content: space-between;
+}
+
+input#Captcha.error {
+    background-color: #293A6C;
+}
+
+.tvgames_d {
+    padding: 0;
+}
+/*inputs optimisation*/
+input,
+.reg_input,
+.tl_mail_send_area,
+.custon_select__front_el,
+.drop-down,
+.drop-down-small,
+#content_paym .ui-select span,
+#content_paym .ui-select select,
+.favorite_amounts > div,
+.reg__checkboxes_row,
+.reg__gender_row label,
+.profile_container .reg__gender_row label {
+    background-color: #3A539B;
+    color: #fff;
+}
+
+.reg__row_title, .profile_container label, .transfer2friend_cont label, #content_paym label, .forgot_pass__row label, .r_login__row label, .changepass__element_row label, .search_popup_row label {
+    color: #a3a3a3;
+}
+.phone_number_reg {
+    direction: ltr;
+}
+
+.first_reg_template .reg_mobile_code {
+    background-color: #BFBFBF;
+    color: #fff;
+    direction: ltr;
+    text-align: right;
+}
+.tour__leaderboard_table_item {
+    background-color: #222;
+}
+
+.custom_swicher {
+    border-color: #222;
+}
+
+.nonsamanbank {
+    width: 59px;
+    height: 25px;
+    background-image: url(/img/Casino-images-allinone.png);
+    background-position: -674px -91px;
+}
+
+.casino_links_tabs {
+    min-width: 100%;
+}
+/*left menu without icons*/
+#left-panel .menuBtnSm,
+#left-panel .menuBtn {
+    height: 64px;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.collapse_dropdown_leftmenu {
+    height: 67px;
+}
+
+.collapse_dropdown_leftmenu_btn:before {
+    content: "";
+    width: 35px;
+    height: 2px;
+    display: block;
+}
+
+#left-panel .menuBtnSm {
+    line-height: 64px;
+}
+
+.menuBtn .txt {
+    font-size: 15px;
+}
+
+/*live casino and betgames albatross*/
+.project_col_game_tabs .title_name {
+    background: #FFFC09;
+}
+
+.footer_social-list{
+    margin-top: 20px;
+}
+
+.footer_social-list a {
+    margin: 6px;
+}
+
+.footer_social-item {
+    background-color: transparent;
+}
+
+.text-primary {
+    color: #FFFC09;
+}
+
+body .bg-primary, body .h-bg-primary {
+    background-color: #fffc09;
+    color: #293A6C;
+}
+
+    body .h-bg-primary:hover {
+        color: #ffffff;
+        background-color: #d51815;
+        border-color: #d51815;
+    }
+
+body .text-primary {
+    color: #fffc09;
+}
+
+body .bg-secondary, body .h-bg-secondary {
+    color: #ffffff;
+    background-color: #010781;
+}
+
+    body .h-bg-secondary:hover {
+        background-color: #ffff3b;
+        color: #293A6C;
+    }
+
+body .bg-tert, body .h-bg-tert {
+    background: rgba(0,0,0,0.5);
+    color: #fff;
+}
+
+    body .h-bg-tert:hover {
+        background: rgba(0,0,0,0.5);
+        color: #fff;
+    }
+/*very new bonus*/
+.bonus_card_body {
+    background-color: #293a6c;
+}
+
+/*bonus history redesign*/
+
+.bonus-history .bonus-block {
+    background-color: #E0E1E4;
+}
+
+#bonuses_content.bonus-history .bonus-block .item {
+    border-bottom-color: rgba(120,120,120, 0.8);
+}
+
+#bonuses_content.bonus-history .col50 {
+    color: rgba(120, 120, 120, 0.9);
+}
+
+#bonuses_content.bonus-history .col50.text-right {
+    color: #262626;
+}
+
+
+.bonus-history .bonus_details p {
+    border-bottom: 1px solid rgba(120, 120, 120, 0.8);
+    color: rgba(120, 120, 120, 0.8);
+}
+
+.bonus-history .bonus_details p span {
+    color: #000000;
+}
+
+/*----------------*/
+
+
+/*balance switcher*/
+.real-tab {
+    background: linear-gradient(to left, transparent 50%, #000000 50%) right;
+    background-size: 200%;
+}
+
+.real-tab.active {
+    color: #ffffff;
+}
+
+/*----------*/
+
+.irDivMob {
+    width: 30px;
+    background-color: #242424;
+    color: white;
+    height: 34px;
+    position: relative;
+    display: inline-flex;
+    border: none;
+    min-height: 34px;
+    padding: 0 10px;
+    border-radius: 2px;
+    font-size: 14px;
+    display: block;
+    line-height: 34px;
+    text-align: center;
+    justify-content: center;
+    margin-right: 5px;
+}
+/*dynamic Banners*/
+.dynamicBanners_label {
+    pointer-events: none;
+}
+:root {
+
+    /*--body */
+    --cwBodyG: #364d91;
+    --cwBodyBg: #364d91;
+    --cwBodyBgHover: #3a539c;
+    --cwBodyBg2: #4461b6;
+    --cwBodyBg2Hover: #4d69bc;
+    --cwBodyBg3: #546fbf;
+    --cwBodyBg3Hover: #5f78c3;
+    --cwBodyTxt: rgba(255, 255, 255, 0.9);
+    --cwBodyTxt2: rgba(255, 255, 255, 0.6);
+    --cwBodyTxt3: rgba(255, 255, 255, 0.4);
+    --cwBodyAccent: #FFFC09;
+    --cwBodyAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwBodyBorder: #364d91;
+
+     /*--dominant */
+    --cwDominantG: #3a539c;
+    --cwDominantBg: #3a539c;
+    --cwDominantBgHover: #3e59a7;
+    --cwDominantBg2: #4c69bd;
+    --cwDominantBg2Hover: #5772c1;
+    --cwDominantBg3: #5f79c4;
+    --cwDominantBg3Hover: #6a82c8;
+    --cwDominantTxt: rgba(255, 255, 255, 0.9);
+    --cwDominantTxt2: rgba(255, 255, 255, 0.6);
+    --cwDominantTxt3: rgba(255, 255, 255, 0.4);
+    --cwDominantAccent: #FFFC09;
+    --cwDominantAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwDominantBorder: #364d91;
+
+    /*--accent */
+    --cwAccentG: #FFFC09;
+    --cwAccentBg: #FFFC09;
+    --cwAccentBgHover: #fffc18;
+    --cwAccentBg2: #fffd3c;
+    --cwAccentBg2Hover: #fffd4b;
+    --cwAccentBg3: #fffd55;
+    --cwAccentBg3Hover: #fffd64;
+    --cwAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwAccentTxt2: rgba(0, 0, 0, 0.6);
+    --cwAccentTxt3: rgba(0, 0, 0, 0.4);
+    --cwAccentAccent: #FFFC09;
+    --cwAccentAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwAccentBorder: #364d91;
+
+    /*--button */
+    --cwButtonG: #fffc18;
+    --cwButtonBg: #fffc18;
+    --cwButtonBgHover: #fffc27;
+    --cwButtonBg2: #fffd4b;
+    --cwButtonBg2Hover: #fffd5a;
+    --cwButtonBg3: #fffd64;
+    --cwButtonBg3Hover: #fffd73;
+    --cwButtonTxt: rgba(0, 0, 0, 0.9);
+    --cwButtonTxt2: rgba(0, 0, 0, 0.6);
+    --cwButtonTxt3: rgba(0, 0, 0, 0.4);
+    --cwButtonAccent: #FFFC09;
+    --cwButtonAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwButtonBorder: #364d91;
+
+    /*--input */
+    --cwInputG: #4461b6;
+    --cwInputBg: #4461b6;
+    --cwInputBgHover: #4d69bc;
+    --cwInputBg2: #677fc6;
+    --cwInputBg2Hover: #7288ca;
+    --cwInputBg3: #798fcd;
+    --cwInputBg3Hover: #8498d1;
+    --cwInputTxt: rgba(255, 255, 255, 0.9);
+    --cwInputTxt2: rgba(255, 255, 255, 0.6);
+    --cwInputTxt3: rgba(255, 255, 255, 0.4);
+    --cwInputAccent: #FFFC09;
+    --cwInputAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwInputBorder: #364d91;
+
+    /*--header */
+    --cwHeaderG: #5f78c3;
+    --cwHeaderBg: #5f78c3;
+    --cwHeaderBgHover: #6a81c7;
+    --cwHeaderBg2: #8497d1;
+    --cwHeaderBg2Hover: #8fa0d5;
+    --cwHeaderBg3: #97a7d8;
+    --cwHeaderBg3Hover: #a2b0dc;
+    --cwHeaderTxt: rgba(255, 255, 255, 0.9);
+    --cwHeaderTxt2: rgba(255, 255, 255, 0.6);
+    --cwHeaderTxt3: rgba(255, 255, 255, 0.4);
+    --cwHeaderAccent: #FFFC09;
+    --cwHeaderAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwHeaderBorder: #364d91;
+
+    /*--navbar */
+    --cwNavbarG: #4461b6;
+    --cwNavbarBg: #4461b6;
+    --cwNavbarBgHover: #4d69bc;
+    --cwNavbarBg2: #677fc6;
+    --cwNavbarBg2Hover: #7288ca;
+    --cwNavbarBg3: #798fcd;
+    --cwNavbarBg3Hover: #8498d1;
+    --cwNavbarTxt: rgba(255, 255, 255, 0.9);
+    --cwNavbarTxt2: rgba(255, 255, 255, 0.6);
+    --cwNavbarTxt3: rgba(255, 255, 255, 0.4);
+    --cwNavbarAccent: #FFFC09;
+    --cwNavbarAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwNavbarBorder: #364d91;
+
+    /*--subHeader */
+    --cwSubHeaderG: #4d69bc;
+    --cwSubHeaderBg: #4d69bc;
+    --cwSubHeaderBgHover: #5872c0;
+    --cwSubHeaderBg2: #7288ca;
+    --cwSubHeaderBg2Hover: #7d91ce;
+    --cwSubHeaderBg3: #8598d1;
+    --cwSubHeaderBg3Hover: #90a1d5;
+    --cwSubHeaderTxt: rgba(255, 255, 255, 0.9);
+    --cwSubHeaderTxt2: rgba(255, 255, 255, 0.6);
+    --cwSubHeaderTxt3: rgba(255, 255, 255, 0.4);
+    --cwSubHeaderAccent: #FFFC09;
+    --cwSubHeaderAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwSubHeaderBorder: #364d91;
+
+    /*--modal */
+    --cwModalG: #4461b6;
+    --cwModalBg: #4461b6;
+    --cwModalBgHover: #4d69bc;
+    --cwModalBg2: #677fc6;
+    --cwModalBg2Hover: #7288ca;
+    --cwModalBg3: #798fcd;
+    --cwModalBg3Hover: #8498d1;
+    --cwModalTxt: rgba(255, 255, 255, 0.9);
+    --cwModalTxt2: rgba(255, 255, 255, 0.6);
+    --cwModalTxt3: rgba(255, 255, 255, 0.4);
+    --cwModalAccent: #FFFC09;
+    --cwModalAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwModalBorder: #364d91;
+
+    /*--tab */
+    --cwTabG: #4461b6;
+    --cwTabBg: #4461b6;
+    --cwTabBgHover: #4d69bc;
+    --cwTabBg2: #677fc6;
+    --cwTabBg2Hover: #7288ca;
+    --cwTabBg3: #798fcd;
+    --cwTabBg3Hover: #8498d1;
+    --cwTabTxt: rgba(255, 255, 255, 0.9);
+    --cwTabTxt2: rgba(255, 255, 255, 0.6);
+    --cwTabTxt3: rgba(255, 255, 255, 0.4);
+    --cwTabAccent: #FFFC09;
+    --cwTabAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwTabBorder: #364d91;
+
+    /*--tabActive */
+    --cwTabActiveG: #4d69bc;
+    --cwTabActiveBg: #4d69bc;
+    --cwTabActiveBgHover: #5872c0;
+    --cwTabActiveBg2: #7288ca;
+    --cwTabActiveBg2Hover: #7d91ce;
+    --cwTabActiveBg3: #8598d1;
+    --cwTabActiveBg3Hover: #90a1d5;
+    --cwTabActiveTxt: rgba(255, 255, 255, 0.9);
+    --cwTabActiveTxt2: rgba(255, 255, 255, 0.6);
+    --cwTabActiveTxt3: rgba(255, 255, 255, 0.4);
+    --cwTabActiveAccent: #FFFC09;
+    --cwTabActiveAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwTabActiveBorder: #364d91;
+
+    /*--tooltip */
+    --cwTooltipG: #4461b6;
+    --cwTooltipBg: #4461b6;
+    --cwTooltipBgHover: #4d69bc;
+    --cwTooltipBg2: #677fc6;
+    --cwTooltipBg2Hover: #7288ca;
+    --cwTooltipBg3: #798fcd;
+    --cwTooltipBg3Hover: #8498d1;
+    --cwTooltipTxt: rgba(255, 255, 255, 0.9);
+    --cwTooltipTxt2: rgba(255, 255, 255, 0.6);
+    --cwTooltipTxt3: rgba(255, 255, 255, 0.4);
+    --cwTooltipAccent: #FFFC09;
+    --cwTooltipAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwTooltipBorder: #364d91;
+}

@@ -1,0 +1,1023 @@
+﻿body {
+    --bg-level-1: #002E52;
+    --bg-level-2: #003B68;
+    --bg-level-3: #00437a;
+    --bg-level-4: #00518F;
+    --text-level-high: #FFFFFF;
+    --text-level-medium: #CCCCCC;
+    --text-level-low: #999999;
+    --icon-level-high: #FFFFFF;
+    --icon-level-medium: #CCCCCC;
+    --icon-level-low: #999999;
+    --btn-primary: #CBA052;
+    --btn-secondary: #ffffff;
+    --badge-notification: #CBA052;
+    --badge-bonus: #CBA052;
+    --cwPrimary: #CBA052;
+    --btn-primary-text: #003057;
+    --btn-secondary-text: #003057;
+    --text-on-primary: #003057;
+    --cwSignInModalBg: #003B6B;
+}
+
+#casinoIndexContent, .lca-main-content {
+    color: #fff;
+    font-size: 13px;
+    box-shadow: inset 0px 67vw 148px #003B6B;
+}
+
+body, #wrapper {
+    background-color: #003B6B;
+    color: #fff;
+}
+
+.bgMain {
+    background-color: #004680;
+}
+
+.btn_sec,
+.clr_sec {
+    background-color: #003B6B !important;
+    color: #fff !important;
+}
+
+.btn_prim,
+.clr_prim,
+.promo_clicked {
+    background-color: #CBA052 !important;
+    color: #000000 !important;
+}
+
+.sub_heading {
+    color: #CBA052;
+}
+
+#continue_btn {
+    background-color: #003057 !important;
+    color: #B3B3B3 !important;
+    font-size: 15px;
+} 
+
+.menuBtn {
+    background-color: #003B6B;
+    color: #fff !important;
+}
+
+.menuBtnSm {
+    background-color: #003B6B;
+    color: #fff !important;
+}
+
+/*header*/
+.btn_deposit {
+    background-color: #CBA052;
+    color: #1C1E1E;
+    margin: 0 8px;
+    border-radius: 4px;
+}
+
+.casino_h_link_cont {
+    background: #003b6b;
+}
+
+.casino_links_tabs .home_icon:before {
+    color: #999999;
+    opacity: 1;
+}
+
+.casino_links_tabs a {
+    font-size: 12px;
+    color: #999999;
+    padding: 0 18px;
+}
+
+    .casino_links_tabs a.tl_main_nav_item-active, .tl_main_nav_item-active {
+        color: #CBA052;/*
+        background-color: #004680;*/
+    }
+
+.casino_links_tabs a.tl_main_nav_item-active .home_icon:before {
+    color: #CBA052;
+}
+
+.casino_h_link_cont.fixed {
+    position: static;
+}
+
+
+ /*another*/ 
+.slidesjs-pagination li a.active, .paging li a.active {
+    border-color: #CBA052;
+}
+
+
+.flexCont {
+    border-bottom: solid 1px #CBA052;
+    margin-bottom: 10px;
+    padding: 12px;
+}
+  
+
+.ui-select .ui-btn select {
+    margin-top: 0px !important;
+}
+ 
+ 
+
+.ui-panel-dismiss-open.ui-panel-dismiss-position-left, .ui-panel-dismiss-open.ui-panel-dismiss-position-right {
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+}
+
+
+/*right menu*/
+.menuRow {
+    color: #fff !important;
+    background-color: #003B6B;
+}
+
+.menuBtn {
+    font-size: 13px;
+}
+
+.right_menu_header {
+    background: #000;
+    box-sizing: border-box;
+    position: relative;
+    text-align: center;
+    line-height: 44px;
+    padding: 10px 0 5px;
+    height: 40px;
+}
+
+.right_menu_close {
+    color: #ccc;
+    font-size: 21px;
+    position: absolute;
+    right: 16px;
+    top: 10px;
+    cursor: pointer;
+    height: 18px;
+    line-height: 17px;
+    font-size: 13px;
+    width: 18px;
+    border-radius: 2px;
+}
+
+.account_title {
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 25px;
+    font-size: 14px;
+    padding: 0 8px;
+}
+
+.accRowClr {
+    background-color: #003B6B;
+    color: #ffffff;
+}
+
+    .accRowClr td, .accRowClr td a {
+        color: #fff;
+    }
+
+#content {
+    padding: 15px;
+}
+
+.playerId {
+    margin: 10px;
+}
+/*collapsable deposit withdrowal*/
+.collapse_btn h3 > a {
+    background-color: #003B6B;
+    color: #fff;
+    border-color: #CBA052;
+}
+
+.paym_txt {
+    color: #fff;
+}
+
+.paym_txt1 {
+    color: #fff;
+}
+
+.paym_cond {
+    color: #a3a3a3;
+}
+
+    .paym_cond > span {
+        color: #fff;
+    }
+
+.ui-collapsible-content {
+    background-color: #004680 !important;
+} 
+
+.title-text {
+    font-weight: bold;
+    color: #CBA052;
+} 
+
+.switch input.sw:checked + label:after {
+    left: 16px;
+    background-color: #CBA052;
+}
+
+.switch input.sw:checked + label:before {
+    content: "";
+    background-color: rgb(135, 135, 135);
+}
+
+/*Cancel bonus*/
+
+.ui-btn.ui-checkbox-off:after {
+    background-color: #fff;
+}
+
+.ui-btn.ui-checkbox-off:after, .ui-btn.ui-checkbox-on:after {
+    -webkit-border-radius: .1875em;
+    border-radius: .1875em;
+}
+
+.ui-btn.ui-checkbox-off:after, .ui-btn.ui-checkbox-on:after, .ui-btn.ui-radio-off:after, .ui-btn.ui-radio-on:after {
+    display: block;
+    width: 18px;
+    height: 18px;
+    margin: -9px 2px 0 2px;
+}
+
+.ui-btn-icon-left:after, .ui-btn-icon-right:after, .ui-btn-icon-top:after, .ui-btn-icon-bottom:after, .ui-btn-icon-notext:after {
+    display: inline-block;
+}
+
+.ui-btn-icon-left:after {
+    left: .5625em;
+}
+
+.ui-btn-icon-notext:after, .ui-btn-icon-left:after, .ui-btn-icon-right:after {
+    top: 50%;
+    margin-top: -11px;
+}
+
+.ui-btn-icon-left:after, .ui-btn-icon-right:after, .ui-btn-icon-top:after, .ui-btn-icon-bottom:after, .ui-btn-icon-notext:after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 22px;
+    height: 22px;
+}
+
+.ui-checkbox-off:after, .ui-btn.ui-radio-off:after {
+    filter: Alpha(Opacity=30);
+    opacity: .3;
+    background-color: #b3b3b3;
+}
+
+/*old bonus*/
+#bonusesNavBar > .ui-link {
+    color: #fff;
+    background-color: #003B6B;
+}
+
+#bonusesNavBar > .ui-link.active {
+    background-color: #003057;
+}
+      
+
+/*mail*/
+.inbox_bg {
+    background-color: #003057;
+}
+.tl_mail_msgId {
+    color: #CBA052
+}
+
+.tl_mail_item, .tl_mail_row {
+    background-color: #003B6B;
+    color: #fff !important;
+}
+
+.tl_mail_item.unread {
+    background-color: #003057;
+}
+
+.tl_mail_attachfiel_download_btn {
+    background-color: #003b6b;
+}
+
+/*banner navigation*/
+.cas_nav_prev,
+.cas_nav_next,
+.lca-voice-icon {
+    background-color: rgba(0, 48, 87,0.5);
+}
+/*inputs optimisation*/
+input,
+.reg_input,
+.tl_mail_send_area,
+.custon_select__front_el,
+.drop-down,
+.drop-down-small,
+#content_paym .ui-select span,
+#content_paym .ui-select select,
+.favorite_amounts > div {
+    background-color: #003057;
+    color: #ffffff;
+}
+
+input:read-only {
+    opacity: 0.8;
+}
+/*registration*/
+
+.heading {
+    text-transform: uppercase;
+    background-color: #003B6B;
+}
+
+.reg_content {
+    width: 100%;
+    padding: 20px 25px 40px;
+    background-color: #004680;
+    display: flex;
+    flex-direction: column;
+    min-height: inherit;
+}
+
+.reg_content #Captcha {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+.refresh-captcha:before {
+    color: #707070;
+}
+
+.reg_content .mobilenumber {
+    font-weight: 700;
+}
+
+.reg_content .regErMes {
+    color: red;
+}
+
+.mobile_info_text {
+    margin-bottom: 20px;
+}
+
+.reg_content.form-group {
+    margin-bottom: 35px;
+}
+
+.reg_prof__element_row {
+    margin-top: 20px;
+}
+
+.forgot_pass__row .refresh-captcha:before, .platformRightLoginPanel .refresh-captcha:before, .refresh-captcha:before {
+    color: #7E7E7E;
+}
+ 
+.phone_number_reg {
+    margin-right: 5px;
+}
+.reg__gender_row label, .profile_container .reg__gender_row label {
+    background-color: #003B6B;
+    color: #b3b3b3;
+}
+
+.reg__row_title, .profile_container label, .transfer2friend_cont label, #content_paym label, .forgot_pass__row label, .r_login__row label, .changepass__element_row label, .search_popup_row label {
+    color: #B3B3B3;
+}
+
+.reg__checkboxes_row .checkbox_info, .reg__checkboxes_row {
+    color: #7E7E7E;
+    font-size: 12px;
+}
+.reg__checkboxes_row .input-validation-error ~ .checkbox_info {
+    color: #d30000;
+}
+.reg__checkboxes_row ~ .D_info_box {
+    top: -22px;
+}
+#generalTermsLink {
+    font-weight: 700;
+}
+.refresh-captcha {
+    color: #7E7E7E;
+}
+
+/*landing*/
+.nav_title {
+    background: transparent;
+    font-size: 14px;
+    color: #fff;
+    text-shadow: none;
+}
+
+.block_title {
+    color: #CBA052;
+    background: #2B2B2B;
+}
+
+.nav_item > img {
+    padding: 20px 23px 45px;
+    max-height: 26vw;
+    object-fit: contain;
+}
+
+.nav_item {
+    background-color: rgba(0, 48, 87, 0.9);
+    border-radius: 8px;
+    height: 100%;
+} 
+
+/*opened game info*/
+.like_icon:after {
+    color: #fff;
+}
+
+.jackpot__value span {
+    color: #CBA052;
+}
+
+.close__game__more_block::after {
+    color: #fff;
+}
+
+.game__link_play {
+    background: #CBA052;
+    color: #000;
+}
+
+.game__link_demo {
+    background: #003B6B;
+    color: #fff;
+}
+
+.game__name {
+    text-shadow: 0px 0px 6px #CBA052;
+}
+.game__more_block {
+    background-color: #004680;
+}
+
+.search_switcher {
+    background-color: #eee;
+}
+
+.search_switcher:before {
+    background-color: #fff;
+}
+
+.checked .search_switcher {
+    background-color: #cba052;
+}
+
+.search__icon::after {
+    color: #707070;
+}
+.fs__input_wrap .close-search {
+    color: #fff;
+}
+
+.fs__input_wrap .close-search:after {
+    background-color: #ffffff;
+}
+
+.fs__input_wrap .close-search:before {
+    background-color: #ffffff;
+}
+/*training animate*/
+.training__block_circle {
+    border: 2px solid #FFFFFF;
+    box-shadow: 0 0 7px 0 #FF0000, 0 0 0 3000px rgba(0, 48, 87,0.7);
+}
+
+.training__info {
+    color: #003B6B;
+    background: #fff;
+}
+
+.training__block_circle:before {
+    border: 20px solid transparent;
+    border-top: 20px solid #fff;
+}
+
+.training__next {
+    color: #CBA052;
+}
+
+.fr__sort_by_drpdwn_el {
+    background-color: #003057;
+}
+
+
+div.nc__slider_block.w100 {
+    min-height: 160px;
+}
+ 
+
+/*footer*/
+#footer {
+    background: #003057;
+    padding: 0
+}
+
+.footer_cont {
+    width: 100%;
+    padding: 23px 10px 130px;
+    max-width: 360px;
+}
+
+.drop_down_lang {
+    padding: 0 10px !important;
+    background-color: #003B6B;
+    color: #b3b3b3;
+    margin-bottom: 13px;
+}
+
+.footer_text {
+    color: #B3B3B3;
+    font-size: 12px;
+    text-align: center;
+    margin: 15px auto;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #004680;
+    font-weight: 500;
+}
+
+.footer_text p {
+    margin: 0;
+}
+.footer_text a {
+    color: #ffffff;
+}
+
+.copy {
+    color: #CBA052;
+    font-weight: 500;
+    font-size: 11px;
+    margin-bottom: 10px;
+    margin-top: 18px;
+}
+
+.cw_mob_footer_18_wrapper, .cw_icon_plus_21 {
+    color: #c00;
+}
+ 
+/*Live casino skinning*/
+.lca-main-content {
+    background-color: #003B6B;
+    color: #fff;
+}
+/*Menu*/
+.lca_search_cont, .lca-menu {
+    background-color: #004680;
+}
+
+.lca-menu-link {
+    color: #fff;
+}
+
+.lca-menu-link.active {
+    background-color: #CBA052;
+    color: #000;
+}
+
+.lca-menu-link.active .lca-menu-badge {
+    background-color: #003057;
+    color: #CBA052;
+}
+
+.lca-menu-badge {
+    background-color: #CBA052;
+    color: #000;
+}
+.menu_circle:before {
+    -webkit-box-shadow: 4px 3px 40px 1200px #003057;
+    -moz-box-shadow: 4px 3px 40px 1200px #003057;
+}
+.fixed_menu__play_button {
+    background-color: #003057;
+}
+.more_menu_btns_content:before {
+    border-top-color: rgba(0,48,87,0.94);
+    border-right-color: rgba(0,48,87,0.94);
+}
+
+.more_menu_links_content a,
+.more-cont-item-2 a,
+.fixed_menu__li {
+    color: #ffffff;
+}
+
+.fixed_menu__li.active svg .yellow, .fixed_menu__li.active .fixed_menu__play_button, .fixed_menu__li.active {
+    color: #CBA052;
+}
+
+/*Submenu*/
+.lca-submenu {
+    background-color: #003057;
+    color: #fff;
+}
+
+.lca-submenu-link {
+    color: #b3b3b3;
+}
+
+.lca-submenu-link.active {
+    color: #CBA052;
+}
+/*Game card*/
+.lca-card-footer {
+    background-color: #003057;
+    color: #fff;
+}
+
+.lca_search_input {
+    background-color: rgba(3, 26, 66, 0.44);
+}
+
+.lca-card-footer-btn .star_icon.active, .lca-card-price {
+    color: #CBA052;
+}
+
+.lca-card-footer-btn {
+    background-color: #003B6B;
+    color: #fff;
+}
+
+.lca-card-footer-btn .like_icon:after,
+.lca-card-footer-btn .star_icon {
+    color: #fff;
+}
+
+.lca-main-content .star_icon.active:after {
+    color: #CBA052;
+    text-shadow: 0px 0px 6px #f39e4f;
+}
+
+.lca-card-badge.type-1 {
+    background-color: #CBA052;
+    color: #000;
+}
+/*Filter and search*/
+.lca-title {
+    color: #fff;
+}
+
+.lca-input {
+    background-color: #003057;
+    color: #b3b3b3;
+}
+
+.lca-filter-toggle {
+    color: #fff;
+}
+
+.lca-filter-price {
+    background-color: #003057;
+    color: #fff;
+}
+
+.lca-filter-price-input {
+    color: #fff;
+}
+
+.lca-filter-range-divider {
+    background-color: #CBA052;
+}
+
+.lca-main-content .noUi-target {
+    background: #003057;
+}
+
+.lca-main-content .noUi-connect {
+    background: #CBA052;
+}
+
+.lca-main-content .noUi-handle {
+    border-color: #003057;
+    background: #CBA052;
+}
+
+.lca-filter-category-item {
+    background-color: #003057;
+    color: #fff;
+}
+
+    .lca-filter-category-item.active {
+        background-color: #CBA052;
+        color: #000;
+    }
+
+.lca-search-result-title {
+    color: #fff;
+}
+
+.lca-search-result-filter-item {
+    color: #b3b3b3;
+}
+
+.lca-search-result-filter-item-description {
+    color: #fff;
+}
+
+.lca-dropdown-toggle {
+    color: #fff;
+}
+
+.lca-dropdown {
+    background-color: rgba(0, 48, 87, 1);
+    color: #fff;
+}
+
+.lca-dropdown-item {
+    color: #fff;
+}
+
+.lca-back-link {
+    color: #b3b3b3;
+}
+
+.lca-card-more-wrapper {
+    background-color: rgba(0, 48, 87, 0.4);
+    color: #fff;
+}
+
+.lca-card-more {
+    color: #fff;
+}
+
+.lca-filter-footer {
+    background-color: #003057;
+    color: #fff;
+}
+
+.lca-filter-footer-btn-reset {
+    background-color: #003B6B;
+    color: #fff;
+}
+
+.lca-filter-footer-btn-show {
+    background-color: #CBA052;
+    color: #000;
+}
+/*Promotions*/
+#promo_cont {
+    background-color: #003B6B;
+}
+
+.lca-promo-text-wrapper {
+    background-color: #003057;
+    color: #fff;
+}
+
+.lca-promo-title {
+    color: #fff;
+}
+
+.lca-main-content .promo_mobile_text_cont {
+    box-shadow: 0 -14px 29px 19px #003057;
+}
+
+.lca-main-content .promo_mobile_cont {
+    background-color: #003057;
+    color: #fff;
+}
+
+.lca-main-content .promo_mobile_title {
+    color: #fff;
+}
+
+.lbl-success {
+    background-color: #CBA052;
+}
+
+.promo_mobile_cont {
+    background-color: #003057;
+}
+
+.reg_prof__element_row #phone {
+    margin-left: 4px;
+}
+
+.filters_slider_cont {
+    background-color: #003B6B;
+}
+
+.name_vidget {
+    color: #fff;
+    background: rgba(0, 48, 87, 0.5);
+}
+
+/*27.4.21 optims*/
+body .bg-primary, body .h-bg-primary {
+    background: #CBA052;
+    color: #000;
+}
+
+body .text-primary {
+    color: #CBA052;
+}
+
+body .bg-secondary, body .h-bg-secondary {
+    background-color: #003B6B;
+    color: #fff;
+}
+
+body .bg-tert, body .h-bg-tert {
+    background-color: #004680;
+    color: #fff;
+}
+
+/*very new bonus*/
+.bonus_card_body {
+    background-color: #18476e;
+}
+:root {
+
+    /*--body */
+    --cwBodyG: #002E52;
+    --cwBodyBg: #002E52;
+    --cwBodyBgHover: #003761;
+    --cwBodyBg2: #004b85;
+    --cwBodyBg2Hover: #005494;
+    --cwBodyBg3: #00599e;
+    --cwBodyBg3Hover: #0062ad;
+    --cwBodyTxt: rgba(255, 255, 255, 0.9);
+    --cwBodyTxt2: rgba(255, 255, 255, 0.6);
+    --cwBodyTxt3: rgba(255, 255, 255, 0.4);
+    --cwBodyAccent: #CBA052;
+    --cwBodyAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwBodyBorder: #002E52;
+
+     /*--dominant */
+    --cwDominantG: #003761;
+    --cwDominantBg: #003761;
+    --cwDominantBgHover: #004070;
+    --cwDominantBg2: #005494;
+    --cwDominantBg2Hover: #005da3;
+    --cwDominantBg3: #0062ad;
+    --cwDominantBg3Hover: #006bbc;
+    --cwDominantTxt: rgba(255, 255, 255, 0.9);
+    --cwDominantTxt2: rgba(255, 255, 255, 0.6);
+    --cwDominantTxt3: rgba(255, 255, 255, 0.4);
+    --cwDominantAccent: #CBA052;
+    --cwDominantAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwDominantBorder: #002E52;
+
+    /*--accent */
+    --cwAccentG: #CBA052;
+    --cwAccentBg: #CBA052;
+    --cwAccentBgHover: #cfa65e;
+    --cwAccentBg2: #d7b679;
+    --cwAccentBg2Hover: #dbbc85;
+    --cwAccentBg3: #ddc08d;
+    --cwAccentBg3Hover: #e1c799;
+    --cwAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwAccentTxt2: rgba(0, 0, 0, 0.6);
+    --cwAccentTxt3: rgba(0, 0, 0, 0.4);
+    --cwAccentAccent: #CBA052;
+    --cwAccentAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwAccentBorder: #002E52;
+
+    /*--button */
+    --cwButtonG: #cfa65e;
+    --cwButtonBg: #cfa65e;
+    --cwButtonBgHover: #d2ac6a;
+    --cwButtonBg2: #dbbc85;
+    --cwButtonBg2Hover: #dec291;
+    --cwButtonBg3: #e1c799;
+    --cwButtonBg3Hover: #e4cda5;
+    --cwButtonTxt: rgba(0, 0, 0, 0.9);
+    --cwButtonTxt2: rgba(0, 0, 0, 0.6);
+    --cwButtonTxt3: rgba(0, 0, 0, 0.4);
+    --cwButtonAccent: #CBA052;
+    --cwButtonAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwButtonBorder: #002E52;
+
+    /*--input */
+    --cwInputG: #004b85;
+    --cwInputBg: #004b85;
+    --cwInputBgHover: #005494;
+    --cwInputBg2: #0068b8;
+    --cwInputBg2Hover: #0071c7;
+    --cwInputBg3: #0076d1;
+    --cwInputBg3Hover: #007fe0;
+    --cwInputTxt: rgba(255, 255, 255, 0.9);
+    --cwInputTxt2: rgba(255, 255, 255, 0.6);
+    --cwInputTxt3: rgba(255, 255, 255, 0.4);
+    --cwInputAccent: #CBA052;
+    --cwInputAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwInputBorder: #002E52;
+
+    /*--header */
+    --cwHeaderG: #0062ad;
+    --cwHeaderBg: #0062ad;
+    --cwHeaderBgHover: #006bbc;
+    --cwHeaderBg2: #007fe0;
+    --cwHeaderBg2Hover: #0088ef;
+    --cwHeaderBg3: #008df9;
+    --cwHeaderBg3Hover: #0994ff;
+    --cwHeaderTxt: rgba(255, 255, 255, 0.9);
+    --cwHeaderTxt2: rgba(255, 255, 255, 0.6);
+    --cwHeaderTxt3: rgba(255, 255, 255, 0.4);
+    --cwHeaderAccent: #CBA052;
+    --cwHeaderAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwHeaderBorder: #002E52;
+
+    /*--navbar */
+    --cwNavbarG: #004b85;
+    --cwNavbarBg: #004b85;
+    --cwNavbarBgHover: #005494;
+    --cwNavbarBg2: #0068b8;
+    --cwNavbarBg2Hover: #0071c7;
+    --cwNavbarBg3: #0076d1;
+    --cwNavbarBg3Hover: #007fe0;
+    --cwNavbarTxt: rgba(255, 255, 255, 0.9);
+    --cwNavbarTxt2: rgba(255, 255, 255, 0.6);
+    --cwNavbarTxt3: rgba(255, 255, 255, 0.4);
+    --cwNavbarAccent: #CBA052;
+    --cwNavbarAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwNavbarBorder: #002E52;
+
+    /*--subHeader */
+    --cwSubHeaderG: #005494;
+    --cwSubHeaderBg: #005494;
+    --cwSubHeaderBgHover: #005da3;
+    --cwSubHeaderBg2: #0071c7;
+    --cwSubHeaderBg2Hover: #007ad6;
+    --cwSubHeaderBg3: #007fe0;
+    --cwSubHeaderBg3Hover: #0088ef;
+    --cwSubHeaderTxt: rgba(255, 255, 255, 0.9);
+    --cwSubHeaderTxt2: rgba(255, 255, 255, 0.6);
+    --cwSubHeaderTxt3: rgba(255, 255, 255, 0.4);
+    --cwSubHeaderAccent: #CBA052;
+    --cwSubHeaderAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwSubHeaderBorder: #002E52;
+
+    /*--modal */
+    --cwModalG: #004b85;
+    --cwModalBg: #004b85;
+    --cwModalBgHover: #005494;
+    --cwModalBg2: #0068b8;
+    --cwModalBg2Hover: #0071c7;
+    --cwModalBg3: #0076d1;
+    --cwModalBg3Hover: #007fe0;
+    --cwModalTxt: rgba(255, 255, 255, 0.9);
+    --cwModalTxt2: rgba(255, 255, 255, 0.6);
+    --cwModalTxt3: rgba(255, 255, 255, 0.4);
+    --cwModalAccent: #CBA052;
+    --cwModalAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwModalBorder: #002E52;
+
+    /*--tab */
+    --cwTabG: #004b85;
+    --cwTabBg: #004b85;
+    --cwTabBgHover: #005494;
+    --cwTabBg2: #0068b8;
+    --cwTabBg2Hover: #0071c7;
+    --cwTabBg3: #0076d1;
+    --cwTabBg3Hover: #007fe0;
+    --cwTabTxt: rgba(255, 255, 255, 0.9);
+    --cwTabTxt2: rgba(255, 255, 255, 0.6);
+    --cwTabTxt3: rgba(255, 255, 255, 0.4);
+    --cwTabAccent: #CBA052;
+    --cwTabAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwTabBorder: #002E52;
+
+    /*--tabActive */
+    --cwTabActiveG: #005494;
+    --cwTabActiveBg: #005494;
+    --cwTabActiveBgHover: #005da3;
+    --cwTabActiveBg2: #0071c7;
+    --cwTabActiveBg2Hover: #007ad6;
+    --cwTabActiveBg3: #007fe0;
+    --cwTabActiveBg3Hover: #0088ef;
+    --cwTabActiveTxt: rgba(255, 255, 255, 0.9);
+    --cwTabActiveTxt2: rgba(255, 255, 255, 0.6);
+    --cwTabActiveTxt3: rgba(255, 255, 255, 0.4);
+    --cwTabActiveAccent: #CBA052;
+    --cwTabActiveAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwTabActiveBorder: #002E52;
+
+    /*--tooltip */
+    --cwTooltipG: #004b85;
+    --cwTooltipBg: #004b85;
+    --cwTooltipBgHover: #005494;
+    --cwTooltipBg2: #0068b8;
+    --cwTooltipBg2Hover: #0071c7;
+    --cwTooltipBg3: #0076d1;
+    --cwTooltipBg3Hover: #007fe0;
+    --cwTooltipTxt: rgba(255, 255, 255, 0.9);
+    --cwTooltipTxt2: rgba(255, 255, 255, 0.6);
+    --cwTooltipTxt3: rgba(255, 255, 255, 0.4);
+    --cwTooltipAccent: #CBA052;
+    --cwTooltipAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwTooltipBorder: #002E52;
+}

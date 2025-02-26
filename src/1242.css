@@ -1,0 +1,420 @@
+:root {
+    --cwBodyBg: #1B1C22;
+    --cwBodyBg2: #32333e;
+    --cwBodyBg3: #3d3f4d;
+    --cwBodyBgHover: #22232b;
+    --cwBodyBg2Hover: #393a46;
+    --cwBodyBg3Hover: #444656;
+    --cwBodyRGBA: rgba(27, 28, 34, 0.7);
+    --cwBodyRGBA2: rgba(27, 28, 34, 0.5);
+    --cwBodyRGBA3: rgba(27, 28, 34, 0.3);
+    --cwBodyTxt: #e8e8e9;
+    --cwBodyTxt2: #bbbbbd;
+    --cwBodyTxt3: #8d8e91;
+    --cwBodyAccent: #CF4A4A;
+    --cwBodyAccentTxt: rgba(255, 255, 255, 0.9);
+    --cwBodyBorder: #1B1C22;
+    --cwBodyRadius: 0px;
+    --cwDominantG: #22232b;
+    --cwDominantRGBA: rgba(34, 35, 43, 0.7);
+    --cwDominantRGBA2: rgba(34, 35, 43, 0.5);
+    --cwDominantRGBA3: rgba(34, 35, 43, 0.3);
+    --cwDominantBg: #22232b;
+    --cwDominantBg2: #393a47;
+    --cwDominantBg3: #444656;
+    --cwDominantBgHover: #292a34;
+    --cwDominantBg2Hover: #40414f;
+    --cwDominantBg3Hover: #4b4d5f;
+    --cwDominantTxt: #e9e9ea;
+    --cwDominantTxt2: #bdbdbf;
+    --cwDominantTxt3: #919195;
+    --cwDominantAccent: #CF4A4A;
+    --cwDominantAccentTxt: rgba(255, 255, 255, 0.9);
+    --cwDominantTxtInverse: #262626;
+    --cwDominantRadius: 0px;
+    --cwAccentBg: #CF4A4A;
+    --cwAccentBg2: #da7272;
+    --cwAccentBg3: #df8686;
+    --cwAccentBgHover: #d25656;
+    --cwAccentBg2Hover: #dd7e7e;
+    --cwAccentBg3Hover: #e29292;
+    --cwAccentG: #CF4A4A;
+    --cwAccentTxt: #faeded;
+    --cwAccentTxt2: #f1c9c9;
+    --cwAccentTxt3: #e7a5a5;
+    --cwButtonG: #D25656;
+    --cwButtonBg: #D25656;
+    --cwButtonBg2: #dd7e7e;
+    --cwButtonBg3: #e29292;
+    --cwButtonBgHover: #d56262;
+    --cwButtonBg2Hover: #e08a8a;
+    --cwButtonBg3Hover: #e59e9e;
+    --cwButtonTxt: #fbeeee;
+    --cwButtonTxt2: #f2cccc;
+    --cwButtonTxt3: #e9abab;
+    --cwButtonAccent: #CF4A4A;
+    --cwButtonAccentTxt: rgba(255, 255, 255, 0.9);
+    --cwButtonBorder: #D25656;
+    --cwButtonRadius: 4px;
+    --cwButtonSecondaryG: #DE8282;
+    --cwButtonSecondaryBg: #DE8282;
+    --cwButtonSecondaryBg2: #e9aaaa;
+    --cwButtonSecondaryBg3: #eebebe;
+    --cwButtonSecondaryBgHover: #e18e8e;
+    --cwButtonSecondaryBg2Hover: #ecb6b6;
+    --cwButtonSecondaryBg3Hover: #f1caca;
+    --cwButtonSecondaryTxt: #160d0d;
+    --cwButtonSecondaryTxt2: #432727;
+    --cwButtonSecondaryTxt3: #6f4141;
+    --cwButtonSecondaryAccent: #CF4A4A;
+    --cwButtonSecondaryAccentTxt: rgba(255, 255, 255, 0.9);
+    --cwButtonSecondaryBorder: #DE8282;
+    --cwButtonSecondaryRadius: 4px;
+    --cwInputG: #32333e;
+    --cwInputBg: #32333e;
+    --cwInputBg2: #494a5a;
+    --cwInputBg3: #545668;
+    --cwInputBgHover: #393a46;
+    --cwInputBg2Hover: #505162;
+    --cwInputBg3Hover: #5b5d70;
+    --cwInputTxt: #ebebec;
+    --cwInputTxt2: #c2c2c5;
+    --cwInputTxt3: #99999f;
+    --cwInputAccent: #CF4A4A;
+    --cwInputAccentTxt: rgba(255, 255, 255, 0.9);
+    --cwInputRadius: 0px;
+    --cwInputBorder: #1B1C22;
+    --cwInputSecondaryG: #505162;
+    --cwInputSecondaryBg: #505162;
+    --cwInputSecondaryBg2: #67687e;
+    --cwInputSecondaryBg3: #72748c;
+    --cwInputSecondaryBgHover: #57586a;
+    --cwInputSecondaryBg2Hover: #6e6f86;
+    --cwInputSecondaryBg3Hover: #7a7c93;
+    --cwInputSecondaryTxt: #eeeeef;
+    --cwInputSecondaryTxt2: #cbcbd0;
+    --cwInputSecondaryTxt3: #a8a8b1;
+    --cwInputSecondaryAccent: #CF4A4A;
+    --cwInputSecondaryAccentTxt: rgba(255, 255, 255, 0.9);
+    --cwInputSecondaryRadius: 0px;
+    --cwInputSecondaryBorder: #1B1C22;
+    --cwHeaderG: #31343F;
+    --cwHeaderBg: #31343F;
+    --cwHeaderBg2: #474c5c;
+    --cwHeaderBg3: #52586a;
+    --cwHeaderBgHover: #383b48;
+    --cwHeaderBg2Hover: #4e5365;
+    --cwHeaderBg3Hover: #595f73;
+    --cwHeaderTxt: #eaebec;
+    --cwHeaderTxt2: #c1c2c5;
+    --cwHeaderTxt3: #989a9f;
+    --cwHeaderAccent: #CF4A4A;
+    --cwHeaderAccentTxt: rgba(255, 255, 255, 0.9);
+    --cwHeaderBorder: #1B1C22;
+    --cwHeaderRadius: 0px;
+    --cwSubHeaderG: #4e5365;
+    --cwSubHeaderBg: #4e5365;
+    --cwSubHeaderBg2: #646b82;
+    --cwSubHeaderBg3: #6f7690;
+    --cwSubHeaderBgHover: #555a6e;
+    --cwSubHeaderBg2Hover: #6b728b;
+    --cwSubHeaderBg3Hover: #787e97;
+    --cwSubHeaderTxt: #edeef0;
+    --cwSubHeaderTxt2: #cacbd1;
+    --cwSubHeaderTxt3: #a7a9b2;
+    --cwSubHeaderAccent: #CF4A4A;
+    --cwSubHeaderAccentTxt: rgba(255, 255, 255, 0.9);
+    --cwSubHeaderBorder: #1B1C22;
+    --cwSubHeaderRadius: 0px;
+    --cwModalG: #272830;
+    --cwModalBg: #272830;
+    --cwModalBg2: #3e3f4c;
+    --cwModalBg3: #494b5a;
+    --cwModalBgHover: #2e2f38;
+    --cwModalBg2Hover: #454654;
+    --cwModalBg3Hover: #505262;
+    --cwModalTxt: #e9eaea;
+    --cwModalTxt2: #bebfc1;
+    --cwModalTxt3: #939498;
+    --cwModalAccent: #CF4A4A;
+    --cwModalAccentTxt: rgba(255, 255, 255, 0.9);
+    --cwModalRadius: 0px;
+    --cwModalBorder: #1B1C22;
+    --cwTabG: #32333e;
+    --cwTabBg: #32333e;
+    --cwTabBg2: #494a5a;
+    --cwTabBg3: #545668;
+    --cwTabBgHover: #393a46;
+    --cwTabBg2Hover: #505162;
+    --cwTabBg3Hover: #5b5d70;
+    --cwTabTxt: #ebebec;
+    --cwTabTxt2: #c2c2c5;
+    --cwTabTxt3: #99999f;
+    --cwTabAccent: #CF4A4A;
+    --cwTabAccentTxt: rgba(255, 255, 255, 0.9);
+    --cwTabRadius: 0px;
+    --cwTabBorder: #1B1C22;
+    --cwTabActiveG: #393a46;
+    --cwTabActiveBg: #393a46;
+    --cwTabActiveBg2: #505162;
+    --cwTabActiveBg3: #5b5d70;
+    --cwTabActiveBgHover: #40414e;
+    --cwTabActiveBg2Hover: #57586a;
+    --cwTabActiveBg3Hover: #626478;
+    --cwTabActiveTxt: #ebebed;
+    --cwTabActiveTxt2: #c4c4c8;
+    --cwTabActiveTxt3: #9c9da3;
+    --cwTabActiveAccent: #CF4A4A;
+    --cwTabActiveAccentTxt: rgba(255, 255, 255, 0.9);
+    --cwTabActiveRadius: 0px;
+    --cwTabActiveBorder: #1B1C22;
+    --cwTooltipG: #32333e;
+    --cwTooltipBg: #32333e;
+    --cwTooltipBg2: #494a5a;
+    --cwTooltipBg3: #545668;
+    --cwTooltipBgHover: #393a46;
+    --cwTooltipBg2Hover: #505162;
+    --cwTooltipBg3Hover: #5b5d70;
+    --cwTooltipTxt: #ebebec;
+    --cwTooltipTxt2: #c2c2c5;
+    --cwTooltipTxt3: #99999f;
+    --cwTooltipAccent: #CF4A4A;
+    --cwTooltipAccentTxt: rgba(255, 255, 255, 0.9);
+    --cwTooltipRadius: 0px;
+    --cwTooltipBorder: #1B1C22;
+}
+
+/*Start login part*/
+
+.static_login_header {
+    padding-inline: 16px;
+    gap: 10px;
+}
+.static_login_header .reg_close {
+    cursor: pointer;
+    margin-inline-start: auto;
+    padding: 3px;
+    font-size: 30px;
+}
+
+.static_login_header .reg_close:before {
+    content: '\e368';
+    font-family: "iconsDinamicMenu";
+}
+
+.static_login_content #staticLogin {
+    padding-bottom: 30px;
+}
+.D_logo {
+    height: 70px;
+    background: var(--cdn-logo_png) no-repeat center/contain;
+    width: 198px;
+    margin: 63px auto;
+}
+.static_login_content .r_login__row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    position: relative;
+}
+
+.change-input-btn, .eye_button.change-input-btn {
+    cursor: pointer;
+    background-color: transparent;
+    border-inline-start: 1px solid #ccc;
+    padding-inline-end: 5px;
+    min-width: 50px;
+    width: 50px;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    column-gap: 6px;
+    top: 0;
+    inset-inline-end: 0;
+    z-index: 9;
+    color: #5e5e5e;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.email-mobile-login .eye_block input, .email-mobile-login input {
+    padding-inline-end: 60px;
+    text-overflow: ellipsis;
+}
+
+.change-input-btn i {
+    font-size: 30px;
+}
+
+.change-input-btn .arrow-icon {
+    padding-bottom: 4px;
+    font-family: 'Roboto';
+}
+
+.via_email .email {
+    display: none
+}
+
+.via_mobile .phone {
+    display: none
+}
+
+.email-input-wrapper {
+    width: 100%
+}
+
+.auth-wrapper {
+    column-gap: 16px;
+}
+
+.mobile-input-wrapper .reg_select_arrow {
+    width: 80px;
+    flex-shrink: 0;
+}
+
+.mobile-input-wrapper .reg_select_arrow select{
+    color: var(--cwInputTxt);
+    background: var(--cwInputG);
+    border-radius: var(--cwInputRadius);
+    border: 1px solid var(--cwInputBorder);
+}
+
+.mobile-input-wrapper .reg_mobile_code {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    flex-shrink: 0;
+    color: var(--cwInputTxt);
+    background: var(--cwInputG);
+    border-radius: var(--cwInputRadius);
+    border: 1px solid var(--cwInputBorder);
+}
+
+.email-mobile-login#login_container .captcha_block {
+    transform: none;
+    width: auto;
+    margin-bottom: 20px
+}
+
+.reg_select_arrow .ui-icon-carat-d:after {
+    content: "";
+    background-image: none;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 6px 6px 0 6px;
+    border-color: #fff transparent transparent transparent;
+    display: block;
+    background-color: transparent;
+    margin-top: -4px;
+}
+
+.static_login_content .register_in_login {
+    width: 100%;
+    height: 36px;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--cwButtonSecondaryG);
+    color: var(--cwButtonSecondaryTxt);
+    border: 1px solid var(--cwButtonSecondaryBorder);
+    border-radius: var(--cwButtonSecondaryRadius);
+}
+
+.static_login_content .tl_sup_link {
+    background-color: var(--login-header-bg);
+    color: var(--login-header-text);
+}
+.forgot_smth_buttons {
+    text-align: center
+}
+.platformForgPass {
+    text-align: center;
+    margin-top: 15px;
+    display: inline-block;
+}
+
+.static_login_cont .recover-popup #Captcha {
+    direction: ltr !important;
+}
+
+@media screen and (max-width: 991px) {
+    .static_login_cont .recover-popup .tl_row {
+        gap: unset;
+    }
+}
+/*End login part*/
+
+/*Start reset pass*/
+
+.recover-popup .tl_popup_header {
+    background-color: var(--cwDominantBg2);
+    color: var(--cwDominantTxt);
+}
+
+.form-step {
+    display: none;
+}
+
+.showStep {
+    display: block;
+}
+
+.static_login_cont .tl_popup_content {
+    padding: 24px 20px;
+}
+.login_captcha_block {
+    display: flex;
+    position: relative;
+    -o-justify-content: space-between;
+    -webkit-justify-content: space-between;
+    justify-content: space-between
+}
+
+.login_captcha_block > .captchaImage {
+    width: 40%;
+    height: 36px
+}
+
+#loginContent .recover-popup .reg_mobile_code {
+    border: 1px solid var(--cwInputTxt);
+}
+.refresh-captcha .tf_refresh_icon {
+    display: none;
+}
+.static_login_cont .recover-popup .reg_mobile_code {
+    color: var(--cwInputTxt);
+    background: var(--cwInputG);
+    border-radius: var(--cwInputRadius);
+    border: 1px solid var(--cwInputBorder);
+    margin: 0;
+    width: 100%;
+}
+#customMobVal .field-validation-error:not(:empty), #PasswordError .field-validation-error:not(:empty) {
+    position: absolute;
+    top: 104%;
+    left: 0;
+    width: 100%;
+    border-radius: 2px;
+    padding: 8px;
+    z-index: 12;
+    font-size: 12px;
+    background: #ffcfcf;
+    color: #f00;
+}
+#customMobVal .field-validation-error:not(:empty) span:before, #PasswordError .field-validation-error:not(:empty) span:before {
+    border: 5px solid transparent;
+    border-bottom: 5px solid #ffcfcf;
+    top: -10px;
+    inset-inline-start: 8px;
+    content: "";
+    position: absolute;
+}
+
+/*End reset pass*/

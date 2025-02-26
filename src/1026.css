@@ -1,0 +1,1689 @@
+body {
+    --bg-level-1: #40414d;
+    --bg-level-2: #5c5d6e;
+    --bg-level-3: #6d6e83;
+    --bg-level-4: #7c7e92;
+    --text-level-high: #cccccc;
+    --text-level-medium: #999999;
+    --text-level-low: #cccccc;
+    --icon-level-high: #cccccc;
+    --icon-level-medium: #999999;
+    --icon-level-low: #76778c;
+    --btn-primary: #f35f38;
+    --btn-secondary: #1e2036;
+    --badge-notification: #ffb700;
+    --badge-bonus: #f35f38;
+    --cwPrimary: #f35f38;
+    --btn-primary-text: #ffffff;
+    --btn-secondary-text: #ffffff;
+    --text-on-primary: #ffffff;
+    --cwNavbarLeftBg: #343545;
+}
+
+:root {
+    /*--body */
+    --cwBodyG: #40414d;
+    --cwBodyBg: #40414d;
+    --cwBodyBgHover: #474855;
+    --cwBodyBg2: #575969;
+    --cwBodyBg2Hover: #5e6071;
+    --cwBodyBg3: #636477;
+    --cwBodyBg3Hover: #6a6b7f;
+    --cwBodyTxt: rgba(255, 255, 255, 0.9);
+    --cwBodyTxt2: rgba(255, 255, 255, 0.6);
+    --cwBodyTxt3: rgba(255, 255, 255, 0.4);
+    --cwBodyAccent: #f35f38;
+    --cwBodyAccentTxt: rgba(255, 255, 255, 0.9);
+    --cwBodyBorder: #40414d;
+    /*--dominant */
+    --cwDominantG: #474855;
+    --cwDominantBg: #474855;
+    --cwDominantBgHover: #4e4f5d;
+    --cwDominantBg2: #5e6071;
+    --cwDominantBg2Hover: #656779;
+    --cwDominantBg3: #6a6b7f;
+    --cwDominantBg3Hover: #717287;
+    --cwDominantTxt: rgba(255, 255, 255, 0.9);
+    --cwDominantTxt2: rgba(255, 255, 255, 0.6);
+    --cwDominantTxt3: rgba(255, 255, 255, 0.4);
+    --cwDominantAccent: #f35f38;
+    --cwDominantAccentTxt: rgba(255, 255, 255, 0.9);
+    --cwDominantBorder: #40414d;
+    /*--accent */
+    --cwAccentG: #f35f38;
+    --cwAccentBg: #f35f38;
+    --cwAccentBgHover: #f46b46;
+    --cwAccentBg2: #f68668;
+    --cwAccentBg2Hover: #f79276;
+    --cwAccentBg3: #f79980;
+    --cwAccentBg3Hover: #f8a58e;
+    --cwAccentTxt: rgba(255, 255, 255, 0.9);
+    --cwAccentTxt2: rgba(255, 255, 255, 0.6);
+    --cwAccentTxt3: rgba(255, 255, 255, 0.4);
+    --cwAccentAccent: #f35f38;
+    --cwAccentAccentTxt: rgba(255, 255, 255, 0.9);
+    --cwAccentBorder: #40414d;
+    /*--button */
+    --cwButtonG: #f46b46;
+    --cwButtonBg: #f35f38;
+    --cwButtonBgHover: #f57754;
+    --cwButtonBg2: #f79176;
+    --cwButtonBg2Hover: #f89d84;
+    --cwButtonBg3: #f8a58e;
+    --cwButtonBg3Hover: #f9b09c;
+    --cwButtonTxt: rgba(255, 255, 255, 0.9);
+    --cwButtonTxt2: rgba(255, 255, 255, 0.6);
+    --cwButtonTxt3: rgba(255, 255, 255, 0.4);
+    --cwButtonAccent: #f35f38;
+    --cwButtonAccentTxt: rgba(255, 255, 255, 0.9);
+    --cwButtonBorder: #40414d;
+    /*--input */
+    --cwInputG: #575969;
+    --cwInputBg: #575969;
+    --cwInputBgHover: #5e6071;
+    --cwInputBg2: #6e7185;
+    --cwInputBg2Hover: #75788d;
+    --cwInputBg3: #7b7d92;
+    --cwInputBg3Hover: #838599;
+    --cwInputTxt: rgba(255, 255, 255, 0.9);
+    --cwInputTxt2: rgba(255, 255, 255, 0.6);
+    --cwInputTxt3: rgba(255, 255, 255, 0.4);
+    --cwInputAccent: #f35f38;
+    --cwInputAccentTxt: rgba(255, 255, 255, 0.9);
+    --cwInputBorder: #40414d;
+    /*--header */
+    --cwHeaderG: #6a6b7f;
+    --cwHeaderBg: #FFFFFF;
+    --cwHeaderBgHover: #717287;
+    --cwHeaderBg2: #848598;
+    --cwHeaderBg2Hover: #8c8d9f;
+    --cwHeaderBg3: #9293a4;
+    --cwHeaderBg3Hover: #9a9bab;
+    --cwHeaderTxt: rgba(0, 0, 0, 0.9);
+    --cwHeaderTxt2: rgba(0, 0, 0, 0.6);
+    --cwHeaderTxt3: rgba(0, 0, 0, 0.4);
+    --cwHeaderAccent: #f35f38;
+    --cwHeaderAccentTxt: rgba(255, 255, 255, 0.9);
+    --cwHeaderBorder: #40414d;
+    /*--navbar */
+    --cwNavbarG: #575969;
+    --cwNavbarBg: #575969;
+    --cwNavbarBgHover: #5e6071;
+    --cwNavbarBg2: #6e7185;
+    --cwNavbarBg2Hover: #75788d;
+    --cwNavbarBg3: #7b7d92;
+    --cwNavbarBg3Hover: #838599;
+    --cwNavbarTxt: rgba(255, 255, 255, 0.9);
+    --cwNavbarTxt2: rgba(255, 255, 255, 0.6);
+    --cwNavbarTxt3: rgba(255, 255, 255, 0.4);
+    --cwNavbarAccent: #f35f38;
+    --cwNavbarAccentTxt: rgba(255, 255, 255, 0.9);
+    --cwNavbarBorder: #40414d;
+    /*--subHeader */
+    --cwSubHeaderG: #5e6071;
+    --cwSubHeaderBg: #5e6071;
+    --cwSubHeaderBgHover: #656779;
+    --cwSubHeaderBg2: #75788d;
+    --cwSubHeaderBg2Hover: #7d8094;
+    --cwSubHeaderBg3: #838698;
+    --cwSubHeaderBg3Hover: #8b8e9f;
+    --cwSubHeaderTxt: rgba(255, 255, 255, 0.9);
+    --cwSubHeaderTxt2: rgba(255, 255, 255, 0.6);
+    --cwSubHeaderTxt3: rgba(255, 255, 255, 0.4);
+    --cwSubHeaderAccent: #f35f38;
+    --cwSubHeaderAccentTxt: rgba(255, 255, 255, 0.9);
+    --cwSubHeaderBorder: #40414d;
+    /*--modal */
+    --cwModalG: #575969;
+    --cwModalBg: #575969;
+    --cwModalBgHover: #5e6071;
+    --cwModalBg2: #6e7185;
+    --cwModalBg2Hover: #75788d;
+    --cwModalBg3: #7b7d92;
+    --cwModalBg3Hover: #838599;
+    --cwModalTxt: rgba(255, 255, 255, 0.9);
+    --cwModalTxt2: rgba(255, 255, 255, 0.6);
+    --cwModalTxt3: rgba(255, 255, 255, 0.4);
+    --cwModalAccent: #f35f38;
+    --cwModalAccentTxt: rgba(255, 255, 255, 0.9);
+    --cwModalBorder: #40414d;
+    /*--tab */
+    --cwTabG: #575969;
+    --cwTabBg: #575969;
+    --cwTabBgHover: #5e6071;
+    --cwTabBg2: #6e7185;
+    --cwTabBg2Hover: #75788d;
+    --cwTabBg3: #7b7d92;
+    --cwTabBg3Hover: #838599;
+    --cwTabTxt: rgba(255, 255, 255, 0.9);
+    --cwTabTxt2: rgba(255, 255, 255, 0.6);
+    --cwTabTxt3: rgba(255, 255, 255, 0.4);
+    --cwTabAccent: #f35f38;
+    --cwTabAccentTxt: rgba(255, 255, 255, 0.9);
+    --cwTabBorder: #40414d;
+    /*--tabActive */
+    --cwTabActiveG: #5e6071;
+    --cwTabActiveBg: #5e6071;
+    --cwTabActiveBgHover: #656779;
+    --cwTabActiveBg2: #75788d;
+    --cwTabActiveBg2Hover: #7d8094;
+    --cwTabActiveBg3: #838698;
+    --cwTabActiveBg3Hover: #8b8e9f;
+    --cwTabActiveTxt: rgba(255, 255, 255, 0.9);
+    --cwTabActiveTxt2: rgba(255, 255, 255, 0.6);
+    --cwTabActiveTxt3: rgba(255, 255, 255, 0.4);
+    --cwTabActiveAccent: #f35f38;
+    --cwTabActiveAccentTxt: rgba(255, 255, 255, 0.9);
+    --cwTabActiveBorder: #40414d;
+    /*--tooltip */
+    --cwTooltipG: #575969;
+    --cwTooltipBg: #575969;
+    --cwTooltipBgHover: #5e6071;
+    --cwTooltipBg2: #6e7185;
+    --cwTooltipBg2Hover: #75788d;
+    --cwTooltipBg3: #7b7d92;
+    --cwTooltipBg3Hover: #838599;
+    --cwTooltipTxt: rgba(255, 255, 255, 0.9);
+    --cwTooltipTxt2: rgba(255, 255, 255, 0.6);
+    --cwTooltipTxt3: rgba(255, 255, 255, 0.4);
+    --cwTooltipAccent: #f35f38;
+    --cwTooltipAccentTxt: rgba(255, 255, 255, 0.9);
+    --cwTooltipBorder: #40414d;
+}
+
+/*banner navigation*/
+.lca-voice-icon,
+.cas_nav_prev,
+.cas_nav_next {
+    background-color: rgba(30, 32, 54, 0.5);
+}
+html, body, #wrapper {
+    background-color: #ebebeb;
+    color: #000;
+}
+
+.bgMain {
+    background-color: #eff0f7 !important;
+}
+
+.btn_sec,
+.clr_sec {
+    background-color: #1e2036 !important;
+    color: #fff !important;
+}
+
+
+.download-app {
+    display: flex;
+    column-gap: 6px;
+    background: #EC6139;
+    border-radius: 3px;
+    margin-bottom: 20px !important;
+    width: 100%;
+    height: 44px;
+    line-height: 44px !important;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.casino_links_tabs a {
+    font-size: 12px;
+}
+
+.casino_h_link_cont {
+    background-color: #1e2036;
+}
+
+.user .ic {
+	color: #000;
+}
+
+.btn_prim,
+.clr_prim,
+.promo_clicked {
+    background-color: #f35f38 !important;
+    color: #fff !important;
+}
+
+/*.ui-checkbox label {
+	color: #111 !important;
+}*/
+
+.heading {
+    background-color: #1e2036 !important;
+    color: #fff !important;
+    border-bottom: 2px solid #f35f38;
+}
+
+.ui-collapsible-content {
+	background-color: #e0e0e0 !important;
+}
+
+.sub_heading,
+.row label {
+	color: #474747;
+}
+
+.menuBtn {
+	background-color: #fff;
+	color: #1e2036 !important;
+}
+
+.menuBtn a {
+	color: #000 !important;
+}
+
+.menuBtnSm {
+	background-color: #fff;
+	color: #f35f38 !important;
+}
+
+#header .txt {
+	color: #fff;
+}
+
+.menuRow {
+	background-color: #fff;
+	color: #000 !important;
+}
+
+.pagIt {
+	background-color: #111;
+	color: #fff;
+}
+
+.platformForgPass {
+	color: #ffffff !important;
+}
+
+.LinkToLeftPanel {
+	color: #474747 !important;
+}
+
+.panel ul li.activated {
+	background-color: #30862f !important;
+	border-color: #30862f;
+}
+
+.panel ul li.activated .PLspText,
+.panel ul li.activated a:before {
+	color: #111 !important;
+}
+
+.nav {
+	background: none;
+}
+
+/* header */
+/*main content*/
+.slidesjs-pagination li a.active, .paging li a.active {
+	border: 1px solid #30862f;
+	color: #555;
+}
+
+#inbox .unread td, #inbox .unread td a {
+	color: #30862f !important;
+}
+
+.PLUlblICt,
+.lblInboxCount1 {
+	background-color: #cc0001;
+}
+
+/*	datepicker color changes	*/
+.ui-widget-header {
+	background: #02954e !important;
+	border: none;
+}
+
+.ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight {
+	border: 1px solid #02954e;
+	background: #02954e;
+}
+
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus {
+	border: 1px solid #02954e;
+	background: green url(images/ui-bg_glass_100_fdf5ce_1x400.png) 50% 50% repeat-x;
+}
+
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
+	border: 1px solid #02954e;
+}
+
+.dateOfBirth_errors span.field-validation-valid {
+    display: none;
+}
+
+#footer {
+	background-color: #1e2036 !important;
+}
+
+#betSlip a {
+    background-color: #f35f38 !important;
+    color: #fff !important;
+    border: 0;
+    border-radius: 3px 3px 0 0;
+}
+
+#header .txt {
+    display: block;
+	color: #111;
+}
+
+.PLUlblICt, .lblInboxCount1 {
+	background-color: #e0e0e0;
+	color: #000;
+}
+
+.refresh-captcha,
+.refresh-captcha:before {
+    color: #1e2036;
+}
+
+#scroll {
+	background-color: #30862f;
+}
+
+/*my acc*/
+.data-tbl2 tbody th {
+	background: none;
+}
+
+#content.mobPlUserCont {
+	background-color: #a7a7a7;
+}
+
+.ui-shadow-inset {
+	-webkit-box-shadow: none !important;
+	-ms-box-shadow: none !important;
+	box-shadow: none !important;
+}
+
+.paymentmethods.qr {
+    width: 74px;
+    height: 25px;
+    background-image: url(/img/Casino-images-allinone.png);
+    background-position: -6827px -122px;
+}
+.paymentmethods.para247 {
+    width: 74px;
+    height: 25px;
+    background-image: url(/img/Casino-images-allinone.png);
+    background-position: -6755px -122px;
+}
+
+.paymentmethods.vistapara {
+    width: 74px;
+    height: 25px;
+    background-image: url(/img/Casino-images-allinone.png);
+    background-position: -6899px -122px;
+}
+
+#footer_coupon_count {
+    background-color: #fff;
+    color: #013a65;
+}
+
+/*Unification*/
+.tl_my_inbox_msg_box, .tl_my_inbox_mails_cont{background: #e0e0e0;}
+.tl_mail_row{ background: #d6d6d6;}
+.tl_mail_details_title{ color: #474747}
+.tl_mail_msgId {color: #4ea1cc;}
+.tl_mail_details{ color: #000;}
+.tl_popup_clr{background: #f0f0f0}
+.tl_my_inbox_msg_box, .tl_my_inbox_mails_cont{background: #e0e0e0}
+
+.recoveryPopup_new {
+    opacity: 1;
+    z-index: 101;
+    top: 0;
+    color: #fff;
+}
+#ResetPasswordNew .row {
+    padding-top: 20px;
+}
+#ResetPasswordNew label {
+    color: #fff;
+}
+
+/*left menu dropdown*/ 
+.promoted.tr:after {
+    content: "yeni";
+}
+.lang_width {
+    width: 22px;
+    margin: 0 9px;
+}
+/*left menu dropdown end*/
+
+.tl_mail_item.unread {
+    background-color: #1e2036;
+}
+
+.tl_mail_item.unread .tl_mail_details {
+    color: #fff;
+}
+
+.tl_mail_item.unread .tl_mail_details_title {
+    color: #cabfbf;
+}
+
+.tl_mail_msgId {
+    color: #f35f38;
+}
+
+@media screen and (max-width: 340px) {
+    .LogoMobilePlatform { 
+        width: 100px!important;
+    }
+}
+.row {
+    color: #000;
+}
+/*collapsable deposit withdrowal*/
+.collapse_btn h3 > a {
+    background-color: #013a65;
+    color: #fff;
+    border-color: #013a65;
+}
+.paym_txt, #generalTermsLink, .paym_txt1, .paym_cond, .paym_cond > span {color:#111;}
+.collapse_btn .ui-collapsible-content {background-color:#e0e0e0 !important;}
+ 
+#bonusesNavBar > .ui-link {
+    color: #1e2036;
+}
+
+#bonusesNavBar > .ui-link.active {
+    background-color: #f35f38;
+}
+
+.bonus-block div {
+    color: #1e2036;
+}
+
+.bonus-block .more-btn {
+    color: #1e2036;
+}
+
+.creditcard {
+    width: 70px;
+    height: 25px;
+    background-image: url(/img/Casino-images-allinone.png);
+    background-position: -136px -153px;
+}
+
+.papara {
+    width: 69px;
+    height: 25px;
+    background-image: url(/img/Casino-images-allinone.png);
+    background-position: -4485px -153px;
+}
+
+.partner_color {
+    color: #f35f38;
+    margin: 0 5px;
+}
+/*footer changes*/
+
+.footer_social-list {
+    margin-bottom: 20px;
+}
+.footer_social-item {
+    background-color: #9a9a9a;
+}
+.copy {
+    color: #b5b6c1;
+    font-size: 13px;
+    margin-bottom: 30px;
+    align-items:center;
+}
+
+.footer_links {
+    text-align: left;
+}
+.footer_links > div {
+    padding: 0 15px;
+    width: 50%;
+}
+.footer_links a {
+    color: #fff;
+    display: block;
+    font-size: 14px;
+    margin-bottom: 3px;
+}
+
+.footer_links .footer_links__title {
+    display: block;
+    color: #f35f38;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.seria-a img{
+    width: 100%;
+    margin-bottom: 16px;
+}
+/*footer payments*/
+.footer_payments {
+    margin-bottom: 20px;
+}
+
+.footer_payments .new_pay {
+    display: block;
+    height: 34px;
+    width: 62px; 
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    margin: 4px;
+    background-size: 175px;
+}
+
+.new_pay.tvbet {
+    background-position-y: -493px;
+}
+
+.new_pay.evolution_gaming {
+    background-position-y: -384px;
+}
+
+.new_pay.netent {
+    background-position-y: -734px;
+    width: 58px;
+}
+
+.new_pay.ezugi {
+    background-position-y: -453px;
+}
+
+.new_pay.betgames {
+    background-position-y: -118px;
+}
+
+.new_pay.goldenrace {
+    background-position-y: -592px;
+    height: 26px;
+}
+
+.new_pay.luckysteak {
+    background-position-y: -699px;
+    width: 34px;
+    height: 40px;
+}
+
+.new_pay.gaming1x2 {
+    background-position-y: 6px;
+}
+
+.new_pay.playson {
+    background-position-y: -422px;
+}
+
+.new_pay.papara {
+    background-position-y: -768px;
+}
+
+.new_pay.jeton {
+    background-position-y: -625px;
+}
+
+.new_pay.ecopayz {
+    background-position-y: -350px;
+}
+
+.new_pay.payfix {
+    background-position-y: -149px;
+}
+
+.new_pay.envaysoft {
+    background-position-y: -322px;
+}
+
+.new_pay.bankahavale {
+    background-position-y: -561px;
+}
+
+.new_pay.cepbank {
+    background-position-y: -288px;
+    width: 43px;
+    height: 30px;
+}
+
+.new_pay.paygiga {
+    background-position-y: -184px;
+}
+
+.new_pay.pragmatic_play {
+    background-position-y: -969px;
+    width: 66px;
+    height: 28px;
+}
+
+.new_pay.amusnet {
+    background-position-y: -997px;
+    width: 82px;
+    height: 26px;
+}
+
+.new_pay.tether {
+    background-position-y: -1022px;
+    height: 26px;
+}
+
+.new_pay.coin_payments {
+    background-position-y: -1045px;
+    width: 76px;
+    height: 24px;
+}
+
+.new_pay.mefete {
+    background-position-y: -1068px;
+    width: 76px;
+    height: 24px;
+}
+
+.new_pay.parazula {
+    background-position-y: -1089px;
+    width: 66px;
+    height: 26px;
+}
+
+
+.licenses_block {
+    min-width: 70px;
+    margin: auto;
+}
+.footer_top{
+    max-width: 368px;
+    margin: auto; 
+}
+#ceg-e9c91e18-7a3c-46c0-921b-bf63342be8de > a {
+    width: 50px;
+    display: block;
+}
+
+#ceg-e9c91e18-7a3c-46c0-921b-bf63342be8de > div {
+    min-width: 50px !important;
+    margin: auto !important;
+}
+
+.bordered_content {
+padding: 20px 0;
+margin-bottom: 10px;
+}
+
+.licenses_title {
+    color: #f35f38;
+    font-weight: 600;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.footer_text strong {
+    color: #f35f38;
+}
+
+.footer_text {
+    color: #B3B3B3;
+    line-height: 14px;
+    font-size: 12px;
+}
+.footer_bottom {
+    color: #fff;
+    font-size: 12px;
+    margin: 0 auto;
+    padding-bottom: 66px;
+    width: 328px;
+}
+.footer_bottom img {
+    width: 100%;
+}
+.call_us, .drop_down_lang, .drop_down_lang__front_el {
+    background: #343545;
+    color: #B3B3B3;
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+.cw_mob_footer_18_wrapper:after {
+    color: currentColor;
+}
+.cw_mob_footer_18_wrapper  {
+    color: currentColor
+}
+
+#ceg-e9c91e18-7a3c-46c0-921b-bf63342be8de > div {
+    max-width: 32px !important;
+}
+
+.sitebar_link_styles {
+    padding-left: 18px;
+}
+
+.sitebar_link_styles .lang {
+    width: 20px;
+}
+
+.notificationSettings_item {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.switch input.sw:checked + label:after {
+    background-color: #f35f38;
+}
+
+.switch input.sw:checked + label:before {
+    background-color: #b3b3b3
+}
+
+.tl_mail_attachfiel,
+.tl_mail_attachfiel_screp {
+    color: #eff0f7;
+}
+
+.tl_mail_attachfiel_delete{
+    font-style: normal;
+}
+
+/*inputs optimisation*/
+input,
+.reg_input,
+.tl_mail_send_area,
+.custon_select__front_el,
+.drop-down,
+.drop-down-small,
+#content_paym .ui-select span,
+#content_paym .ui-select select,
+.favorite_amounts > div,
+.reg__checkboxes_row,
+.reg__gender_row label,
+.profile_container .reg__gender_row label {
+    background-color: #fff;
+    color: #111;
+}
+
+.reg__row_title, .profile_container label, .transfer2friend_cont label, #content_paym label, .forgot_pass__row label, .r_login__row label, .changepass__element_row label, .search_popup_row label {
+    color: #474747;
+}
+
+/*tournament*/
+.tour__leaderboard_table_me {
+    border-bottom: 2px solid #f35f38;
+}
+
+.tr_col_me {
+    color: #f35f38;
+}
+
+.tour_text_color, .tour__leaderboard_active_title.active {
+    color: #1A1A1A;
+}
+
+.trnments_drop__button:before {
+    border-color: #1A1A1A transparent transparent transparent;
+}
+
+.custom_swicher {
+    border: 2px solid #c4c4c4;
+}
+
+.custom_swicher:before {
+    background-color: #1A1A1A;
+}
+
+.tour__leaderboard_table_me {
+    background-color: #FFFFFF;
+    color: #1a1a1a;
+}
+
+.tour__leaderboard_table_item {
+    background-color: #FAFAFA;
+    color: #1a1a1a;
+}
+
+#tr_leaderboard {
+    box-shadow: 0px 0px 6px 0px rgba(30, 32, 54, 0.3);
+}
+
+.trnments_drop__custom_ul {
+    background: #fff;
+}
+
+/*new redesign styles*/
+.name_vidget {
+    color: #fff;
+    background: rgba(30, 32, 54, 0.5);
+    border-radius: 4px;
+}
+
+/*/slider*/
+/*main nav*/
+.nav_title {
+    background: transparent;
+    font-size: 14px;
+    text-shadow: none;
+}
+
+.block_title {
+    color: #f35f38;
+    background: #2B2B2B;
+}
+
+.nav_item {
+    height: 100%;
+}
+
+.nav_item > img {
+    padding: 0 0 15px;
+    object-fit: contain;
+}
+
+.nav_item .live_tv {
+    padding: 28px 62px 37px;
+}
+
+.nav_item {
+    background: rgb(30, 32, 54);
+    border-radius: 8px;
+}
+
+.casino_h_link_cont.fixed {
+    position: static;
+}
+
+/*games containers*/
+.favorite_see__notlogin_text {
+    color: #000;
+}
+
+/*casino navigation*/
+.fixed_menu__play_button {
+    background: #343545;
+}
+
+.menu_circle:before {
+    box-shadow: 4px 3px 40px 1200px #343545;
+}
+
+.fixed_menu__li {
+    color: #fff;
+}
+
+.fixed_menu__li.active svg .yellow, .fixed_menu__li.active .fixed_menu__play_button, .fixed_menu__li.active {
+    color: #f35f38;
+}
+
+.more_menu_btns_content:before { 
+    border-top-color: rgba(52, 53, 69,0.94);
+    border-right-color: rgba(52, 53, 69,0.94);
+}
+
+.casino_nav__links_block {
+    background: #1E2036;
+}
+
+.links_block_x_scroll_hidden::before {
+    background: #000;
+    -webkit-box-shadow: 0 0 30px 29px rgba(30, 32, 54,.85);
+    -moz-box-shadow: 0 0 30px 29px rgba(30, 32, 54,.85);
+    box-shadow: 0 0 30px 29px rgba(30, 32, 54,.85);
+}
+
+.casino_nav__links_block a {
+    color: #fff;
+}
+
+.casino_nav__links_block a.active {
+    color: #f35f38;
+}
+
+.casino-tab-container.casino_fixed_menu, .lc-fixed-menu {
+    z-index: 4;
+}
+
+.content_new_styles .casino-tab-container {
+    height: 50px;
+}
+
+/*play page promotions*/
+.play__promo_mobile_li {
+    background-color: #262626;
+}
+
+.play__promo_img_shadow::after {
+    -webkit-box-shadow: inset 0px -145px 40px -104px rgba(30, 32, 54,1);
+    -moz-box-shadow: inset 0px -145px 40px -104px rgba(30, 32, 54,1);
+    box-shadow: inset 0px -145px 40px -104px rgba(30, 32, 54,1);
+}
+
+.play__promo_title {
+    color: #fff;
+}
+
+.play__promo_descr {
+    color: #CCCCCC;
+}
+
+.play__promo_text {
+    margin-bottom: 45px
+}
+
+
+.promo_mobile_descr {
+    max-height: 176px;
+}
+
+/*filter and search*/
+#searchContent .popup_flex_box {
+    background: #EBEBEB;
+    box-shadow: 0px 0px 320px 320px #EBEBEB;
+    height: calc(100% - 150px);
+    top: 65px;
+}
+
+#casino_filter_popup {
+    background-color: #1E2036;
+}
+
+.search_switcher {
+    background-color: #cfcfcf;
+}
+
+.search_switcher:before {
+    background-color: #fff;
+}
+
+.checked .search_switcher {
+    background-color: #f35f38;
+}
+
+.search__icon::after {
+    color: #000;
+}
+
+.search_filter_input:-webkit-autofill,
+.search_filter_input:-webkit-autofill:hover,
+.search_filter_input:-webkit-autofill:focus,
+.search_filter_input:-webkit-autofill:active,
+.lca-search-input:-webkit-autofill,
+.lca-search-input:-webkit-autofill:hover,
+.lca-search-input:-webkit-autofill:focus,
+.lca-search-input:-webkit-autofill:active {
+    -webkit-box-shadow: inset 0 0 0 50px #262626 !important;
+    -webkit-text-fill-color: #fff;
+}
+
+.games_filter_popup .switcher_label {
+    color: #000
+}
+
+/*search part*/
+.nc__heading, .seasch__game_not_found_mob {
+    color: #000;
+}
+
+.games_filter_popup .search_filter_input {
+    background-color: #262626 !important;
+    box-shadow: 0px 3px 6px #2B2B2B4D;
+    color: #fff;
+}
+
+.games_filter_popup .seasch__game_not_found_mob::before {
+    color: #666666;
+}
+
+.games_filter_popup {
+    width: 100%;
+}
+
+.fs__input_wrap .close-search {
+    color: #fff;
+}
+
+.fs__input_wrap .close-search:after {
+    background: #fff;
+}
+
+.fs__input_wrap .close-search:before {
+    background: #fff;
+}
+
+/*icons opened game info*/
+.like_icon:after {
+    color: #fff;
+}
+
+.close__game__more_block::after {
+    color: #fff;
+}
+
+.game__link_play {
+    background: #F35F38;
+    color: #fff;
+}
+
+.game__link_demo {
+    background: #1E2036;
+    color: #fff;
+}
+
+.game__name {
+    text-shadow: 0px 0px 6px #F14100;
+    color: #fff;
+}
+
+/*filer*/
+.games_filter_title {
+    color: #ffffff;
+    background-color: #333;
+}
+
+.games_filter_element, .games_filter_list_show {
+    background-color: #333;
+    color:#fff 
+}
+
+.games_filter_element.active {
+    background: #f35f38;
+    color: #fff;
+}
+
+.filter__more_games {
+    color: #fff;
+    background: #1E2036;
+    min-height: 31vw;
+}
+
+.filter_result__go_back {
+    color: #999999;
+}
+
+.filters_slider_cont {
+    background-color: #343545;
+}
+
+.games_filter_popup__footer {
+    background-color: #262626;
+}
+
+.games_filter_reset {
+    background-color: #161415;
+    color: #fff
+}
+
+.games_filter_show {
+    background-color: #f35f38;
+    color: #fff
+}
+
+/*training animate*/
+.training__block_circle {
+    border: 2px solid #FFFFFF;
+    box-shadow: 0 0 7px 0 #FF0000, 0 0 0 3000px rgba(30, 32, 54,0.7);
+}
+
+.training__info {
+    color: #333;
+    background: #fff;
+}
+
+.training__block_circle:before {
+    border: 20px solid transparent;
+    border-top: 20px solid #fff;
+}
+
+.training__next {
+    color: #f35f38;
+}
+
+.games_filter_popup__footer {
+    bottom: 100px;
+    background-color: #343545;
+}
+
+div.nc__slider_block.w100 {
+    min-height: 160px;
+}
+
+.fixed_menu__li_play {
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.fr__sort_by_drpdwn_el {
+    background-color: #fff;
+}
+
+/*left panel*/
+#left-panel {
+    width: 300px;
+    z-index: 9999;
+}
+
+.promo_mobile_cont {
+    background-color: #fff
+}
+
+.casino_nav_fav_game_not_found {
+    color: #000
+}
+
+.reg_steps_info {
+    width: 100%;
+}
+
+.reg_progress_dots {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 30px 0 16px;
+}
+
+.reg_progress_dots span {
+    width: 24px;
+    height: 24px;
+    border: 2px solid #f35f38;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    position: relative;
+    background-color: #eff0f7;
+}
+
+.reg_progress_dots span.active:after {
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    content: "";
+    position: absolute;
+    height: 12px;
+    width: 12px;
+    background: #f35f38;
+    top: 4px;
+    left: 4px;
+}
+
+.reg_progress_dots span.done {
+    background: #f35f38;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    border: none;
+    height: 22px;
+    width: 22px;
+    top: 2px;
+}
+
+.reg_progress_dots span.done:before {
+    background: #f35f38;
+}
+
+.reg_progress_dots span:before {
+    background: #f35f38;
+    content: "";
+    position: absolute;
+    width: calc(50vw - 45px);
+    height: 2px;
+    top: 9px;
+    left: 22px;
+}
+
+.reg_progress_dots span:last-child:before {
+    display: none;
+}
+
+.reg_prof__element_row.fail #generalTermsLink {
+    color: #d30000;
+}
+
+.register_step_number {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+}
+
+.register_step_descr {
+    margin: 10px 0 20px;
+    font-size: 16px;
+}
+
+#countryNumber-button {
+    width: 85px;
+}
+
+.reg_third_text1 {
+    color: #F35F38;
+    font-size: 20px;
+    display: block;
+    margin: 16px 0;
+}
+
+.reg_third_text2 {
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    margin-bottom: 100px;
+    display: block;
+}
+
+.reg_prof__element_row.fail .D_info_box.f > span > span {
+    background-color: #ddd;
+    color: #fc0000 !important;
+    position: absolute;
+}
+
+.reg_prof__element_row.fail .D_info_box.f > span:after {
+    border-color: transparent transparent #dddddd transparent;
+}
+
+.reg__checkboxes_row label:after {
+    content: "3";
+    text-align: center;
+    background-image: none;
+    font-family: ProductIconsFont !important;
+    background-color: transparent !important;
+    font-size: 22px !important;
+    top: 10px !important;
+    color: #999999 !important;
+}
+
+.ui-btn.ui-checkbox-on:after {
+    content: "4";
+}
+
+.casino__container .tr.New:after {
+    content: "Yeni";
+} 
+
+/*Live casino skinning*/
+/*.lca-main-content {
+    background-color: #ffffff;
+    color: #000;
+}*/
+
+.lca_search_cont {
+    color: #ffffff;
+}
+
+.lca_search_input {
+    background-color: #343545;
+}
+  /*Menu*/
+.lca_search_cont, .lca-menu {
+    background-color: #1e2036;
+}
+
+.lca-menu-link {
+    color: #fff;
+}
+
+.lca-menu-link.active {
+    background-color: #f35f38;
+    color: #fff;
+}
+
+.lca-menu-link.active .lca-menu-badge {
+  background-color: #1e2036;
+  color: #f35f38;
+}
+
+.lca-menu-badge {
+  background-color: #f35f38;
+  color: #fff;
+}
+
+  /*Submenu*/
+.lca-submenu {
+    background-color: #303357;
+    color: #fff;
+}
+
+.lca-submenu-link {
+  color: #cccccc;
+}
+
+.lca-submenu-link.active {
+    color: #f35f38;
+}
+
+  /*Game card*/
+.lca-card-footer {
+    background-color: #1e2036;
+    color: #fff;
+}
+
+ .lca-card-footer-btn .star_icon.active, .lca-card-price{
+    color: #f35f38;
+}
+
+.lca-card-footer-btn {
+    background-color: #303357;
+    color: #fff;
+}
+
+.lca-card-footer-btn .like_icon:after,
+.lca-card-footer-btn .star_icon {
+  color: #fff;
+}
+
+.name_vidget {
+    background-color: rgba(30, 32, 54, 0.5);
+    color: #fff;
+}
+
+.lca-main-content .star_icon.active:after {
+    color: #f35f38;
+    text-shadow: 0px 0px 6px #f68668;
+}
+
+.lca-card-badge.type-1 {
+    background-color: #f35f38;
+    color: #fff;
+}
+
+  /*Filter and search*/
+.lca-title {
+    color: #000;
+}
+
+.lca-input {
+  background-color: #1e2036;
+  color: #cccccc;
+}
+
+.lca-filter-toggle {
+    color: #000;
+}
+
+.lca-filter-price {
+  background-color: #1e2036;
+  color: #fff;
+}
+
+.lca-filter-price-input {
+  color: #fff;
+}
+
+.lca-filter-range-divider {
+    background-color: #f35f38;
+}
+
+.lca-main-content .noUi-target {
+    background: #1e2036;
+}
+
+.lca-main-content .noUi-connect {
+    background: #f35f38;
+}
+
+.lca-main-content .noUi-handle {
+    border-color: #1e2036;
+    background: #f35f38;
+}
+
+.lca-filter-category-item {
+    background-color: #1e2036;
+    color: #fff;
+}
+
+.lca-filter-category-item.active {
+  background-color: #f35f38;
+  color: #fff;
+}
+
+.lca-search-result-title {
+    color: #000;
+}
+
+.lca-search-result-filter-item {
+    color: #333333;
+}
+
+.lca-search-result-filter-item-description {
+    color: #000;
+}
+
+.lca-dropdown-toggle {
+    color: #000;
+}
+
+.lca-dropdown {
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #000;
+}
+
+.lca-dropdown-item {
+    color: #000;
+}
+
+.lca-back-link {
+    color: #333333;
+}
+
+.lca-card-more {
+    background: rgb(30, 32, 54);
+    color: #fff;
+    border-radius: 8px;
+}
+
+.lca-filter-footer {
+    background-color: #1e2036;
+    color: #fff;
+    bottom: 75px;
+}
+
+.lca-filter-footer-btn-reset {
+    background-color: #303357;
+    color: #fff;
+}
+
+.lca-filter-footer-btn-show {
+    background-color: #f35f38;
+    color: #fff;
+}
+
+  /*Promotions*/
+.lca-promo-text-wrapper {
+    background-color: #1e2036;
+    color: #fff;
+}
+
+.lca-promo-title {
+    color: #fff;
+}
+
+.lca-main-content .promo_mobile_cont {
+  background-color: #1e2036;
+  color: #fff;
+}
+
+.lca-main-content .promo_mobile_title {
+  color: #fff;
+}
+     
+.lca-main-content .promo_mobile_text_cont {
+  box-shadow: 0 -14px 29px 19px #1e2036;
+}
+
+.lca-card-promo-img::after {
+    box-shadow: inset 0px -71px 39px -35px #1e2036;
+}
+
+#ResetPasswordNew ~ p {
+    text-align: center;
+}
+
+.buttom_description_text_mob {
+    font-size: 13px;
+    font-weight: bold;
+    color: #999999;
+    margin-bottom: 7px;
+}
+
+.paymentmethods.withrawalMob.tether {
+    width: 51px;
+    background-image: url(/img/Casino-images-allinone.png);
+    background-position: -2924px -59px;
+}
+
+.paymentmethods.tether {
+    width: 60px;
+    height: 27px;
+    background-image: url(/img/Casino-images-allinone.png);
+    background-position: -7965px 2px;
+}
+
+
+.lca-divider {
+    border-bottom: 1px solid rgb(142, 143, 154);
+}
+
+.expresshavale {
+    width: 72px;
+    height: 25px;
+    background-image: url(/img/Casino-images-allinone.png);
+    background-position: -2266px -59px;
+} 
+
+/*27.4.21 optims*/
+body .bg-primary, body .h-bg-primary {
+    background-color: #F35F38;
+    color: #fff;
+}
+
+body .h-bg-primary:hover {
+    background-color: #ff734c;
+    color: #fff;
+}
+
+body .text-primary {
+    color: #F35F38;
+}
+
+body .bg-secondary, body .h-bg-secondary {
+    background-color: #D6D6D6;
+    color: #333;
+}
+
+    body .h-bg-secondary:hover {
+        background-color: #eaeaea;
+        color: #333;
+    }
+
+body .bg-tert, body .h-bg-tert {
+    background-color: #fff;
+    color: #000;
+}
+
+body .h-bg-tert:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.reg_prof__element_row.captchablock ~ .regErMes.D_info_box {
+    top: 47px;
+}
+
+.ozelcekim {
+    width: 64px;
+    height: 25px;
+    background-image: url(/img/Casino-images-allinone.png);
+    background-position: -6344px -29px;
+}
+/*very new bonus*/
+.bonus_card_body {
+    background-color: #d7d8de;
+}
+
+
+/*bonus history redesign*/
+
+.bonus-history .bonus-block {
+    background-color: #E0E1E4;
+}
+
+#bonuses_content.bonus-history .bonus-block .item {
+    border-bottom-color: rgba(120,120,120, 0.8);
+}
+
+#bonuses_content.bonus-history .col50 {
+    color: rgba(120, 120, 120, 0.9);
+}
+
+#bonuses_content.bonus-history .col50.text-right {
+    color: #262626;
+}
+
+
+.bonus-history .bonus_details p {
+    border-bottom: 1px solid rgba(120, 120, 120, 0.8);
+    color: rgba(120, 120, 120, 0.8);
+}
+
+.bonus-history .bonus_details p span {
+    color: #000000;
+}
+
+/*----------------*/
+
+
+/*balance switcher*/
+.real-tab {
+    background: linear-gradient(to left, transparent 50%, #000000 50%) right;
+    background-size: 200%;
+}
+
+.real-tab.active {
+    color: #ffffff;
+}
+
+/*----------*/
+/*Website Homepage Redesign, Lobbies*/
+.main-wrapper, .mainLobby_wrapper, .lca-main-lobby-wrapper {
+    background-color: #eff0f7;
+}
+
+/*Free Speen bonus*/
+.free_spin.sport .free_spin__btn {
+    background-color: #F35F38;
+    color: #fff;
+}
+
+.document_upload_content .btn_upload {
+    filter: brightness(1);
+}
+
+@media only screen and (max-width: 340px) {
+    .footer_cont{
+        padding: 0 15px;
+    }
+}
+
+.forgot_pass__row.recover_pass label {
+    padding: 20px 30px;
+}
+
+.gcb_license {
+    width: 108px;
+    height: 60px;
+    margin-left: 40px;
+}

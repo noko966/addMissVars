@@ -1,0 +1,245 @@
+/* Casino Mobile page */
+:root {
+    --cwBodyBg: #070707;
+    --cwBodyBg2: #202020;
+    --cwBodyBg3: #2d2d2d;
+    --cwBodyBgHover: #0f0f0f;
+    --cwBodyBg2Hover: #282828;
+    --cwBodyBg3Hover: #353535;
+    --cwBodyRGBA: rgba(7, 7, 7, 0.7);
+    --cwBodyRGBA2: rgba(7, 7, 7, 0.5);
+    --cwBodyRGBA3: rgba(7, 7, 7, 0.3);
+    --cwBodyTxt: #fff;
+    --cwBodyTxt2: #b5b5b5;
+    --cwBodyTxt3: #838383;
+    --cwBodyAccent: #A0FF01;
+    --cwBodyAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwBodyBorder: #070707;
+    --cwBodyRadius: 0px;
+    --cwDominantG: #0D0A0B;
+    --cwDominantRGBA: rgba(13, 10, 11, 0.7);
+    --cwDominantRGBA2: rgba(13, 10, 11, 0.5);
+    --cwDominantRGBA3: rgba(13, 10, 11, 0.3);
+    --cwDominantBg: #0D0A0B;
+    --cwDominantBg2: #2a2023;
+    --cwDominantBg3: #382b30;
+    --cwDominantBgHover: #161112;
+    --cwDominantBg2Hover: #33272a;
+    --cwDominantBg3Hover: #413237;
+    --cwDominantTxt: #fff;
+    --cwDominantTxt2: #b6b6b6;
+    --cwDominantTxt3: #868585;
+    --cwDominantAccent: #A0FF01;
+    --cwDominantAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwDominantTxtInverse: #262626;
+    --cwDominantRadius: 0px;
+    --cwAccentBg: #A0FF01;
+    --cwAccentBg2: #b3ff34;
+    --cwAccentBg3: #bdff4d;
+    --cwAccentBgHover: #a6ff10;
+    --cwAccentBg2Hover: #b9ff43;
+    --cwAccentBg3Hover: #c3ff5c;
+    --cwAccentG: #A0FF01;
+    --cwAccentTxt: #000;
+    --cwAccentTxt2: #304d00;
+    --cwAccentTxt3: #508001;
+    --cwButtonG: #A6FF10;
+    --cwButtonBg: #A6FF10;
+    --cwButtonBg2: #b9ff43;
+    --cwButtonBg3: #c2ff5c;
+    --cwButtonBgHover: #acff1f;
+    --cwButtonBg2Hover: #bfff52;
+    --cwButtonBg3Hover: #c8ff6b;
+    --cwButtonTxt: #000;
+    --cwButtonTxt2: #324d05;
+    --cwButtonTxt3: #538008;
+    --cwButtonAccent: #A0FF01;
+    --cwButtonAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwButtonBorder: #070707;
+    --cwButtonRadius: 6px;
+    --cwButtonSecondaryG: #080808;
+    --cwButtonSecondaryBg: #080808;
+    --cwButtonSecondaryBg2: #212121;
+    --cwButtonSecondaryBg3: #2e2e2e;
+    --cwButtonSecondaryBgHover: #101010;
+    --cwButtonSecondaryBg2Hover: #292929;
+    --cwButtonSecondaryBg3Hover: #363636;
+    --cwButtonSecondaryTxt: #fff;
+    --cwButtonSecondaryTxt2: #b5b5b5;
+    --cwButtonSecondaryTxt3: #848484;
+    --cwButtonSecondaryAccent: #A0FF01;
+    --cwButtonSecondaryAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwButtonSecondaryBorder: #A6FF10;
+    --cwButtonSecondaryRadius: 6px;
+    --cwInputG: #2a2023;
+    --cwInputBg: #2a2023;
+    --cwInputBg2: #47363b;
+    --cwInputBg3: #554147;
+    --cwInputBgHover: #33272a;
+    --cwInputBg2Hover: #503d42;
+    --cwInputBg3Hover: #5e484e;
+    --cwInputTxt: #fff;
+    --cwInputTxt2: #bfbcbd;
+    --cwInputTxt3: #959091;
+    --cwInputAccent: #A0FF01;
+    --cwInputAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwInputRadius: 6px;
+    --cwInputBorder: #070707;
+    --cwInputSecondaryG: #503d42;
+    --cwInputSecondaryBg: #503d42;
+    --cwInputSecondaryBg2: #6d535a;
+    --cwInputSecondaryBg3: #7b5e66;
+    --cwInputSecondaryBgHover: #594449;
+    --cwInputSecondaryBg2Hover: #765a61;
+    --cwInputSecondaryBg3Hover: #84656d;
+    --cwInputSecondaryTxt: #fff;
+    --cwInputSecondaryTxt2: #cbc5c6;
+    --cwInputSecondaryTxt3: #a89ea1;
+    --cwInputSecondaryAccent: #A0FF01;
+    --cwInputSecondaryAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwInputSecondaryRadius: 6px;
+    --cwInputSecondaryBorder: #070707;
+    --cwHeaderG: #000000;
+    --cwHeaderBg: #000000;
+    --cwHeaderBg2: #1a1a1a;
+    --cwHeaderBg3: #262626;
+    --cwHeaderBgHover: #080808;
+    --cwHeaderBg2Hover: #222222;
+    --cwHeaderBg3Hover: #2e2e2e;
+    --cwHeaderTxt: #fff;
+    --cwHeaderTxt2: #b3b3b3;
+    --cwHeaderTxt3: #808080;
+    --cwHeaderAccent: #A0FF01;
+    --cwHeaderAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwHeaderBorder: #070707;
+    --cwHeaderRadius: 0px;
+    --cwSubHeaderG: #222222;
+    --cwSubHeaderBg: #222222;
+    --cwSubHeaderBg2: #3b3b3b;
+    --cwSubHeaderBg3: #484848;
+    --cwSubHeaderBgHover: #2a2a2a;
+    --cwSubHeaderBg2Hover: #434343;
+    --cwSubHeaderBg3Hover: #505050;
+    --cwSubHeaderTxt: #fff;
+    --cwSubHeaderTxt2: #bdbdbd;
+    --cwSubHeaderTxt3: #919191;
+    --cwSubHeaderAccent: #A0FF01;
+    --cwSubHeaderAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwSubHeaderBorder: #070707;
+    --cwSubHeaderRadius: 0px;
+    --cwModalG: #110D0E;
+    --cwModalBg: #110D0E;
+    --cwModalBg2: #2e2326;
+    --cwModalBg3: #3c2e32;
+    --cwModalBgHover: #1a1415;
+    --cwModalBg2Hover: #372a2d;
+    --cwModalBg3Hover: #453539;
+    --cwModalTxt: #fff;
+    --cwModalTxt2: #b8b6b7;
+    --cwModalTxt3: #888687;
+    --cwModalAccent: #A0FF01;
+    --cwModalAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwModalRadius: 0px;
+    --cwModalBorder: #070707;
+    --cwTabG: #2a2023;
+    --cwTabBg: #2a2023;
+    --cwTabBg2: #47363b;
+    --cwTabBg3: #554147;
+    --cwTabBgHover: #33272a;
+    --cwTabBg2Hover: #503d42;
+    --cwTabBg3Hover: #5e484e;
+    --cwTabTxt: #fff;
+    --cwTabTxt2: #bfbcbd;
+    --cwTabTxt3: #959091;
+    --cwTabAccent: #A0FF01;
+    --cwTabAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwTabRadius: 0px;
+    --cwTabBorder: #070707;
+    --cwTabActiveG: #33272a;
+    --cwTabActiveBg: #33272a;
+    --cwTabActiveBg2: #503d42;
+    --cwTabActiveBg3: #5e484e;
+    --cwTabActiveBgHover: #3c2e31;
+    --cwTabActiveBg2Hover: #594449;
+    --cwTabActiveBg3Hover: #674f55;
+    --cwTabActiveTxt: #fff;
+    --cwTabActiveTxt2: #c2bebf;
+    --cwTabActiveTxt3: #999395;
+    --cwTabActiveAccent: #A0FF01;
+    --cwTabActiveAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwTabActiveRadius: 0px;
+    --cwTabActiveBorder: #070707;
+    --cwTooltipG: #2a2023;
+    --cwTooltipBg: #2a2023;
+    --cwTooltipBg2: #47363b;
+    --cwTooltipBg3: #554147;
+    --cwTooltipBgHover: #33272a;
+    --cwTooltipBg2Hover: #503d42;
+    --cwTooltipBg3Hover: #5e484e;
+    --cwTooltipTxt: #fff;
+    --cwTooltipTxt2: #bfbcbd;
+    --cwTooltipTxt3: #959091;
+    --cwTooltipAccent: #A0FF01;
+    --cwTooltipAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwTooltipRadius: 0px;
+    --cwTooltipBorder: #070707;
+}
+
+  
+  
+
+/*footer*/
+.footer_social-item:not(:last-of-type) {
+    -webkit-margin-end: 8px;
+    margin-inline-end: 8px;
+}
+.footer_social-item {
+    background-color: var(--cwHeaderBg3);
+    color: var(--cwHeaderTxt3);
+    border-radius: 8px;
+}
+.footer_payment {
+    margin-bottom: 18px;
+}
+.footer_links a:not(.footer_links__title) {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.cw_mob_footer_18_wrapper {
+    color:red;
+}
+.footer_links {
+    margin-bottom: 60px;
+}
+.footer__app {
+    column-gap: 8px;
+    margin-bottom: 60px;
+}
+.footer__app-btn {
+    border-radius: 8px;
+    background: var(--cwHeaderBg3);
+    color: var(--cwHeaderTxt3);
+    column-gap: 8px;
+    padding: 3px 10px;
+}
+
+.licence-text {
+    line-height: 20px;
+    color: var(--cwHeaderTxt2);
+}
+
+.licence-text a {
+    text-decoration: underline;
+    color: var(--cwHeaderAccent);
+}
+
+/*registration*/
+.register_content {
+    background-color: var(--cwBodyBg);
+    color: var(--cwModalTxt2);
+    padding: 24px 20px;
+}
+.prof_upd_btn{
+    width: 100%;
+}

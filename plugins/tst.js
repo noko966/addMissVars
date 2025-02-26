@@ -134,6 +134,7 @@ module.exports = (opts) => {
           },
         ];
 
+
         const essKeyGenerator = (e) => {
           const essenceVerbalData = vd(e.name);
           return [
@@ -143,11 +144,11 @@ module.exports = (opts) => {
             essenceVerbalData.nameBgHov,
             essenceVerbalData.nameBg2Hov,
             essenceVerbalData.nameBg3Hov,
+            essenceVerbalData.nameG,
             essenceVerbalData.nameRGBA0,
             essenceVerbalData.nameRGBA,
             essenceVerbalData.nameRGBA2,
             essenceVerbalData.nameRGBA3,
-            essenceVerbalData.nameG,
             essenceVerbalData.nameTxt,
             essenceVerbalData.nameTxt2,
             essenceVerbalData.nameTxt3,
@@ -179,7 +180,7 @@ module.exports = (opts) => {
           for (const key in allVariables) {
             if (decl.prop === key && decl.variable) {
               allVariables[key] = decl.value;
-              decl.remove();
+              // decl.remove();
             }
           }
         });
@@ -188,6 +189,8 @@ module.exports = (opts) => {
 
         rule.append({ text: "SKINNER ADDED VARIABLES BEGINS HERE" });
         essences.forEach((e) => {
+          if(e.name !== 'event') return
+          
           rule.append({ text: `${e.name} essence` });
           const customProps = essKeyGenerator(e);
           customProps.forEach((p) => {

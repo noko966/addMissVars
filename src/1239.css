@@ -1,0 +1,339 @@
+/* Casino Mobile page */
+:root {
+    --cwBodyBg: #000000;
+    --cwBodyBg2: #1a1a1a;
+    --cwBodyBg3: #262626;
+    --cwBodyBgHover: #080808;
+    --cwBodyBg2Hover: #222222;
+    --cwBodyBg3Hover: #2e2e2e;
+    --cwBodyRGBA: rgba(0, 0, 0, 0.7);
+    --cwBodyRGBA2: rgba(0, 0, 0, 0.5);
+    --cwBodyRGBA3: rgba(0, 0, 0, 0.3);
+    --cwBodyTxt: #e6e6e6;
+    --cwBodyTxt2: #cccccc;
+    --cwBodyTxt3: #b3b3b3;
+    --cwBodyAccent: #E8B978;
+    --cwBodyAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwBodyBorder: #000000;
+    --cwBodyRadius: 0px;
+    --cwDominantG: #15171C;
+    --cwDominantRGBA: rgba(21, 23, 28, 0.7);
+    --cwDominantRGBA2: rgba(21, 23, 28, 0.5);
+    --cwDominantRGBA3: rgba(21, 23, 28, 0.3);
+    --cwDominantBg: #15171C;
+    --cwDominantBg2: #2b2f39;
+    --cwDominantBg3: #363b48;
+    --cwDominantBgHover: #1c1e25;
+    --cwDominantBg2Hover: #323642;
+    --cwDominantBg3Hover: #3d4251;
+    --cwDominantTxt: #e8e8e8;
+    --cwDominantTxt2: #d0d1d2;
+    --cwDominantTxt3: #b9b9bb;
+    --cwDominantAccent: #E8B978;
+    --cwDominantAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwDominantTxtInverse: #262626;
+    --cwDominantRadius: 0px;
+    --cwAccentBg: #E8B978;
+    --cwAccentBg2: #efd0a4;
+    --cwAccentBg3: #f3dbb9;
+    --cwAccentBgHover: #eac085;
+    --cwAccentBg2Hover: #f1d7b1;
+    --cwAccentBg3Hover: #f5e2c6;
+    --cwAccentG: #E8B978;
+    --cwAccentTxt: #17130c;
+    --cwAccentTxt2: #2e2518;
+    --cwAccentTxt3: #463824;
+    --cwButtonG: linear-gradient(270deg, #573E2A 0%, #EAC085 100%);
+    --cwButtonBg: #EAC085;
+    --cwButtonBg2: #f1d6b1;
+    --cwButtonBg3: #f5e2c6;
+    --cwButtonBgHover: #ecc792;
+    --cwButtonBg2Hover: #f3ddbe;
+    --cwButtonBg3Hover: #f7e9d3;
+    --cwButtonTxt: #17130d;
+    --cwButtonTxt2: #2f261b;
+    --cwButtonTxt3: #463a28;
+    --cwButtonAccent: #E8B978;
+    --cwButtonAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwButtonBorder: #000000;
+    --cwButtonRadius: 4px;
+    --cwButtonSecondaryG: #181D23;
+    --cwButtonSecondaryBg: #181D23;
+    --cwButtonSecondaryBg2: #2d3641;
+    --cwButtonSecondaryBg3: #374350;
+    --cwButtonSecondaryBgHover: #1e242c;
+    --cwButtonSecondaryBg2Hover: #333d4a;
+    --cwButtonSecondaryBg3Hover: #3d4b59;
+    --cwButtonSecondaryTxt: #e8e8e9;
+    --cwButtonSecondaryTxt2: #d1d2d3;
+    --cwButtonSecondaryTxt3: #babbbd;
+    --cwButtonSecondaryAccent: #E8B978;
+    --cwButtonSecondaryAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwButtonSecondaryBorder: #181D23;
+    --cwButtonSecondaryRadius: 4px;
+    --cwInputG: #2b2f39;
+    --cwInputBg: #2b2f39;
+    --cwInputBg2: #414756;
+    --cwInputBg3: #4c5365;
+    --cwInputBgHover: #323642;
+    --cwInputBg2Hover: #484e5f;
+    --cwInputBg3Hover: #535a6e;
+    --cwInputTxt: #eaeaeb;
+    --cwInputTxt2: #d5d5d7;
+    --cwInputTxt3: #bfc1c4;
+    --cwInputAccent: #E8B978;
+    --cwInputAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwInputRadius: 0px;
+    --cwInputBorder: #000000;
+    --cwInputSecondaryG: #323642;
+    --cwInputSecondaryBg: #323642;
+    --cwInputSecondaryBg2: #484e5f;
+    --cwInputSecondaryBg3: #535a6e;
+    --cwInputSecondaryBgHover: #393d4b;
+    --cwInputSecondaryBg2Hover: #4f5568;
+    --cwInputSecondaryBg3Hover: #5a6177;
+    --cwInputSecondaryTxt: #ebebec;
+    --cwInputSecondaryTxt2: #d6d7d9;
+    --cwInputSecondaryTxt3: #c2c3c6;
+    --cwInputSecondaryAccent: #E8B978;
+    --cwInputSecondaryAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwInputSecondaryRadius: 0px;
+    --cwInputSecondaryBorder: #000000;
+    --cwHeaderG: #0D0E12;
+    --cwHeaderBg: #0D0E12;
+    --cwHeaderBg2: #222530;
+    --cwHeaderBg3: #2d313e;
+    --cwHeaderBgHover: #13151b;
+    --cwHeaderBg2Hover: #282c39;
+    --cwHeaderBg3Hover: #333847;
+    --cwHeaderTxt: #e7e7e7;
+    --cwHeaderTxt2: #cfcfd0;
+    --cwHeaderTxt3: #b6b7b8;
+    --cwHeaderAccent: #999999;
+    --cwHeaderAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwHeaderBorder: #000000;
+    --cwHeaderRadius: 0px;
+    --cwSubHeaderG: #282c39;
+    --cwSubHeaderBg: #282c39;
+    --cwSubHeaderBg2: #3d4357;
+    --cwSubHeaderBg3: #484f66;
+    --cwSubHeaderBgHover: #2e3342;
+    --cwSubHeaderBg2Hover: #434a60;
+    --cwSubHeaderBg3Hover: #4e566f;
+    --cwSubHeaderTxt: #eaeaeb;
+    --cwSubHeaderTxt2: #d4d5d7;
+    --cwSubHeaderTxt3: #bfc0c4;
+    --cwSubHeaderAccent: #999999;
+    --cwSubHeaderAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwSubHeaderBorder: #000000;
+    --cwSubHeaderRadius: 0px;
+    --cwModalG: #2b2f39;
+    --cwModalBg: #2b2f39;
+    --cwModalBg2: #414756;
+    --cwModalBg3: #4c5365;
+    --cwModalBgHover: #323642;
+    --cwModalBg2Hover: #484e5f;
+    --cwModalBg3Hover: #535a6e;
+    --cwModalTxt: #eaeaeb;
+    --cwModalTxt2: #d5d5d7;
+    --cwModalTxt3: #bfc1c4;
+    --cwModalAccent: #E8B978;
+    --cwModalAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwModalRadius: 0px;
+    --cwModalBorder: #000000;
+    --cwTabG: #2b2f39;
+    --cwTabBg: #2b2f39;
+    --cwTabBg2: #414756;
+    --cwTabBg3: #4c5365;
+    --cwTabBgHover: #323642;
+    --cwTabBg2Hover: #484e5f;
+    --cwTabBg3Hover: #535a6e;
+    --cwTabTxt: #eaeaeb;
+    --cwTabTxt2: #d5d5d7;
+    --cwTabTxt3: #bfc1c4;
+    --cwTabAccent: #E8B978;
+    --cwTabAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwTabRadius: 0px;
+    --cwTabBorder: #000000;
+    --cwTabActiveG: #323642;
+    --cwTabActiveBg: #323642;
+    --cwTabActiveBg2: #484e5f;
+    --cwTabActiveBg3: #535a6e;
+    --cwTabActiveBgHover: #393d4b;
+    --cwTabActiveBg2Hover: #4f5568;
+    --cwTabActiveBg3Hover: #5a6177;
+    --cwTabActiveTxt: #ebebec;
+    --cwTabActiveTxt2: #d6d7d9;
+    --cwTabActiveTxt3: #c2c3c6;
+    --cwTabActiveAccent: #E8B978;
+    --cwTabActiveAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwTabActiveRadius: 0px;
+    --cwTabActiveBorder: #000000;
+    --cwTooltipG: #2b2f39;
+    --cwTooltipBg: #2b2f39;
+    --cwTooltipBg2: #414756;
+    --cwTooltipBg3: #4c5365;
+    --cwTooltipBgHover: #323642;
+    --cwTooltipBg2Hover: #484e5f;
+    --cwTooltipBg3Hover: #535a6e;
+    --cwTooltipTxt: #eaeaeb;
+    --cwTooltipTxt2: #d5d5d7;
+    --cwTooltipTxt3: #bfc1c4;
+    --cwTooltipAccent: #E8B978;
+    --cwTooltipAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwTooltipRadius: 0px;
+    --cwTooltipBorder: #000000;
+}
+
+/*Header*/
+
+.LogoMobilePlatform {
+    background-image: var(--cdn-logo-mob_png);
+}
+
+.header_gameview_back_btn{
+    display: none !important;
+}
+
+/*Login page*/
+.tl_popup_content {
+    padding: 20px;
+}
+
+#staticLogin{
+    padding: 0 36px;
+}
+
+.regHeading, .regHeading.bg-secondary, .change_pass_heading {
+    justify-content: space-between;
+    display: flex;
+    padding: 8px 36px 15px 36px;
+    height: auto;
+    box-shadow: 0px 3px 6px #00000033;
+    position: relative;
+    text-align: initial;
+    background-color: transparent;
+}
+
+.r_login__row {
+    flex-direction: column;
+}
+
+.static_login_content .static_log_btn {
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+
+.recover-popup .tl_popup_header{
+    padding: 47px 0 0 0;
+}
+
+.recover-popup .tl_popup_content{
+    padding-top: 50px;
+}
+
+.tl_popup_content{
+    padding: 36px;
+}
+
+.form-step {
+    display: none
+}
+
+.showStep {
+    display: block
+}
+
+.recover-popup .captcha_block{
+    column-gap: 10px;
+}
+
+.tl_popup_content .recover__action-wrapper {
+    margin-top: 34px;
+}
+
+.reg_mobile_code {
+    margin: 0;
+    display: block;
+    width: 100%;
+    height: 36px;
+    padding: 0 12px;
+    font-size: 14px;
+    border: 0;
+    line-height: 36px;
+    outline: 0;
+    border-radius: 2px;
+    -webkit-transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+    transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+    -o-transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+    border: 0;
+    border-bottom: 2px solid transparent;
+    text-indent: 0;
+    color: var(--cwInputTxt);
+    background: var(--cwInputG);
+    border-radius: var(--cwInputRadius);
+    border: 1px solid var(--cwInputBorder);
+}
+
+.ui-loader.ui-corner-all.ui-body-a.ui-loader-default{
+    display: none
+}
+
+.regHeading, .regHeading.bg-secondary {
+    padding: 14px 36px 36px 36px;
+}
+
+.lobbyFilter_provider_item {
+    -webkit-box-shadow: 0px 0px 0px 1px var(--bg-level-4);
+    -moz-box-shadow: 0px 0px 0px 1px var(--bg-level-4);
+    box-shadow: 0px 0px 0px 1px var(--bg-level-4);
+    border: none;
+}
+
+.tf_refresh_icon:before {
+    content: "";
+}
+
+
+/*Footer*/
+#footer {
+    background: var(--cwHeaderBg);
+    color: var(--cwHeaderTxt2);
+    padding: 30px 10px 45px;
+    padding-bottom: 120px;
+}
+
+.footer_cont {
+    max-width: 100%;
+}
+
+.drop_down_lang {
+    border-radius: 3px;
+    color: #FFFFFF;
+    height: 44px;
+    line-height: 36px;
+    width: 100%;
+    padding: 0 16px !important;
+    margin: 0;
+}
+
+.drop_down_lang_arrow:after {
+    content: "";
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #FFFFFF;
+}
+
+.footer_links > div{
+    margin: 21px 0;
+}
+
+.cw_mob_footer_18_wrapper{
+    color:red;
+}
+
+.account_content .changepass__element_row .btn_prim {
+    width: 100%;
+}

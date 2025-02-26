@@ -1,0 +1,362 @@
+
+/*ADDED FOR REASON REMOVE LATER*/
+body {
+    --bg-level-1: #1b232e;
+    --bg-level-2: #111821;
+    --text-level-high: #fff;
+    --cwPrimary: #158531;
+    --text-on-primary: #fff;
+}
+
+html, body, #wrapper {
+	background-color:#1b232e;
+}
+
+#scroll{
+    margin: 0;
+    left: 20px;
+}
+
+.btn_prim {
+    background-color: #158531 !important;
+    color: #fff !important;
+}
+
+.clr_prim,
+.promo_clicked {
+	background-color:#1a232e;
+	color:#fff !important;
+}
+
+.clr_sec {
+	background-color:#1a232e;
+	color:#fff !important;
+}
+
+.btn_sec {
+	background-color:#eb3944 !important;
+	color:#fff !important;
+}
+
+.platformMobLanga {
+	background-color:#1a232e !important;
+}
+
+.bgMain {
+	background-color:#111821;
+}
+
+.menuBtn,
+.menuBtnSm {
+    background-color: #b7b7b7;
+    color: #000 !important;
+}
+
+.menuRow,
+.pagIt {
+    background-color: #b7b7b7;
+    color: #000 !important;
+}
+
+.menuBtn a {
+	color: #000 !important;
+}
+
+.heading {
+	background-color:#1a232e;
+	border-bottom:2px solid #eb3944;
+}
+
+.row label {
+	color:#fff;
+}
+
+/*.ui-checkbox label {
+	color:#000;
+}*/
+
+@media only screen and (min-width: 800px) {
+    #home-slots {
+        background-size: cover; 
+    }
+}
+
+/*collapsable deposit withdrowal*/
+.collapse_btn h3 > a{background-color:#1a232e; color:#fff;border-color:#eb3944;}
+.paym_txt {color:#fff;}
+.paym_txt1 {color:#fff;}
+.paym_cond {color:#999;}
+#generalTermsLink{color: #000;}
+.paym_cond > span {color:#fff;}
+.collapse_btn .ui-collapsible-content {background-color:#111821 !important;}
+#footer_coupon_div.btn_prim { background-color: #f4a629 !important;  color: #111821 !important;}
+
+#resend {
+    width: 100%;
+    border: 0;
+    outline: 0;
+    height: 31px;
+    display: block;
+    line-height: 36px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 2px;
+    cursor: pointer;
+    color: #333333;
+    background-color: #999;
+    color: #FFF;
+    padding: 0 8px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.bonus-block div {
+    color: #fff;
+}
+
+.partner_color {
+    color: #30862f;
+}
+.cw_mob_footer_18_wrapper {
+    color: #999;
+}
+#Mobile {
+    padding-left: 37px;
+}
+
+/*inputs optimisation*/
+input,
+.reg_input,
+.tl_mail_send_area,
+.custon_select__front_el,
+.drop-down,
+.drop-down-small,
+#content_paym .ui-select span,
+#content_paym .ui-select select,
+.favorite_amounts > div,
+.reg__checkboxes_row,
+.reg__gender_row label,
+.profile_container .reg__gender_row label {
+    background-color: #f5f5f5;
+    color: #111;
+}
+
+.reg__row_title, .profile_container label, .transfer2friend_cont label, #content_paym label, .forgot_pass__row label, .r_login__row label, .changepass__element_row label, .search_popup_row label {
+    color: #a3a3a3;
+}
+.text-primary {
+    color: #008627;
+}
+/*27.4.21 optims*/
+body .bg-primary, body .h-bg-primary {
+    background-color: #008627;
+    color: #fff;
+}
+
+    body .h-bg-primary:hover {
+        background-color: #18a743;
+        color: #fff;
+    }
+
+body .text-primary {
+    color: #008627;
+}
+
+body .bg-secondary, body .h-bg-secondary {
+    background-color: #e63842;
+    color: #fff;
+}
+
+    body .h-bg-secondary:hover {
+        background-color: #db1523;
+        color: #fff;
+    }
+
+body .bg-tert, body .h-bg-tert {
+    background-color: #111822;
+    color: #fff;
+}
+
+    body .h-bg-tert:hover {
+        background-color: #111822;
+        color: #fff;
+    }
+/*very new bonus*/
+.bonus_card_body {
+    background-color: #2e343d;
+}
+:root {
+    /*--body */
+    --cwBodyG: #1b232e;
+    --cwBodyBg: #1b232e;
+    --cwBodyBgHover: #212a38;
+    --cwBodyBg2: #2e3b4e;
+    --cwBodyBg2Hover: #344258;
+    --cwBodyBg3: #37485e;
+    --cwBodyBg3Hover: #3d4f68;
+    --cwBodyTxt: rgba(255, 255, 255, 0.9);
+    --cwBodyTxt2: rgba(255, 255, 255, 0.6);
+    --cwBodyTxt3: rgba(255, 255, 255, 0.4);
+    --cwBodyAccent: #158531;
+    --cwBodyAccentTxt: rgba(255, 255, 255, 0.9);
+    --cwBodyBorder: #1b232e;
+     /*--dominant */
+    --cwDominantG: #212a38;
+    --cwDominantBg: #212a38;
+    --cwDominantBgHover: #273142;
+    --cwDominantBg2: #344258;
+    --cwDominantBg2Hover: #3a4962;
+    --cwDominantBg3: #3d4e68;
+    --cwDominantBg3Hover: #435572;
+    --cwDominantTxt: rgba(255, 255, 255, 0.9);
+    --cwDominantTxt2: rgba(255, 255, 255, 0.6);
+    --cwDominantTxt3: rgba(255, 255, 255, 0.4);
+    --cwDominantAccent: #158531;
+    --cwDominantAccentTxt: rgba(255, 255, 255, 0.9);
+    --cwDominantBorder: #1b232e;
+    /*--accent */
+    --cwAccentG: #158531;
+    --cwAccentBg: #158531;
+    --cwAccentBgHover: #179236;
+    --cwAccentBg2: #1cb141;
+    --cwAccentBg2Hover: #1ebe46;
+    --cwAccentBg3: #1fc749;
+    --cwAccentBg3Hover: #21d44e;
+    --cwAccentTxt: rgba(255, 255, 255, 0.9);
+    --cwAccentTxt2: rgba(255, 255, 255, 0.6);
+    --cwAccentTxt3: rgba(255, 255, 255, 0.4);
+    --cwAccentAccent: #158531;
+    --cwAccentAccentTxt: rgba(255, 255, 255, 0.9);
+    --cwAccentBorder: #1b232e;
+    /*--button */
+    --cwButtonG: #179236;
+    --cwButtonBg: #179236;
+    --cwButtonBgHover: #199f3b;
+    --cwButtonBg2: #1ebe46;
+    --cwButtonBg2Hover: #20cb4b;
+    --cwButtonBg3: #21d44e;
+    --cwButtonBg3Hover: #27dd55;
+    --cwButtonTxt: rgba(255, 255, 255, 0.9);
+    --cwButtonTxt2: rgba(255, 255, 255, 0.6);
+    --cwButtonTxt3: rgba(255, 255, 255, 0.4);
+    --cwButtonAccent: #158531;
+    --cwButtonAccentTxt: rgba(255, 255, 255, 0.9);
+    --cwButtonBorder: #1b232e;
+    /*--input */
+    --cwInputG: #2e3b4e;
+    --cwInputBg: #2e3b4e;
+    --cwInputBgHover: #344258;
+    --cwInputBg2: #41536e;
+    --cwInputBg2Hover: #475a78;
+    --cwInputBg3: #4a5f7e;
+    --cwInputBg3Hover: #506688;
+    --cwInputTxt: rgba(255, 255, 255, 0.9);
+    --cwInputTxt2: rgba(255, 255, 255, 0.6);
+    --cwInputTxt3: rgba(255, 255, 255, 0.4);
+    --cwInputAccent: #158531;
+    --cwInputAccentTxt: rgba(255, 255, 255, 0.9);
+    --cwInputBorder: #1b232e;
+    /*--header */
+    --cwHeaderG: #3d4f68;
+    --cwHeaderBg: #3d4f68;
+    --cwHeaderBgHover: #435672;
+    --cwHeaderBg2: #506788;
+    --cwHeaderBg2Hover: #566e92;
+    --cwHeaderBg3: #597498;
+    --cwHeaderBg3Hover: #5f7ba1;
+    --cwHeaderTxt: rgba(255, 255, 255, 0.9);
+    --cwHeaderTxt2: rgba(255, 255, 255, 0.6);
+    --cwHeaderTxt3: rgba(255, 255, 255, 0.4);
+    --cwHeaderAccent: #158531;
+    --cwHeaderAccentTxt: rgba(255, 255, 255, 0.9);
+    --cwHeaderBorder: #1b232e;
+    /*--navbar */
+    --cwNavbarG: #2e3b4e;
+    --cwNavbarBg: #2e3b4e;
+    --cwNavbarBgHover: #344258;
+    --cwNavbarBg2: #41536e;
+    --cwNavbarBg2Hover: #475a78;
+    --cwNavbarBg3: #4a5f7e;
+    --cwNavbarBg3Hover: #506688;
+    --cwNavbarTxt: rgba(255, 255, 255, 0.9);
+    --cwNavbarTxt2: rgba(255, 255, 255, 0.6);
+    --cwNavbarTxt3: rgba(255, 255, 255, 0.4);
+    --cwNavbarAccent: #158531;
+    --cwNavbarAccentTxt: rgba(255, 255, 255, 0.9);
+    --cwNavbarBorder: #1b232e;
+    /*--subHeader */
+    --cwSubHeaderG: #344258;
+    --cwSubHeaderBg: #344258;
+    --cwSubHeaderBgHover: #3a4962;
+    --cwSubHeaderBg2: #475a78;
+    --cwSubHeaderBg2Hover: #4d6182;
+    --cwSubHeaderBg3: #506688;
+    --cwSubHeaderBg3Hover: #566d92;
+    --cwSubHeaderTxt: rgba(255, 255, 255, 0.9);
+    --cwSubHeaderTxt2: rgba(255, 255, 255, 0.6);
+    --cwSubHeaderTxt3: rgba(255, 255, 255, 0.4);
+    --cwSubHeaderAccent: #158531;
+    --cwSubHeaderAccentTxt: rgba(255, 255, 255, 0.9);
+    --cwSubHeaderBorder: #1b232e;
+    /*--modal */
+    --cwModalG: #2e3b4e;
+    --cwModalBg: #2e3b4e;
+    --cwModalBgHover: #344258;
+    --cwModalBg2: #41536e;
+    --cwModalBg2Hover: #475a78;
+    --cwModalBg3: #4a5f7e;
+    --cwModalBg3Hover: #506688;
+    --cwModalTxt: rgba(255, 255, 255, 0.9);
+    --cwModalTxt2: rgba(255, 255, 255, 0.6);
+    --cwModalTxt3: rgba(255, 255, 255, 0.4);
+    --cwModalAccent: #158531;
+    --cwModalAccentTxt: rgba(255, 255, 255, 0.9);
+    --cwModalBorder: #1b232e;
+    /*--tab */
+    --cwTabG: #2e3b4e;
+    --cwTabBg: #2e3b4e;
+    --cwTabBgHover: #344258;
+    --cwTabBg2: #41536e;
+    --cwTabBg2Hover: #475a78;
+    --cwTabBg3: #4a5f7e;
+    --cwTabBg3Hover: #506688;
+    --cwTabTxt: rgba(255, 255, 255, 0.9);
+    --cwTabTxt2: rgba(255, 255, 255, 0.6);
+    --cwTabTxt3: rgba(255, 255, 255, 0.4);
+    --cwTabAccent: #158531;
+    --cwTabAccentTxt: rgba(255, 255, 255, 0.9);
+    --cwTabBorder: #1b232e;
+    /*--tabActive */
+    --cwTabActiveG: #344258;
+    --cwTabActiveBg: #344258;
+    --cwTabActiveBgHover: #3a4962;
+    --cwTabActiveBg2: #475a78;
+    --cwTabActiveBg2Hover: #4d6182;
+    --cwTabActiveBg3: #506688;
+    --cwTabActiveBg3Hover: #566d92;
+    --cwTabActiveTxt: rgba(255, 255, 255, 0.9);
+    --cwTabActiveTxt2: rgba(255, 255, 255, 0.6);
+    --cwTabActiveTxt3: rgba(255, 255, 255, 0.4);
+    --cwTabActiveAccent: #158531;
+    --cwTabActiveAccentTxt: rgba(255, 255, 255, 0.9);
+    --cwTabActiveBorder: #1b232e;
+    /*--tooltip */
+    --cwTooltipG: #2e3b4e;
+    --cwTooltipBg: #2e3b4e;
+    --cwTooltipBgHover: #344258;
+    --cwTooltipBg2: #41536e;
+    --cwTooltipBg2Hover: #475a78;
+    --cwTooltipBg3: #4a5f7e;
+    --cwTooltipBg3Hover: #506688;
+    --cwTooltipTxt: rgba(255, 255, 255, 0.9);
+    --cwTooltipTxt2: rgba(255, 255, 255, 0.6);
+    --cwTooltipTxt3: rgba(255, 255, 255, 0.4);
+    --cwTooltipAccent: #158531;
+    --cwTooltipAccentTxt: rgba(255, 255, 255, 0.9);
+    --cwTooltipBorder: #1b232e;
+}
+
+.LogoMobilePlatform {
+    background-image: var(--cdn-logo_png);
+}

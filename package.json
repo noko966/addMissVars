@@ -11,13 +11,15 @@
   "devDependencies": {
     "fs-extra": "^11.2.0",
     "glob": "^10.3.10",
-    "postcss": "^8.4.35",
+    "postcss": "^8.4.38",
     "postcss-cli": "^11.0.0",
     "prettier": "^3.2.5",
     "stylelint": "^16.2.1",
     "stylelint-config-standard": "^36.0.0"
   },
   "dependencies": {
+    "postcss-selector-parser": "^6.0.16",
+    "postcss-values-parser": "^6.0.2",
     "tinycolor2": "^1.6.0"
   }
 }

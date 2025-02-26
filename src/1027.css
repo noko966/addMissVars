@@ -1,0 +1,1942 @@
+:root {
+    --text-color: #FFFFFF;
+    --text-color-60: rgba(255, 255, 255, 0.6);
+    --unnamed-color-b3b3b3: #B3B3B3;
+    --primery-2: #363636;
+    --primery: #171717;
+    --primery-3: #2b2b2b;
+    --partner-specific-color: #F1D296;
+    --unnamed-color-ffb700: #FFB700;
+    --primery-90: rgba(23, 23, 23, 0.9);
+    --primery-70: rgba(23, 23, 23, 0.7);
+    --primery-50: rgba(23, 23, 23, 0.6);
+    --primery-50: rgba(23, 23, 23, 0.5);
+    --primery-40: rgba(23, 23, 23, 0.4);
+    --primery-2-90: rgba(43, 43, 43, 0.9);
+    /*right menu variables*/
+    --rm-bg: #474747;
+    --rm-text: #FFFFFF;
+    --user-info-text: var(--rm-text);
+    --user-info-bg: #3C3C3C;
+    --withdraw-btn-bg: var(--user-info-bg);
+    --rm-nav-bg: #333333;
+    --logout-text: #999999;
+    /*-----*/
+    --heading-bg: #2B2B2B;
+    --heading-text: #CCCCCC;
+    --primary-text: #d7a94f;
+    --primary-btn-bg: #d7a94f;
+    --primary-btn-text: #333333;
+    --primary-btn-border: #d7a94f;
+    /*login popup*/
+    --project-login-header-bg: #2B2B2B;
+    --project-login-header-text: #FFFFFF;
+    --project-login-body-bg: #333333;
+    --project-login-body-text: #FFFFFF;
+    --project-login-reg-btn-bg: #FFFFFF;
+    --project-login-reg-btn-text: #000000;
+    --project-login-reg-btn-border: var(--project-login-reg-btn-bg);
+}
+
+body {
+    --bg-level-1: #3d3d3d;
+    --bg-level-2: #4a4a4a;
+    --bg-level-3: #545454;
+    --bg-level-4: #5e5e5e;
+    --text-level-high: #FFFFFF;
+    --text-level-medium: #CCCCCC;
+    --text-level-low: #999999;
+    --icon-level-high: #FFFFFF;
+    --icon-level-medium: #CCCCCC;
+    --icon-level-low: #999999;
+    --btn-primary: #d7a94f;
+    --btn-primary-text: #000000;
+    --btn-secondary: #ffffff;
+    --btn-secondary-text: #000000;
+    --badge-notification: #d7a94f;
+    --badge-bonus: #d7a94f;
+    --cwPrimary: #d7a94f;
+    --text-on-primary: #000000;
+}
+
+:root {
+    /*--body */
+    --cwBodyG: #3d3d3d;
+    --cwBodyBg: #3d3d3d;
+    --cwBodyBgHover: #454545;
+    --cwBodyBg2: #565656;
+    --cwBodyBg2Hover: #5e5e5e;
+    --cwBodyBg3: #636363;
+    --cwBodyBg3Hover: #6b6b6b;
+    --cwBodyTxt: rgba(255, 255, 255, 0.9);
+    --cwBodyTxt2: rgba(255, 255, 255, 0.6);
+    --cwBodyTxt3: rgba(255, 255, 255, 0.4);
+    --cwBodyAccent: #d7a94f;
+    --cwBodyAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwBodyBorder: #3d3d3d;
+    /*--dominant */
+    --cwDominantG: #454545;
+    --cwDominantBg: #454545;
+    --cwDominantBgHover: #4d4d4d;
+    --cwDominantBg2: #5e5e5e;
+    --cwDominantBg2Hover: #666666;
+    --cwDominantBg3: #6b6b6b;
+    --cwDominantBg3Hover: #737373;
+    --cwDominantTxt: rgba(255, 255, 255, 0.9);
+    --cwDominantTxt2: rgba(255, 255, 255, 0.6);
+    --cwDominantTxt3: rgba(255, 255, 255, 0.4);
+    --cwDominantAccent: #d7a94f;
+    --cwDominantAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwDominantBorder: #3d3d3d;
+    /*--accent */
+    --cwAccentG: #d7a94f;
+    --cwAccentBg: #d7a94f;
+    --cwAccentBgHover: #daaf5b;
+    --cwAccentBg2: #e0bd79;
+    --cwAccentBg2Hover: #e3c385;
+    --cwAccentBg3: #e5c78d;
+    --cwAccentBg3Hover: #e8cd99;
+    --cwAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwAccentTxt2: rgba(0, 0, 0, 0.6);
+    --cwAccentTxt3: rgba(0, 0, 0, 0.4);
+    --cwAccentAccent: #d7a94f;
+    --cwAccentAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwAccentBorder: #3d3d3d;
+    /*--button */
+    --cwButtonG: #daaf5b;
+    --cwButtonBg: #daaf5b;
+    --cwButtonBgHover: #ddb567;
+    --cwButtonBg2: #e3c385;
+    --cwButtonBg2Hover: #e6c991;
+    --cwButtonBg3: #e8cd99;
+    --cwButtonBg3Hover: #ebd3a5;
+    --cwButtonTxt: rgba(0, 0, 0, 0.9);
+    --cwButtonTxt2: rgba(0, 0, 0, 0.6);
+    --cwButtonTxt3: rgba(0, 0, 0, 0.4);
+    --cwButtonAccent: #d7a94f;
+    --cwButtonAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwButtonBorder: #3d3d3d;
+    /*--input */
+    --cwInputG: #565656;
+    --cwInputBg: #565656;
+    --cwInputBgHover: #5e5e5e;
+    --cwInputBg2: #6f6f6f;
+    --cwInputBg2Hover: #777777;
+    --cwInputBg3: #7c7c7c;
+    --cwInputBg3Hover: #848484;
+    --cwInputTxt: rgba(255, 255, 255, 0.9);
+    --cwInputTxt2: rgba(255, 255, 255, 0.6);
+    --cwInputTxt3: rgba(255, 255, 255, 0.4);
+    --cwInputAccent: #d7a94f;
+    --cwInputAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwInputBorder: #3d3d3d;
+    /*--header */
+    --cwHeaderG: #6b6b6b;
+    --cwHeaderBg: #1A1A1A;
+    --cwHeaderBgHover: #737373;
+    --cwHeaderBg2: #848484;
+    --cwHeaderBg2Hover: #8c8c8c;
+    --cwHeaderBg3: #919191;
+    --cwHeaderBg3Hover: #999999;
+    --cwHeaderTxt: rgba(255, 255, 255, 0.9);
+    --cwHeaderTxt2: rgba(255, 255, 255, 0.6);
+    --cwHeaderTxt3: rgba(255, 255, 255, 0.4);
+    --cwHeaderAccent: #d7a94f;
+    --cwHeaderAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwHeaderBorder: #3d3d3d;
+    /*--navbar */
+    --cwNavbarG: #565656;
+    --cwNavbarBg: #565656;
+    --cwNavbarBgHover: #5e5e5e;
+    --cwNavbarBg2: #6f6f6f;
+    --cwNavbarBg2Hover: #777777;
+    --cwNavbarBg3: #7c7c7c;
+    --cwNavbarBg3Hover: #848484;
+    --cwNavbarTxt: rgba(255, 255, 255, 0.9);
+    --cwNavbarTxt2: rgba(255, 255, 255, 0.6);
+    --cwNavbarTxt3: rgba(255, 255, 255, 0.4);
+    --cwNavbarAccent: #d7a94f;
+    --cwNavbarAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwNavbarBorder: #3d3d3d;
+    /*--subHeader */
+    --cwSubHeaderG: #5e5e5e;
+    --cwSubHeaderBg: #5e5e5e;
+    --cwSubHeaderBgHover: #666666;
+    --cwSubHeaderBg2: #777777;
+    --cwSubHeaderBg2Hover: #7f7f7f;
+    --cwSubHeaderBg3: #848484;
+    --cwSubHeaderBg3Hover: #8c8c8c;
+    --cwSubHeaderTxt: rgba(255, 255, 255, 0.9);
+    --cwSubHeaderTxt2: rgba(255, 255, 255, 0.6);
+    --cwSubHeaderTxt3: rgba(255, 255, 255, 0.4);
+    --cwSubHeaderAccent: #d7a94f;
+    --cwSubHeaderAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwSubHeaderBorder: #3d3d3d;
+    /*--modal */
+    --cwModalG: #565656;
+    --cwModalBg: #565656;
+    --cwModalBgHover: #5e5e5e;
+    --cwModalBg2: #6f6f6f;
+    --cwModalBg2Hover: #777777;
+    --cwModalBg3: #7c7c7c;
+    --cwModalBg3Hover: #848484;
+    --cwModalTxt: rgba(255, 255, 255, 0.9);
+    --cwModalTxt2: rgba(255, 255, 255, 0.6);
+    --cwModalTxt3: rgba(255, 255, 255, 0.4);
+    --cwModalAccent: #d7a94f;
+    --cwModalAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwModalBorder: #3d3d3d;
+    /*--tab */
+    --cwTabG: #565656;
+    --cwTabBg: #565656;
+    --cwTabBgHover: #5e5e5e;
+    --cwTabBg2: #6f6f6f;
+    --cwTabBg2Hover: #777777;
+    --cwTabBg3: #7c7c7c;
+    --cwTabBg3Hover: #848484;
+    --cwTabTxt: rgba(255, 255, 255, 0.9);
+    --cwTabTxt2: rgba(255, 255, 255, 0.6);
+    --cwTabTxt3: rgba(255, 255, 255, 0.4);
+    --cwTabAccent: #d7a94f;
+    --cwTabAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwTabBorder: #3d3d3d;
+    /*--tabActive */
+    --cwTabActiveG: #5e5e5e;
+    --cwTabActiveBg: #5e5e5e;
+    --cwTabActiveBgHover: #666666;
+    --cwTabActiveBg2: #777777;
+    --cwTabActiveBg2Hover: #7f7f7f;
+    --cwTabActiveBg3: #848484;
+    --cwTabActiveBg3Hover: #8c8c8c;
+    --cwTabActiveTxt: rgba(255, 255, 255, 0.9);
+    --cwTabActiveTxt2: rgba(255, 255, 255, 0.6);
+    --cwTabActiveTxt3: rgba(255, 255, 255, 0.4);
+    --cwTabActiveAccent: #d7a94f;
+    --cwTabActiveAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwTabActiveBorder: #3d3d3d;
+    /*--tooltip */
+    --cwTooltipG: #565656;
+    --cwTooltipBg: #565656;
+    --cwTooltipBgHover: #5e5e5e;
+    --cwTooltipBg2: #6f6f6f;
+    --cwTooltipBg2Hover: #777777;
+    --cwTooltipBg3: #7c7c7c;
+    --cwTooltipBg3Hover: #848484;
+    --cwTooltipTxt: rgba(255, 255, 255, 0.9);
+    --cwTooltipTxt2: rgba(255, 255, 255, 0.6);
+    --cwTooltipTxt3: rgba(255, 255, 255, 0.4);
+    --cwTooltipAccent: #d7a94f;
+    --cwTooltipAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwTooltipBorder: #3d3d3d;
+}
+
+/*Start Header promotion adding*/
+
+
+.LogoMobilePlatform {
+    margin-inline-end: auto;
+}
+
+#menu-right {
+    margin-inline-start: 0;
+}
+
+.header_both .promotionIconMob {
+    min-width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-inline-end: 8px;
+    background: var(--cwButtonBg);
+    color: var(--cwButtonTxt);
+    border-radius: 8px;
+}
+/*End Header promotion adding*/
+
+#wrapper, html, body {
+    background-color: #1f1f1f;
+}
+/*logo*/
+.LogoMobilePlatform {
+    --lw: 80px;
+    --lh: 21px;
+    background-image: var(--cdn-logo_png);
+    width: var(--lw);
+    height: var(--lh);
+}
+a.LinkToLeftPanel {color:#fff;}
+.platformMobLanga.btn_sec {background-color:#1e1e1e !important;}
+.btn_sec {background-color:#1e1e1e !important; color:#fff !important;}
+.btn_prim { 
+	background: -moz-linear-gradient(top, #a3752b 0%, #f1e495 50%, #d7a94f 100%) !important;
+	background: -webkit-linear-gradient(top, #a3752b 0%,#f1e495 50%,#d7a94f 100%) !important;
+	background: linear-gradient(to bottom, #a3752b 0%,#f1e495 50%,#d7a94f 100%) !important; 
+	color: #000 !important;
+}
+.clr_prim {background-color:#ffe61d !important; color:#333 !important;}
+
+/*header and left menu activce class*/
+
+.casino_links_tabs .tl_main_nav_item-active,
+.tl_main_nav_item-active,
+.tl_main_nav_item-active .dynamic_icon {
+    color: #F1D296 !important;
+    text-shadow: 0 0 6px #ff0000;
+}
+
+/*left menu*/
+.text-capitalize {
+    text-transform: capitalize;
+}
+.bgMain {
+    background-color: #1a1a1a;
+}
+.menuBtn, .menuBtnSm {background-color:#333; color:#fff;}
+.collapse_dropdown_leftmenu_btn:after {
+    border-color: #fff transparent transparent transparent;
+}
+.collapse_dropdown_leftmenu li:not(:first-child){
+    padding:0 10px 0 0;
+}
+/*footer*/
+#footer.bgMain {
+    background-color: #1F1F1F;
+}
+#copyright, #generalTermsLink {color:#999;}
+
+/*logged*/
+#header .txt, .ic {color:#fff;}
+.menuRow {background-color:#333; color:#fff !important;}
+.ui-collapsible-content {background-color:transparent !important;}
+.d-block {
+    display: block;
+}
+/*my acc*/
+.sub_heading {color:#fff;}
+
+/*paging*/
+.pagIt {background-color:#999; color:#333;}
+.pagIt.active {background-color:#ffffff; color:#333;} 
+
+/*withdrowals*/
+/*.row label {color:#fff;}*/
+
+#footer_coupon_div.btn_prim, #footer_bet_history.btn_prim {background-color:#6a158e !important; color:#fff !important;}
+#footer_coupon_count {background-color: #fff; color:#901f6d;}
+.exchangerp {width: 68px;height: 25px;background-image: url(/img/Casino-images-allinone.png);background-position: -1465px -122px;}
+.telegram_ico {background-repeat: no-repeat;background-size: 20px; padding: 5px 12px; background-position: 0 3px;}
+
+.switch input.sw:checked + label:before {
+    background-color: #efdf8e;
+}
+
+.switch input.sw + label:before {
+    background-color: #d3d5d7;
+}
+
+.footer-check {
+    justify-content: center;
+}
+
+
+
+
+
+/*Partner Specific inbox*/
+
+#content.bgMain {
+	background-color: #000;
+}
+
+.bgMain {
+    background-color: #474747;
+}
+
+    .tl_mail_item.active,
+	.tl_mail_item.unread  {
+		background-color: #2A2A2A;
+	}
+
+		.tl_mail_item.unread .tl_mail_from, .tl_mail_item.unread .tl_mail_time {
+			color: #000;
+		}
+
+        .tl_mail_msgId {
+            color: #E6B01A;
+        }
+
+
+.tl_mail_send_input, .tl_mail_send_area {
+	background: #fff
+}
+
+#inboxContent .tl_popup_header {
+	background-color: #14805e;
+	height: 0;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.tl_msg_head {
+	font-weight: bold;
+}
+
+.tl_my_inbox_msg_box .tl_msg_cont {
+	color: #000;
+}
+
+
+.tl_mail_details_title {
+    color: #C8C8C8;
+	padding: 0 6px;
+}
+
+.tl_mail_date_div  .tl_mail_details {
+    color: #C8C8C8;
+}
+
+.tl_my_inbox_msg_box {
+	background: #494949;
+	margin-left: 18px;
+	margin-right: 18px;
+}
+
+.tl_inbox_main {
+    display: flex;
+    flex-direction: column;
+}
+.tl_my_inbox_mails_cont{
+    order: 1;
+}
+
+.paging {
+    order: 2;
+}
+.tl_inbox_main{
+	display: flex;
+	flex-direction: column
+}
+
+.tl_mail_row {
+    background: #666;
+    margin-bottom: 22px;
+}
+
+.tl_mail_message_body {
+    background-color: #fff;
+    color: #000; 
+    padding: 8px;
+    margin: 8px 0 4px 0;
+}
+
+	.tl_mail_message_body p {
+		margin: 0;
+	}
+
+.tl_mail_date_div {
+	text-transform: capitalize;
+}
+.tl_send_area_container{
+	position: relative
+}
+
+.tl_mail_send_area { 
+	padding: 9px;
+	font-size: 12px;
+	-webkit-appearance: none;
+}
+
+.tl_mail_send_area::placeholder {
+	font-size: 12px;
+	color: #333;
+}
+.reply_btn, .tl_msg_attach_button {
+	position: relative;
+	display: flex;
+	align-items: center;
+	text-transform: uppercase;
+	justify-content: center;
+}
+.reply_btn {
+	font-size: 14px;
+	text-decoration: none;
+	cursor: pointer;
+	border-radius: 2px;
+	outline: none;
+	background-color: #E6B01A;
+	color: #000;
+}
+
+#attachfile_btn {
+    background: #444;
+    border-radius: 4px;
+    padding: 0 8px;
+    line-height: 30px;
+    margin-right: 0;
+    margin-bottom: 3px;
+}
+
+#send_btn {
+    border-radius: 4px;
+    padding: 0 8px;
+    line-height: 30px;
+    margin-bottom: 3px;
+    min-height: 36px;
+}
+
+#send_btn.btn_prim, #attachfile_btn.tl_mail_attachfiel_download_btn {
+    height: auto;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+}
+
+.tl_mail_attachfiel {
+    color: #000;
+    margin-left: 3px;
+    background: #fff;
+    margin-bottom: 3px;
+} 
+
+.tl_mail_btn_cont {
+	padding-top: 32px;
+	justify-content: center;
+    flex-wrap: wrap;
+}
+.tl_mail_message_cont {
+	position: relative;
+}
+.tl_msg_attach_button {
+	background-color: #2C2C2C;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+.tl_user_icon {
+	background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><defs><style>.cls-1 {fill: #C8C8C8;}.cls-2{fill:none}</style></defs><g id="Symbol_185_6" data-name="Symbol 185 – 6" transform="translate(-15596 -1191)"> <g id="Group_1561" data-name="Group 1561" transform="translate(15528 901.8)"> <path id="Path_2254" data-name="Path 2254" class="cls-1" d="M80.55,299.3a4.05,4.05,0,1,0-4.05-4.05A4.033,4.033,0,0,0,80.55,299.3Z" transform="translate(-0.55)"/> <path id="Path_2255" data-name="Path 2255" class="cls-1" d="M80,303.8c-2.97,0-9,1.53-9,4.5v3.69H89V308.3C89,305.33,82.97,303.8,80,303.8Z" transform="translate(0 -1.26)"/> </g> <rect id="Rectangle_1569" data-name="Rectangle 1569" class="cls-2" width="24" height="24" transform="translate(15596 1191)"/> </g></svg >');
+}
+
+.tl_system_icon {
+	background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.662 17.648"><defs><style> .cls-1 {fill: #C8C8C8;}</style></defs><g id="Symbol_188_7" data-name="Symbol 188 – 7" transform="translate(-17.319 -156.176)"> <path id="Path_2210" data-name="Path 2210" class="cls-1" d="M317.221,273.259a3.94,3.94,0,0,1-3.088,1.611h-1.765a1.346,1.346,0,0,1-1.324-.952,3.081,3.081,0,0,1-.735-.293,3.591,3.591,0,0,1-1.324-1.025,5.75,5.75,0,0,0-4.485,5.638v.366a.848.848,0,0,0,.882.879h13.9a.848.848,0,0,0,.882-.879v-.366a6.077,6.077,0,0,0-2.941-4.979Zm0,0" transform="translate(-287.181 -105.66)"/> <path id="Path_2211" data-name="Path 2211" class="cls-1" d="M308.853,266.834a1.021,1.021,0,0,0,.882-.513v.073h0a3.8,3.8,0,0,0,2.279,2.343,1.5,1.5,0,0,1,1.176-.659h1.765a1.367,1.367,0,0,0,.515-.146,4.745,4.745,0,0,0,.588-.659c.147-.293.294-.586.441-.952a.573.573,0,0,0,.294.293v.439a1.786,1.786,0,0,1-1.765,1.757h-1.765a.586.586,0,1,0,0,1.172h1.765a2.976,2.976,0,0,0,3.015-3v-.439a1.271,1.271,0,0,0,.441-.805v-2.563a.84.84,0,0,0-.441-.805,4.876,4.876,0,0,0-4.853-4.467,4.824,4.824,0,0,0-4.853,4.467,1.271,1.271,0,0,0-.441.805v2.563a.933.933,0,0,0,.956,1.1Zm4.265-7.616a3.728,3.728,0,0,1,3.677,3.3.732.732,0,0,0-.294.366,3.665,3.665,0,0,0-3.382-2.563,3.767,3.767,0,0,0-3.382,2.563h0a.732.732,0,0,0-.294-.366,3.668,3.668,0,0,1,3.677-3.3Zm0,0" transform="translate(-288.078 -101.724)"/> </g> </svg> ');
+}
+
+.tl_msg_attach_button, .tl_mail_attachfiel_content {
+    padding-left: 0;
+    padding-right: 0
+}
+/*Profile upload file start*/
+.profile_upload { 
+    background-color: #474747; 
+}
+
+.profile_upload_2 .upload_file_btn {
+    width: auto !important;
+}
+
+.yellowBtn {
+    background-color: #ffb802;
+}
+.sucMsgUpload {
+    color: #e0e0e0;
+    text-align: center;
+    padding-bottom: 5px;
+}
+div.tl_profile_attachfiel_content {
+    margin: 0;
+    line-height: 36px;
+    color: gray;
+    text-indent: 10px;
+}
+div.tl_profile_attachfiel_content .profile_upload {
+    background: white
+}
+div.tl_profile_attachfiel_content .tl_mail_attachfiel {
+    background: #ffeb8f
+}
+
+div.tl_profile_attachfiel_content .upload_file_btn {
+    width: 100%;
+    text-align: center
+
+}
+
+.tl_mail_rows_cont > div.tl_mail_message_cont:last-child .tl_mail_message_body {
+    border: 1px solid #E6B01A;
+}
+
+div.tl_profile_attachfiel_content .tl_mail_attachfiel {
+    
+    color:#000000
+}
+
+/*Profile upload file End*/
+
+.tl_mail_item {
+    background-color: #3E3E3E;
+    border-bottom-color: #191919;
+}
+
+
+.tl_mail_icon {
+    color: #C8C8C8;
+}
+
+
+.tl_mail_details_subject {
+    color: #E6B01A;
+}
+
+.tl_msg_button_cont a {
+    background:linear-gradient(#E6B01A, #E6B01A) !important;
+}
+
+.tl_mail_details_subject_title {
+    color: #C2C2C2;
+}
+
+
+.ui-panel-wrapper {
+    background-color: #363636;
+}
+
+/*Mail box end*/
+
+#apg-ef4fc3f3-1311-4b27-87ce-26e1fcf30671 img {
+    height: 29px !important;
+}
+
+.tl_mail_attachfiel_screp {
+    margin: 0 auto;
+}
+
+#left-panel .PLspText {
+    padding: 0 8px;
+}
+.casino_links_tabs .home_icon:before {
+    background: #CEA253;
+    background: linear-gradient(to top, #CEA253 0%,#DAA53E 25%, #E9E49F 50%,#C39736 75%, #9F7118 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.casino_links_tabs a {
+    padding: 0 16px;
+    font-size: 12px;
+}
+.slideControls {
+    background: #fff;
+}
+
+    .sliderControlsCont .slick-dots .slick-active button {
+        background: #F1D296;
+    }
+
+
+.nav_title {
+    background: rgba(22, 20, 21, .5);
+    width: 80%; 
+    height: 35%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    bottom: 10%;
+    color: #fff;
+    text-shadow: none;
+    border-radius: 5px;
+}
+
+.block_title {
+    margin-top: 0;
+    color: #F1D296;
+    background: #000;
+}
+
+.drop_down_lang {
+    font-size: 16px;
+    background: #4A4A4A;
+    padding: 0 24px !important;
+}
+
+.drop_down_lang_arrow:after {
+    border-top: 5px solid #B3B3B3;
+}
+
+.phone_lang_cont {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.toWeb {
+    font-size: 16px;
+    background: #4A4A4A !important;
+    color: #B3B3B3 !important;
+}
+
+.footer_links a {
+    font-size: 14px;
+}
+
+.idq-wrapper {
+    margin-bottom: 20px;
+}
+
+.google-app {
+    margin-top: 26px;
+}
+
+.copy {
+    color: #999;
+    font-size: 10px;
+    padding: 25px 0 17px;
+}
+
+.cw_mob_footer_18_wrapper {
+    color: #CC0000;
+}
+
+.menuBtn {
+    margin-bottom: 2px;
+}
+
+.menuBtnSm {
+    margin-bottom: 2px;
+    font-weight: normal !important;
+    text-align: center;
+}
+
+.right_menu_header {
+    background: #2B2B2B;
+    height: 44px;
+    box-sizing: border-box;
+    position: relative;
+    text-align: center;
+    line-height: 44px;
+    padding-top: 10px;
+}
+
+.right_menu_close {
+    font-size: 24px;
+    position: absolute;
+    right: 16px;
+    top: 0;
+}
+
+.account_title {
+    color: #FFFFFF;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 25px;
+    font-size: 14px;
+    padding: 0 8px;
+}
+
+.right_menu_logo {
+    width: 93px;
+    height: 24px;
+    background-image: var(--cdn-logo-mob_png);
+    background-size: contain;
+    margin: 0px auto;
+    background-repeat: no-repeat;
+}
+
+.ui-collapsible-inset .ui-collapsible-heading .ui-btn{
+    font-size: 13px;
+}
+
+.exchangeripg {
+    width: 76px;
+    background-image: url(/img/Casino-images-allinone.png);
+    background-position: -7935px -153px;
+}
+
+.coinpayment {
+    width: 70px;
+    height: 25px;
+    background-image: url(/img/Casino-images-allinone.png);
+    background-position: -7550px -123px;
+}
+
+.nonsamanbank {
+    width: 59px;
+    height: 25px;
+    background-image: url(/img/Casino-images-allinone.png);
+    background-position: -674px -91px;
+}
+
+.pokerInfo_cont {
+    width: 100%;
+    height: 100%;
+    padding: 50px 0;
+    background-size: cover;
+    background-position: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+
+.pokerInfo_block {
+    border-radius: 16px;
+    background: rgba(0,0,0,0.7);
+    width: 376px;
+    text-align: center;
+    padding: 32px;
+}
+
+    .pokerInfo_block img {
+        max-width: 200px;
+    }
+
+.pokerInfo {
+    color: #fff;
+    font-size: 17px;
+    margin-top: 30px;
+    line-height: 26px;
+}
+
+
+.btn_log_poker {
+    width: 126px;
+    height: 44px;
+    margin-top: 30px;
+    line-height: 44px !important;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 0;
+}
+
+.btn_poker_block {
+    -webkit-box-pack: space-between;
+    -ms-flex-pack: space-between;
+    justify-content: space-between;
+}
+
+.tvgames_d {
+    padding: 0;
+}
+/*inputs optimisation*/
+input,
+.reg_input,
+.tl_mail_send_area,
+.custon_select__front_el,
+.drop-down,
+.drop-down-small,
+#content_paym .ui-select span,
+#content_paym .ui-select select,
+.favorite_amounts > div,
+.reg__checkboxes_row,
+.reg__gender_row label,
+.profile_container .reg__gender_row label  {
+    background-color: #f5f5f5;
+    color: #000;
+}
+.promocode-container-mobile .ui-input-text input {
+    color: #ffffff;
+}
+
+.reg__row_title, .profile_container label, .transfer2friend_cont label, #content_paym label, .forgot_pass__row label, .r_login__row label, .changepass__element_row label, .search_popup_row label {
+    color: #a3a3a3;
+}
+.reg_mobile_code {
+    background-color: #f5f5f5;
+    color: #111;
+}
+.casino_links_tabs {
+    min-width: 100%;
+}
+/*left menu without icons*/
+#left-panel .menuBtnSm,
+#left-panel .menuBtn {
+    height: 64px;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 500;
+}
+.collapse_dropdown_leftmenu {
+    height: 66px;
+}
+.collapse_dropdown_leftmenu_btn:before {
+    content: "";
+    width: 35px;
+    height: 2px;
+    display: block;
+}
+.lm__title .promoted:after {
+    height: 16px;
+    box-sizing: border-box;
+    font-size: 11px;
+    text-transform: uppercase;
+    padding: 1px 5px;
+    margin: 0 10px;
+    border-radius: 2px;
+    width: auto;
+    line-height: 16px;
+    content: "new";
+    color: #000;
+    background: #FFB700;
+    position: static;
+}
+#left-panel .menuBtnSm{
+    line-height: 64px;
+}
+.menuBtn .txt{
+    font-size: 15px;
+}
+/*social icons*/
+.footer_social-list a {
+    margin: 20px 6px 0;
+}
+
+.text-primary {
+    color: #d7a94f;
+}
+#bonusesNavBar .tab_item {
+    cursor: pointer;
+    background-color: #474747;
+}
+#bonusesNavBar .tab_item.active {
+    cursor: default;
+    background: #a3752b; 
+    background: linear-gradient(to bottom, #a3752b 0%,#f1e495 50%,#d7a94f 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a3752b', endColorstr='#d7a94f',GradientType=0 );
+    color: #000;
+}
+
+/*27.4.21 optims*/
+body .bg-primary, body .h-bg-primary {
+    background: #CEA253;
+    background: linear-gradient(to top, #CEA253 0%,#DAA53E 25%, #E9E49F 50%,#C39736 75%, #9F7118 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#CEA253', endColorstr='#9F7118',GradientType=0 );
+    color: #000;
+}
+
+    body .h-bg-primary:hover {
+        opacity: 0.9;
+    }
+
+body .text-primary {
+    color: #DAA53E;
+}
+
+body .bg-secondary, body .h-bg-secondary {
+    background-color: #fff;
+    color: #000;
+}
+
+    body .h-bg-secondary:hover {
+        background-color: #eee;
+        color: #000;
+    }
+
+body .bg-tert, body .h-bg-tert {
+    background-color: #2b2b2b;
+    color: #fff;
+}
+
+    body .h-bg-tert:hover {
+        background-color: #2b2b2b;
+        color: #fff;
+    }
+
+.call_request_hdr_btn:before {
+    background: #CEA253; 
+    background: linear-gradient(to top, #CEA253 0%,#DAA53E 25%, #E9E49F 50%,#C39736 75%, #9F7118 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#CEA253', endColorstr='#9F7118',GradientType=0 );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.cryptoonline {
+    width: 72px;
+    height: 25px;
+    background-image: url(/img/Casino-images-allinone.png);
+    background-position: -5538px -59px;
+}
+
+/*very new bonus*/
+.bonus_card_body {
+    background-color: #434343;
+}
+
+/*start register second part*/
+
+.regT5 .reg_progress_dots span:before,
+.regT5 .reg_progress_dots span.done:before {
+    background: #1e1c1c;
+}
+
+.regT5 .reg_progress_dots span {
+    background-color: #474747;
+}
+
+
+#Second .register_phone_part .reg_mobile_number {
+    width: 72px;
+}
+
+#Second .register_phone_part .reg_mobile_txt {
+    width: calc(100% - 88px);
+}
+
+#Second .register_phone_part input {
+    color: #757575;
+}
+
+#Second .register_phone_part #HidNumber {
+    color: #212121;
+}
+
+#Second .register_phone_part input:read-only {
+    opacity: 1;
+}
+
+#Second .first_reg_template .reg__row_title {
+    width: 100%;
+    height: 15px;
+}
+
+#Second .register_phone_part .resend_btn,
+#Second .register_phone_part .resend_time {
+    width: 100%;
+    color: #fff;
+    background-color: #14805E;
+}
+
+#Second .register_phone_part .resend_btn.disabled,
+#Second .register_phone_part .resend_time.disabled {
+    display: none;
+}
+
+#Second .register_phone_part .txt_code {
+    display: block;
+    height: 30px;
+    line-height: 1.15;
+    font-size: 13px;
+    color: #BABABA;
+    margin: 24px auto 25px;
+}
+
+.register_next_step {
+    column-gap: 20px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.register_next_step .w-50 {
+    display: block;
+    width: 100%;
+}
+
+.back-button,
+.next-button {
+    display: block;
+    width: 100%;
+    font-size: 13px;
+}
+
+.next-button {
+    margin-top: 10px;
+}
+
+.back-button {
+    background-color: #212121;
+    color: #fff;
+}
+/*end register second part*/
+
+.nc__slider_block {
+    min-height: 250px;
+}
+
+/*new lobby*/
+.name_vidget {
+    color: var(--text-color);
+    background: rgba(31, 31, 31, 0.5);
+}
+
+.nav_item {
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+}
+/*casino navigation*/
+.fixed_menu__play_button {
+    background-color: var(--primery-90);
+}
+
+.menu_circle:before {
+    box-shadow: 4px 3px 40px 1200px var(--primery);
+}
+
+.fixed_menu__li.active svg .yellow, .fixed_menu__li.active .fixed_menu__play_button, .fixed_menu__li.active {
+    color: var(--partner-specific-color);
+}
+
+.more_menu_btns_content:before {
+    border: 78px solid var(--primery-90);
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+}
+
+.casino_nav__links_block {
+    background: var(--primery-2);
+}
+
+.links_block_x_scroll_hidden::before {
+    background: #000;
+    -webkit-box-shadow: 0 0 30px 29px rgba(12,12,12,.85);
+    -moz-box-shadow: 0 0 30px 29px rgba(12,12,12,.85);
+    box-shadow: 0 0 30px 29px rgba(12,12,12,.85);
+}
+
+.casino_nav__links_block a {
+    color: var(--text-color);
+}
+
+.casino_nav__links_block a.active {
+    color: var(--partner-specific-color);
+}
+
+
+/*filter and search*/
+#searchContent .popup_flex_box {
+    background: #212940;
+    box-shadow: 0px 0px 320px 320px #212940;
+    height: calc(100% - 150px);
+}
+
+#casino_filter_popup {
+    background-color: var(--primery-2);
+}
+
+.search_switcher {
+    background-color: #cfcfcf;
+}
+
+.search_switcher:before {
+    background-color: var(--text-color);
+}
+
+.checked .search_switcher {
+    background-color: var(--partner-specific-color);
+}
+
+.search__icon::after {
+    color: #707070;
+}
+
+/*search part*/
+.nc__heading {
+    color: var(--text-color);
+}
+
+.games_filter_popup .search_filter_input {
+    background-color: var(--primery-2) !important;
+    box-shadow: 0px 3px 6px #2B2B2B4D;
+    color: var(--text-color);
+}
+
+.games_filter_popup .seasch__game_not_found_mob::before {
+    color: #666666;
+}
+
+.games_filter_popup {
+    width: 100%;
+}
+
+.fs__input_wrap .close-search {
+    color: var(--text-color);
+}
+
+.fs__input_wrap .close-search:after {
+    background: var(--text-color);
+}
+
+.fs__input_wrap .close-search:before {
+    background: var(--text-color);
+}
+
+.game__link_demo {
+    background: var(--primery-2);
+    color: var(--text-color);
+}
+
+/*icons opened game info*/
+.like_icon:after {
+    color: var(--text-color);
+}
+
+.jackpot__value span {
+    color: var(--partner-specific-color);
+}
+
+.close__game__more_block::after {
+    color: var(--text-color);
+}
+
+.game__link_play {
+    background: var(--partner-specific-color);
+    color: var(--primery);
+}
+
+.game__link_demo {
+    background: var(--primery-2);
+    color: var(--text-color);
+}
+
+.game__name {
+    text-shadow: 0px 0px 6px #F14100;
+}
+/*filer*/
+.filters_slider_cont {
+    background-color: var(--primery-2);
+}
+
+.games_filter_title {
+    color: var(--text-color);
+    background-color: var(--primery-2);
+}
+
+.games_filter_element, .games_filter_list_show {
+    background-color: var(--primery-2);
+}
+
+.games_filter_element.active {
+    background: var(--partner-specific-color);
+    color: var(--text-color);
+}
+
+.filter__more_games {
+    color: var(--text-color);
+    background: #000;
+}
+
+.filter_result__go_back {
+    color: #999999;
+}
+
+.games_filter_popup__footer {
+    background-color: #212940;
+}
+
+.games_filter_reset {
+    background-color: var(--primery-2);
+}
+
+.games_filter_show {
+    background-color: var(--partner-specific-color);
+    color: var(--text-color);
+}
+
+/*Live casino skinning*/
+.lca-main-content {
+    color: var(--text-color);
+}
+
+.lca-voice-icon svg {
+    fill: var(--text-color);
+}
+/*Menu*/
+.lca_search_cont, .lca-menu {
+    background-color: var(--primery-3);
+}
+
+.lca-menu-link {
+    color: var(--text-color);
+}
+
+.more_menu_links_content a {
+    color: var(--text-color);
+}
+
+.lca-menu-link.active {
+    background-color: var(--partner-specific-color);
+    color: #000;
+}
+
+.lca-menu-link.active .lca-menu-badge {
+    background-color: #212940;
+    color: var(--partner-specific-color);
+}
+
+.lca-menu-badge {
+    background-color: var(--partner-specific-color);
+    color: #000;
+}
+/*Submenu*/
+.lca-submenu {
+    background-color: var(--primery);
+    color: var(--text-color);
+}
+
+.lca-submenu-link {
+    color: var(--text-color);
+}
+
+.lca-submenu-link.active {
+    color: var(--partner-specific-color);
+}
+/*Game card*/
+.lca-card-footer {
+    background-color: var(--primery);
+    color: var(--text-color);
+}
+
+.lca-card-footer-btn .star_icon.active, .lca-card-price {
+    color: var(--partner-specific-color);
+}
+
+.lca-card-footer-btn {
+    background-color: var(--primery-3);
+    color: var(--text-color);
+}
+
+.lca-card-footer-btn .like_icon:after,
+.lca-card-footer-btn .star_icon {
+    color: var(--text-color);
+}
+
+.lca-main-content .star_icon.active:after {
+    color: var(--partner-specific-color);
+    text-shadow: 0 0 6px var(--partner-specific-color);
+}
+
+.lca-card-badge.type-1 {
+    background-color: var(--partner-specific-color);
+    color: #000;
+}
+/*Filter and search*/
+.lca-title {
+    color: var(--text-color);
+}
+
+.lca-input {
+    background-color: var(--primery);
+    color: var(--text-color);
+}
+
+.lca-filter-toggle {
+    color: var(--text-color);
+}
+
+.lca-filter-price {
+    background-color: var(--primery);
+    color: var(--text-color);
+}
+
+.lca-filter-price-input {
+    color: var(--text-color);
+}
+
+.lca-filter-range-divider {
+    background-color: var(--partner-specific-color);
+}
+
+.lca-main-content .noUi-target {
+    background: var(--primery-3);
+}
+
+.lca-main-content .noUi-connect {
+    background: var(--partner-specific-color);
+}
+
+.lca-main-content .noUi-handle {
+    border-color: transparent;
+    background: var(--partner-specific-color);
+}
+
+.lca-filter-category-item {
+    background-color: var(--primery);
+    color: var(--text-color);
+}
+
+.lca-filter-category-item.active {
+    background-color: var(--partner-specific-color);
+    color: #000;
+}
+
+.lca-search-result-title {
+    color: var(--text-color);
+}
+
+.lca-search-result-filter-item {
+    color: #cccccc;
+}
+
+.lca-search-result-filter-item-description {
+    color: var(--text-color);
+}
+
+.lca-dropdown-toggle {
+    color: var(--text-color);
+}
+
+.lca-dropdown {
+    background-color: var(--primery-3);
+    color: var(--text-color);
+}
+
+.lca-dropdown-item {
+    color: var(--text-color);
+}
+
+.lca-back-link {
+    color: #cccccc;
+}
+
+.lca-card-more {
+    background-color: var(--primery);
+    color: var(--text-color);
+    border-radius: 8px;
+}
+
+.accordion-tab {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.lca-filter-footer {
+    background-color: var(--primery);
+    color: var(--text-color);
+}
+
+.lca-filter-footer-btn-reset {
+    background-color: var(--primery-3);
+    color: var(--text-color);
+}
+
+.lca_search_input {
+    background-color: var(--primery-90);
+}
+
+.lca-filter-footer {
+    box-shadow: 0 -5px 7px var(--primery);
+}
+
+.lca-filter-footer-btn-show {
+    background-color: var(--partner-specific-color);
+    color: #000;
+}
+/*Promotions*/
+.lca-promo-text-wrapper {
+    background-color: #212940;
+    color: var(--text-color);
+}
+
+.lca-promo-title {
+    color: var(--text-color);
+}
+
+.lca-main-content .promo_mobile_cont {
+    background-color: #212940;
+    color: var(--text-color);
+}
+
+.lca-main-content .promo_mobile_title {
+    color: var(--text-color);
+}
+
+.lca-main-content .promo_mobile_text_cont {
+    box-shadow: 0 -14px 29px 19px #212940;
+}
+
+.lca-card-promo-img::after {
+    box-shadow: inset 0 -71px 39px -35px #212940;
+}
+
+.lca-promo-link,
+.lca-main-content .tl_promotions_more_info {
+    background-color: var(--partner-specific-color);
+    color: #000;
+}
+
+/*top jackpots*/
+.lca-card-body-wrapper {
+    background-color: var(--primery)
+}
+
+.lc-cat-fixed {
+    background-color: var(--primery-2)
+}
+
+.lc-cat-fixed__inner {
+    background-color: var(--primery-3);
+}
+
+.cas_nav_prev, .cas_nav_next, .lca-voice-icon {
+    background-color: var(--primery-70);
+}
+
+/*------------*/
+
+/*Toto view changes*/
+
+.ref_rep_btn,
+.wp__popup_open__button,
+.f2f_transfer_button,
+.tr2sp__submit,
+.cashier__deposit_popup .btn_prim {
+    background: #181f29 !important;
+    padding: 11px 18px;
+    border-radius: 4px;
+    line-height: normal !important;
+    display: block;
+    height: auto;
+    color: #fff;
+    font-size: 16px;
+    font-family: IRANSans, sans-serif;
+    text-transform: uppercase;
+    text-align: center
+}
+
+    .cashier__deposit_popup .btn_prim.block {
+        background: #eee !important;
+        padding: 11px;
+        border-radius: 4px;
+        color: #fff;
+        font-size: 16px;
+        font-family: IRANSans, sans-serif !important;
+        height: auto;
+        line-height: initial !important;
+        text-transform: uppercase;
+    }
+
+.regHeading .reg_close {
+    position: relative;
+    top: 0px;
+    right: 0px;
+}
+
+.reg_close {
+    cursor: pointer;
+    flex-shrink: 0;
+}
+
+
+
+/*opened popup from deposit*/
+.cashier__deposit_opened__back_line {
+    display: none;
+    background: #FFFFFF;
+    align-items: center;
+    height: 44px;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 0 15px;
+}
+
+/*deposit block*/
+.wp_opened_header {
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.2);
+    margin: 8px 0;
+    min-width: 250px;
+    background: #fff;
+}
+
+.cashier__deposit_block.opened .wp_opened_header {
+    margin: 24px 17px;
+}
+
+.cashier__deposit_block.opened .wp__popup_open__button {
+    display: none;
+}
+
+.wp__popup_open__button.offline {
+    background: #ccc !important;
+    padding: 11px 18px;
+    border-radius: 4px;
+    line-height: normal !important;
+    height: auto;
+    color: #000;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: center
+}
+
+
+@media screen and (max-width: 340px) {
+    .wp__popup_open__button {
+        font-size: 12px;
+        padding: 8px 8px;
+    }
+
+
+    .wp__block__line1 {
+        align-items: center;
+    }
+
+    .cashier__deposit_img {
+        transform: scale(0.7);
+        position: relative;
+        left: -17px;
+    }
+
+    .cashier__deposit_block.opened .cashier__deposit_img,
+    .transfer_to_sport .cashier__deposit_img {
+        transform: scale(1);
+        position: static;
+        left: 0;
+    }
+}
+
+.cashier__deposit_details {
+    height: 0;
+    overflow: hidden;
+}
+
+.cashier__deposit_block.opened .cashier__deposit_details {
+    height: auto;
+}
+
+.cashier__deposit_description, .cashier__details_description {
+    /*color: #333;*/
+    color: rgb(51, 51, 51);
+    font-size: 13px;
+    line-height: 15px;
+    background: #fff;
+    padding: 16px;
+    font-weight: 400;
+}
+
+    .cashier__deposit_description p,
+    .cashier__details_description p {
+        margin: 0;
+    }
+
+        .cashier__deposit_description p > a,
+        .cashier__details_description p > a {
+            margin: 0;
+            color: #333;
+            text-decoration: underline;
+        }
+
+.cashier__deposit_description {
+    display: none;
+}
+
+.cashier__deposit_block.opened {
+    position: fixed;
+    z-index: 100;
+    background: #19171F;
+    left: 0;
+    top: 44px;
+    width: 100%;
+    height: calc(100vh - 120px);
+    height: calc(100dvh - 120px);
+    overflow: auto;
+    overflow-y: scroll;
+}
+
+.from_mob_app .cashier__deposit_block.opened {
+    position: fixed;
+    z-index: 100;
+    background: #19171F;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+    overflow-y: scroll;
+}
+
+    .cashier__deposit_block.opened .wp_opened_header {
+        margin: 24px 17px;
+    }
+
+    .cashier__deposit_block.opened .wp__popup_open__button {
+        display: none;
+    }
+
+    .cashier__deposit_block.opened .wp__block__line1 {
+        justify-content: center;
+    }
+
+    .cashier__deposit_block.opened .wp__block__line2 {
+        margin: 0;
+        padding: 16px;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .cashier__deposit_block.opened .cashier__deposit_popup {
+        height: auto;
+    }
+
+.wp__block__line1 {
+    padding: 15px;
+    align-items: center;
+    background: #CBCBCB;
+    border-top: 1px solid #ddd;
+}
+
+.cashier__deposit_desc__show {
+    font-size: 14px;
+    color: #19171F;
+    width: 100%;
+    text-align: center;
+    padding: 14px;
+    text-transform: uppercase;
+    background: #fff;
+}
+
+.wp__block__line2 {
+    margin: 2px;
+    background: #fff;
+    flex-wrap: wrap;
+}
+
+
+.paym_cond {
+    display: flex;
+    flex-direction: column;
+    color: #1A1A1A;
+    font-size: 12px;
+    margin: 0 5px;
+    padding-bottom: 5px;
+    white-space: nowrap;
+    width: auto;
+}
+
+    .paym_cond span:first-child {
+        font-weight: normal;
+        font-size: 12px;
+        font-family: inherit;
+    }
+
+    .paym_cond span {
+        font-size: 13px;
+        line-height: 15px;
+        font-weight: 700;
+        color: rgb(26, 26, 26);
+        box-sizing: border-box;
+        font-family: 'Roboto', sans-serif;
+    }
+
+.wp__block__line2 {
+    margin: 2px;
+    background: #fff;
+    flex-wrap: wrap;
+}
+
+.wp__block__line3 {
+    padding: 15px;
+    background: #fff;
+    flex-wrap: wrap;
+    border-top: 1px solid #ddd;
+}
+
+.white_popups_bg_mrg {
+    background: #CBCBCB;
+    padding: 16px;
+    position: relative;
+    z-index: 1;
+    min-height: 100vh;
+}
+
+.dynemiclogosizeMob {
+    width: 120px;
+    height: 48px;
+    margin: 0;
+}
+
+/*Toto view changes END*/
+
+/*free spin*/
+.free_spin.sport .free_spin__btn {
+    color: #ffffff;
+}
+
+/* New right menu */
+.header_btn_deposit {
+    height: 30px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 2px;
+    outline: 0;
+    text-decoration: none;
+    transition: 0.2s linear 0s;
+    background: #CEA253;
+    background: linear-gradient(to top, #CEA253 0%,#DAA53E 25%, #E9E49F 50%,#C39736 75%, #9F7118 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#CEA253', endColorstr='#9F7118',GradientType=0 );
+    color: #000;
+    padding: 0 10px;
+    margin: 0 8px;
+}
+
+.user.pos_rel {
+    background-color: #5F5F5F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+    min-width: 37px;
+}
+
+/*footer redesign*/
+.copy {
+    font-size: 11px;
+    color: #ffffff;
+}
+.cryptotether {
+    background-image: url(/Img/mobile/partners/1004/dw__logos/CryptoTetherTRC20.svg) !important;
+    background-size: 100% auto;
+    background-position: center;
+    background-color: #f2f2f2;
+}
+/*----------*/
+
+/*-------*/
+
+/*static login*/
+.static_login_header {
+    background-color: #2B2B2B !important;
+    color: #FFFFFF !important;
+    border: none;
+    height: 47px;
+}
+
+.static_login_header > span {
+    display: flex;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.static_login_content {
+    background-color: #333333 !important;
+    padding: 0 22px 30px;
+}
+
+
+.static_login_content .static_log_btn {
+    min-height: 36px;
+    line-height: 36px !important;
+    text-transform: uppercase;
+    margin-top: 77px;
+}
+
+.static_login_content .D_logo {
+    background-image: var(--cdn-logo-mob_png);
+    height: 47px;
+    width: 178px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 63px auto !important;
+}
+
+.static_login_content .r_login__row {
+    position: relative;
+}
+.static_login_content .forgot_smth_buttons {
+    text-align: center;
+}
+
+.static_login_content .register_in_login {
+    background-color: #ffffff !important;
+    color: #000 !important;
+    min-height: 36px;
+    display: block;
+    margin-top: 10px;
+    margin-left: 0 !important;
+    text-transform: uppercase;
+    line-height: 36px !important;
+    text-align: center;
+}
+
+.static_login_content .tl_sup_link {
+    background-color: #192C6E;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+/*_________*/
+
+/*dynamic header*/
+
+.casino_links_tabs .dynamic_icon {
+    margin: 0;
+}
+
+.casino_links_tabs .menu_item {
+    column-gap: 10px;
+}
+
+.tl_main_nav_item-active, .tl_main_nav_item-active .dynamic_icon {
+    color: var(--cwPrimary);
+}
+
+/*-----*/
+.right_menu__block .rm__my_profile__to_profile a:before {
+    height: auto;
+}
+
+
+html[lang="FA"] .balance-switcher .info-text:after{
+    left: 40%;
+}
+
+/*Notifications Settings*/
+#wrapper .notificationSettings_container {
+    min-height: calc(100dvh - var(--cwNavbarBottomHeight) - 94px);
+}
+
+.regT5 .reg__checkboxes_row {
+    color: #999;
+}
+
+/*sport switcher*/
+.notificationSettings_item.switch input.sw:checked + label:after {
+    top: -3px;
+}
+/*FreeSpin bonus wager updates*/
+.bonus_info_block.freeSpin_with_Wager, .Wager_Unlock_info, .bonus_From_Wager  {
+    background-color: #3e3e3e;
+}
+/*FreeSpin bonus wager updates*/
+@media only screen and (max-width: 365px) {
+    .LogoMobilePlatform {
+        --lw: 67px;
+    }
+}
+
+@media only screen and (max-width: 340px) {
+    .LogoMobilePlatform {
+        --lw: 60px;
+        --lh: 16px;
+    }
+
+    .topheader_user_info {
+        gap: 2px;
+    }
+
+    .header_both .promotionIconMob {
+        margin-inline-end: 2px !important;
+    }
+
+    .header_both .hamburgerLeftIcon {
+        margin-inline-end: 4px;
+    }
+
+    .topheader_user_id {
+        padding: 4px 2px;
+    }
+
+    .topheader_user_info .rightUserIcon {
+        padding: 0;
+    }
+}

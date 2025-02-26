@@ -1,0 +1,333 @@
+
+/* Casino Mobile page */
+:root {
+    --cwBodyBg: #0C1C23;
+    --cwBodyBg2: #193a49;
+    --cwBodyBg3: #204a5c;
+    --cwBodyBgHover: #10252e;
+    --cwBodyBg2Hover: #1d4354;
+    --cwBodyBg3Hover: #245367;
+    --cwBodyRGBA: rgba(12, 28, 35, 0.7);
+    --cwBodyRGBA2: rgba(12, 28, 35, 0.5);
+    --cwBodyRGBA3: rgba(12, 28, 35, 0.3);
+    --cwBodyTxt: rgba(255, 255, 255, 0.9);
+    --cwBodyTxt2: rgba(255, 255, 255, 0.6);
+    --cwBodyTxt3: rgba(255, 255, 255, 0.4);
+    --cwBodyAccent: #57EEB6;
+    --cwBodyAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwBodyBorder: #0C1C23;
+    --cwBodyRadius: 0px;
+    --cwDominantG: #143336;
+    --cwDominantRGBA: rgba(20, 51, 54, 0.7);
+    --cwDominantRGBA2: rgba(20, 51, 54, 0.5);
+    --cwDominantRGBA3: rgba(20, 51, 54, 0.3);
+    --cwDominantBg: #143336;
+    --cwDominantBg2: #22565b;
+    --cwDominantBg3: #29686e;
+    --cwDominantBgHover: #183e41;
+    --cwDominantBg2Hover: #266066;
+    --cwDominantBg3Hover: #2d7379;
+    --cwDominantTxt: rgba(255, 255, 255, 0.9);
+    --cwDominantTxt2: rgba(255, 255, 255, 0.6);
+    --cwDominantTxt3: rgba(255, 255, 255, 0.4);
+    --cwDominantAccent: #57EEB6;
+    --cwDominantAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwDominantTxtInverse: #262626;
+    --cwDominantRadius: 0px;
+    --cwAccentBg: #57EEB6;
+    --cwAccentBg2: #85f3ca;
+    --cwAccentBg3: #9cf5d4;
+    --cwAccentBgHover: #65efbc;
+    --cwAccentBg2Hover: #93f4d0;
+    --cwAccentBg3Hover: #aaf6da;
+    --cwAccentG: #57EEB6;
+    --cwAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwAccentTxt2: rgba(0, 0, 0, 0.6);
+    --cwAccentTxt3: rgba(0, 0, 0, 0.4);
+    --cwButtonG: linear-gradient(0deg, #2ED885 0%, #57EEB6 100%);
+    --cwButtonBg: #57EEB6;
+    --cwButtonBg2: #85f3ca;
+    --cwButtonBg3: #9cf5d4;
+    --cwButtonBgHover: #65efbc;
+    --cwButtonBg2Hover: #93f4d0;
+    --cwButtonBg3Hover: #aaf6da;
+    --cwButtonTxt: rgba(0, 0, 0, 0.9);
+    --cwButtonTxt2: rgba(0, 0, 0, 0.6);
+    --cwButtonTxt3: rgba(0, 0, 0, 0.4);
+    --cwButtonAccent: #57EEB6;
+    --cwButtonAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwButtonBorder: #0C1C23;
+    --cwButtonRadius: 12px;
+    --cwButtonSecondaryG: #122F39;
+    --cwButtonSecondaryBg: #122F39;
+    --cwButtonSecondaryBg2: #1e4f60;
+    --cwButtonSecondaryBg3: #245f73;
+    --cwButtonSecondaryBgHover: #163945;
+    --cwButtonSecondaryBg2Hover: #22596c;
+    --cwButtonSecondaryBg3Hover: #28697f;
+    --cwButtonSecondaryTxt: rgba(255, 255, 255, 0.9);
+    --cwButtonSecondaryTxt2: rgba(255, 255, 255, 0.6);
+    --cwButtonSecondaryTxt3: rgba(255, 255, 255, 0.4);
+    --cwButtonSecondaryAccent: #57EEB6;
+    --cwButtonSecondaryAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwButtonSecondaryBorder: #5EF3BC;
+    --cwButtonSecondaryRadius: 12px;
+    --cwInputG: #22565b;
+    --cwInputBg: #22565b;
+    --cwInputBg2: #307980;
+    --cwInputBg3: #378b93;
+    --cwInputBgHover: #266066;
+    --cwInputBg2Hover: #34838b;
+    --cwInputBg3Hover: #3b959e;
+    --cwInputTxt: rgba(255, 255, 255, 0.9);
+    --cwInputTxt2: rgba(255, 255, 255, 0.6);
+    --cwInputTxt3: rgba(255, 255, 255, 0.4);
+    --cwInputAccent: #57EEB6;
+    --cwInputAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwInputRadius: 0px;
+    --cwInputBorder: #0C1C23;
+    --cwInputSecondaryG: #266066;
+    --cwInputSecondaryBg: #266066;
+    --cwInputSecondaryBg2: #34838b;
+    --cwInputSecondaryBg3: #3b949e;
+    --cwInputSecondaryBgHover: #2a6a71;
+    --cwInputSecondaryBg2Hover: #388d96;
+    --cwInputSecondaryBg3Hover: #3f9ea9;
+    --cwInputSecondaryTxt: rgba(255, 255, 255, 0.9);
+    --cwInputSecondaryTxt2: rgba(255, 255, 255, 0.6);
+    --cwInputSecondaryTxt3: rgba(255, 255, 255, 0.4);
+    --cwInputSecondaryAccent: #57EEB6;
+    --cwInputSecondaryAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwInputSecondaryRadius: 0px;
+    --cwInputSecondaryBorder: #0C1C23;
+    --cwHeaderG: #13434A;
+    --cwHeaderBg: #13434A;
+    --cwHeaderBg2: #1d6873;
+    --cwHeaderBg3: #237a87;
+    --cwHeaderBgHover: #164e56;
+    --cwHeaderBg2Hover: #20737f;
+    --cwHeaderBg3Hover: #268593;
+    --cwHeaderTxt: rgba(255, 255, 255, 0.9);
+    --cwHeaderTxt2: rgba(255, 255, 255, 0.6);
+    --cwHeaderTxt3: rgba(255, 255, 255, 0.4);
+    --cwHeaderAccent: #57EEB6;
+    --cwHeaderAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwHeaderBorder: #0C1C23;
+    --cwHeaderRadius: 0px;
+    --cwSubHeaderG: #20737f;
+    --cwSubHeaderBg: #20737f;
+    --cwSubHeaderBg2: #2a98a8;
+    --cwSubHeaderBg3: #2faabc;
+    --cwSubHeaderBgHover: #237e8b;
+    --cwSubHeaderBg2Hover: #2da3b4;
+    --cwSubHeaderBg3Hover: #32b5c8;
+    --cwSubHeaderTxt: rgba(255, 255, 255, 0.9);
+    --cwSubHeaderTxt2: rgba(255, 255, 255, 0.6);
+    --cwSubHeaderTxt3: rgba(255, 255, 255, 0.4);
+    --cwSubHeaderAccent: #57EEB6;
+    --cwSubHeaderAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwSubHeaderBorder: #0C1C23;
+    --cwSubHeaderRadius: 0px;
+    --cwModalG: #22565b;
+    --cwModalBg: #22565b;
+    --cwModalBg2: #307980;
+    --cwModalBg3: #378b93;
+    --cwModalBgHover: #266066;
+    --cwModalBg2Hover: #34838b;
+    --cwModalBg3Hover: #3b959e;
+    --cwModalTxt: rgba(255, 255, 255, 0.9);
+    --cwModalTxt2: rgba(255, 255, 255, 0.6);
+    --cwModalTxt3: rgba(255, 255, 255, 0.4);
+    --cwModalAccent: #57EEB6;
+    --cwModalAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwModalRadius: 0px;
+    --cwModalBorder: #0C1C23;
+    --cwTabG: #22565b;
+    --cwTabBg: #22565b;
+    --cwTabBg2: #307980;
+    --cwTabBg3: #378b93;
+    --cwTabBgHover: #266066;
+    --cwTabBg2Hover: #34838b;
+    --cwTabBg3Hover: #3b959e;
+    --cwTabTxt: rgba(255, 255, 255, 0.9);
+    --cwTabTxt2: rgba(255, 255, 255, 0.6);
+    --cwTabTxt3: rgba(255, 255, 255, 0.4);
+    --cwTabAccent: #57EEB6;
+    --cwTabAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwTabRadius: 0px;
+    --cwTabBorder: #0C1C23;
+    --cwTabActiveG: #266066;
+    --cwTabActiveBg: #266066;
+    --cwTabActiveBg2: #34838b;
+    --cwTabActiveBg3: #3b949e;
+    --cwTabActiveBgHover: #2a6a71;
+    --cwTabActiveBg2Hover: #388d96;
+    --cwTabActiveBg3Hover: #3f9ea9;
+    --cwTabActiveTxt: rgba(255, 255, 255, 0.9);
+    --cwTabActiveTxt2: rgba(255, 255, 255, 0.6);
+    --cwTabActiveTxt3: rgba(255, 255, 255, 0.4);
+    --cwTabActiveAccent: #57EEB6;
+    --cwTabActiveAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwTabActiveRadius: 0px;
+    --cwTabActiveBorder: #0C1C23;
+    --cwTooltipG: #22565b;
+    --cwTooltipBg: #22565b;
+    --cwTooltipBg2: #307980;
+    --cwTooltipBg3: #378b93;
+    --cwTooltipBgHover: #266066;
+    --cwTooltipBg2Hover: #34838b;
+    --cwTooltipBg3Hover: #3b959e;
+    --cwTooltipTxt: rgba(255, 255, 255, 0.9);
+    --cwTooltipTxt2: rgba(255, 255, 255, 0.6);
+    --cwTooltipTxt3: rgba(255, 255, 255, 0.4);
+    --cwTooltipAccent: #57EEB6;
+    --cwTooltipAccentTxt: rgba(0, 0, 0, 0.9);
+    --cwTooltipRadius: 0px;
+    --cwTooltipBorder: #0C1C23;
+}
+  
+/*footer*/
+#footer {
+    padding: 30px 10px 100px;
+}
+
+#footer .grey-text {
+    color: var(--cwHeaderTxt2);
+    font-size: 14px;
+}
+
+#footer-links {
+    padding: 30px 0;
+}
+
+.footer_links{
+    padding: 0 8px;
+}
+
+.footer_links a {
+    font-size: 14px;
+    color: var(--text-level-medium);
+}
+.footer_links a:not(.footer_links__title) {
+    color: var(--text-level-medium);
+}
+.footer-license-text {
+    margin: 24px auto;
+    line-height: 20px;
+    font-size: 14px;
+    color: var(--text-level-medium);
+}
+
+.footer-license-text .text-underline {
+    text-decoration: underline;
+}
+
+.tl_footer_links_heading {
+    margin-bottom: 16px;
+    text-transform: uppercase;
+}
+
+.social_icons_title {
+    margin-bottom: 16px;
+    margin-top: 24px;
+}
+
+.footer_text {
+    width: 100%;
+    text-align: center;
+    margin: 15px auto;
+}
+
+.footer_text img {
+    width: 100%;
+    height: auto;
+}
+
+.footer_cont {
+    max-width: 100%;
+}
+.footer_sponsors {
+    width: 100%;
+    margin: 24px auto 22px;
+}
+
+.footer_sponsors img,
+.footer_sponsors_text img {
+    max-width: 100%;
+}
+
+.footer_sponsors_text {
+    width: 100%;
+    align-items: flex-start;
+    justify-content: space-around;
+/*    padding-bottom: 18px;
+    border-bottom: 2px solid #5E809A;*/
+}
+
+.footer_sponsors_text p {
+    color: var(--cwHeaderTxt2);
+    max-width: 144px;
+    margin-top: 0;
+}
+
+
+.dmca_licence_box img {
+    width: 170px;
+}
+
+.cw_mob_footer_18_wrapper {
+    color: var(--cwHeaderAccent);
+}
+
+.cw_mob_footer_18_wrapper:after {
+    color: currentColor;
+}
+
+.footer_text {
+    color: var(--cwHeaderAccent);
+    font: normal normal medium 11px/13px Roboto;
+}
+
+/*---------*/
+
+.licenzion_logo img {
+    height: 100px;
+}
+
+/*Dynamic Top Header*/
+.LogoMobilePlatform {
+    background-image: var(--cdn-logo-mob_big_gif);
+    height: 100%;
+}
+
+:root {
+    --cwZIndexHeader: 100;
+    --cwZIndexFooter: 120;
+    --cwZIndexSidebar: 101;
+    --cwNavbarBottomHeight: 76px;
+}
+
+.telegram_top {
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 40px;
+    height: 40px;
+    margin: 0;
+    cursor: pointer;
+    position: fixed;
+    bottom: calc(var(--cwNavbarBottomHeight) + 20px);
+    left: 20px;
+    z-index: 5;
+}
+
+/*Skinner registration hide*/
+
+.checkBox_label {
+    font-size: 100%;
+    line-height: normal;
+    color: var(--cwBodyTxt);
+}
+
+.reg__checkboxes_row a {
+    font-weight: bold;
+}
